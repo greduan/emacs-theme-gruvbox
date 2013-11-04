@@ -26,36 +26,58 @@
 (deftheme gruvbox
   "A retro-groove colour theme")
 
-(let ((gruvbox-background "#282828")
-      (gruvbox-foreground "#ebdbb2")
-      (gruvbox-dark-1     "#3c3836")
-      (gruvbox-dark-2     "#504945")
-      (gruvbox-dark-3     "#665c54")
-      (gruvbox-dark-4     "#7c6f64")
-      (gruvbox-light-1    "#fdf4c1")
-      (gruvbox-light-2    "#d5c4a1")
-      (gruvbox-light-3    "#bdae93")
-      (gruvbox-light-4    "#a89984")
-      (gruvbox-red        "#fb4934")
-      (gruvbox-orange     "#fe8019")
-      (gruvbox-yellow     "#fabd2f")
-      (gruvbox-green      "#b8bb26")
-      (gruvbox-aqua       "#8ec07c")
-      (gruvbox-blue       "#83a598")
-      (gruvbox-purple     "#d3869b"))
+;;gui version
+(let ((gruvbox-dark-0   "#282828")
+      (gruvbox-dark-1   "#3c3836")
+      (gruvbox-dark-2   "#504945")
+      (gruvbox-dark-3   "#665c54")
+      (gruvbox-dark-4   "#7c6f64")
+      (gruvbox-medium   "#928374")
+      (gruvbox-light-0  "#ebdbb2")
+      (gruvbox-light-1  "#fdf4c1")
+      (gruvbox-light-2  "#d5c4a1")
+      (gruvbox-light-3  "#bdae93")
+      (gruvbox-light-4  "#a89984")
+      (gruvbox-red      "#fb4934")
+      (gruvbox-orange   "#fe8019")
+      (gruvbox-yellow   "#fabd2f")
+      (gruvbox-green    "#b8bb26")
+      (gruvbox-aqua     "#8ec07c")
+      (gruvbox-blue     "#83a598")
+      (gruvbox-purple   "#d3869b"))
+
+;;256 colors version
+;(let ((gruvbox-dark-0   "#262626")  ;235
+;      (gruvbox-dark-1   "#3a3a3a")  ;237
+;      (gruvbox-dark-2   "#4e4e4e")  ;239
+;      (gruvbox-dark-3   "#606060")  ;241
+;      (gruvbox-dark-4   "#767676")  ;243
+;      (gruvbox-medium   "#8a8a8a")  ;245
+;      (gruvbox-light-0  "#ffffaf")  ;229
+;      (gruvbox-light-1  "#ffd7af")  ;223
+;      (gruvbox-light-2  "#bcbcbc")  ;250
+;      (gruvbox-light-3  "#a8a8a8")  ;248
+;      (gruvbox-light-4  "#949494")  ;246
+;      (gruvbox-red      "#d75f5f")  ;167
+;      (gruvbox-green    "#afaf00")  ;142
+;      (gruvbox-yellow   "#ffaf00")  ;214
+;      (gruvbox-blue     "#87afaf")  ;109
+;      (gruvbox-purple   "#d787af")  ;175
+;      (gruvbox-aqua     "#87af87")  ;108
+;      (gruvbox-orange   "#ff8700")) ;208
 
 (custom-theme-set-faces
   'gruvbox
 
-  `(default ((t (:background ,gruvbox-background :foreground ,gruvbox-foreground))))
+  `(default ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
   `(cursor  ((t (:background ,gruvbox-light-2))))
   `(hl-line ((t (:background ,gruvbox-dark-3))))
-  `(mode-line-inactive ((t (:box nil :foreground ,gruvbox-background :background ,gruvbox-dark-4))))
+  `(mode-line-inactive ((t (:box nil :foreground ,gruvbox-dark-0 :background ,gruvbox-dark-4))))
   `(mode-line ((t (:box nil :foreground ,gruvbox-light-1 :background ,gruvbox-dark-4))))
-  `(fringe ((t (:background ,gruvbox-background))))
-  `(linum ((t (:background ,gruvbox-background))))
+  `(fringe ((t (:background ,gruvbox-dark-0))))
+  `(linum ((t (:background ,gruvbox-dark-0))))
   `(region ((t (:background ,gruvbox-dark-1))))
-  `(minibuffer-prompt ((default (:foreground ,gruvbox-green :background ,gruvbox-background :bold t))))
+  `(minibuffer-prompt ((default (:foreground ,gruvbox-green :background ,gruvbox-dark-0 :bold t))))
   `(ag-hit-face ((t (:foreground ,gruvbox-green))))
   `(ag-match-face ((t (:foreground ,gruvbox-red))))
 
@@ -71,8 +93,8 @@
 
 (when load-file-name
   (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name)))
-  (when (not window-system)
-    (custom-set-faces '(default ((t (:background "nil")))))))
+               (file-name-as-directory (file-name-directory load-file-name))))
+  ; (when (not window-system)
+  ;   (custom-set-faces '(default ((t (:background "nil")))))))
 
 (provide-theme 'gruvbox)
