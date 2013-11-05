@@ -69,18 +69,20 @@
 (custom-theme-set-faces
   'gruvbox
 
+  ;;ui
   `(default ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
   `(cursor  ((t (:background ,gruvbox-light-2))))
   `(hl-line ((t (:background ,gruvbox-dark-3))))
   `(mode-line-inactive ((t (:box nil :foreground ,gruvbox-dark-0 :background ,gruvbox-dark-4))))
   `(mode-line ((t (:box nil :foreground ,gruvbox-light-1 :background ,gruvbox-dark-4))))
   `(fringe ((t (:background ,gruvbox-dark-0))))
-  `(linum ((t (:background ,gruvbox-dark-0))))
+  `(linum ((t (:foreground ,gruvbox-dark-4))))
   `(region ((t (:background ,gruvbox-dark-1))))
   `(minibuffer-prompt ((default (:foreground ,gruvbox-green :background ,gruvbox-dark-0 :bold t))))
   `(ag-hit-face ((t (:foreground ,gruvbox-green))))
   `(ag-match-face ((t (:foreground ,gruvbox-red))))
 
+  ;;basic
   `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
   `(font-lock-constant-face ((t (:foreground ,gruvbox-purple))))
   `(font-lock-comment-face ((t (:foreground ,gruvbox-dark-4))))
@@ -89,7 +91,19 @@
   `(font-lock-string-face ((t (:foreground ,gruvbox-green))))
   `(font-lock-variable-name-face ((t (:foreground ,gruvbox-blue))))
   `(font-lock-type-face ((t (:foreground ,gruvbox-purple))))
-  `(font-lock-warning-face ((t (:foreground ,gruvbox-red :bold t))))))
+  `(font-lock-warning-face ((t (:foreground ,gruvbox-red :bold t))))
+
+  ;;whitespace
+  `(whitespace-space ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-hspace ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-trailing ((t (:background ,gruvbox-orange))))
+  `(whitespace-line ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-indentation ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-empty ((t (:background nil :foreground nil)))) ;;empty line at start/end of buffer
+  `(whitespace-space-after-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))))
 
 (when load-file-name
   (add-to-list 'custom-theme-load-path
