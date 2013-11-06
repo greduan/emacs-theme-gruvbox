@@ -4,7 +4,7 @@
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.1
+;; Version: 0.3
 
 ;;; Commentary:
 
@@ -32,19 +32,22 @@
       (gruvbox-dark-2   "#504945")
       (gruvbox-dark-3   "#665c54")
       (gruvbox-dark-4   "#7c6f64")
+
       (gruvbox-medium   "#928374")
-      (gruvbox-light-0  "#ebdbb2")
-      (gruvbox-light-1  "#fdf4c1")
+
+      (gruvbox-light-0  "#fdf4c1")
+      (gruvbox-light-1  "#ebdbb2")
       (gruvbox-light-2  "#d5c4a1")
       (gruvbox-light-3  "#bdae93")
       (gruvbox-light-4  "#a89984")
+
       (gruvbox-red      "#fb4934")
-      (gruvbox-orange   "#fe8019")
-      (gruvbox-yellow   "#fabd2f")
       (gruvbox-green    "#b8bb26")
-      (gruvbox-aqua     "#8ec07c")
+      (gruvbox-yellow   "#fabd2f")
       (gruvbox-blue     "#83a598")
-      (gruvbox-purple   "#d3869b"))
+      (gruvbox-purple   "#d3869b")
+      (gruvbox-aqua     "#8ec07c")
+      (gruvbox-orange   "#fe8019"))
 
 ;;256 colors version
 ;(let ((gruvbox-dark-0   "#262626")  ;235
@@ -52,12 +55,15 @@
 ;      (gruvbox-dark-2   "#4e4e4e")  ;239
 ;      (gruvbox-dark-3   "#606060")  ;241
 ;      (gruvbox-dark-4   "#767676")  ;243
+;
 ;      (gruvbox-medium   "#8a8a8a")  ;245
+;
 ;      (gruvbox-light-0  "#ffffaf")  ;229
 ;      (gruvbox-light-1  "#ffd7af")  ;223
 ;      (gruvbox-light-2  "#bcbcbc")  ;250
 ;      (gruvbox-light-3  "#a8a8a8")  ;248
 ;      (gruvbox-light-4  "#949494")  ;246
+;
 ;      (gruvbox-red      "#d75f5f")  ;167
 ;      (gruvbox-green    "#afaf00")  ;142
 ;      (gruvbox-yellow   "#ffaf00")  ;214
@@ -93,7 +99,7 @@
   `(font-lock-type-face ((t (:foreground ,gruvbox-purple))))
   `(font-lock-warning-face ((t (:foreground ,gruvbox-red :bold t))))
 
-  ;;whitespace
+  ;;whitespace-mode
   `(whitespace-space ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-hspace ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
@@ -102,8 +108,11 @@
   `(whitespace-line ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-indentation ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
-  `(whitespace-empty ((t (:background nil :foreground nil)))) ;;empty line at start/end of buffer
+  `(whitespace-empty ((t (:background nil :foreground nil))))
   `(whitespace-space-after-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))))
+
+  ;;rainbow-mode/rainbow-delimiters
+  ;;to-do
 
 (when load-file-name
   (add-to-list 'custom-theme-load-path
