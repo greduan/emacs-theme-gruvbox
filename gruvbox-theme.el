@@ -105,14 +105,11 @@
   `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-trailing ((t (:background ,gruvbox-orange))))
-  `(whitespace-line ((t (:background nil :foreground nil)))) ;;disable this, it's annoying
+  `(whitespace-line ((t (:background ,gruvbox-red :foreground ,gruvbox-dark-0))))
   `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-indentation ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-empty ((t (:background nil :foreground nil))))
   `(whitespace-space-after-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))))
-
-  ;;rainbow-mode/rainbow-delimiters
-  ;;to-do
 
 (when load-file-name
   (add-to-list 'custom-theme-load-path
