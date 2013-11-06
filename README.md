@@ -5,19 +5,40 @@ version originally by [Pavel Pertsev](https://github.com/morhetz) found
 [here](https://github.com/morhetz/gruvbox).
 
 
-## Usage
+## Installation and usage
 
-FIXME
+1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
+   ```shell
+   curl https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el
+   ```
 
+1. Tell Emacs where to find themes in your `init.el` or `.emacs` file:
+   ```lisp
+   (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+   ```
+
+1. Enable the theme:
+   ```
+   M-x load-theme RET gruvbox
+   ```
+   Or add the following to your `init.el` or `.emacs` file to load the theme at
+   startup:
+   ```
+   (load-theme 'gruvbox t)
+   ```
 
 ## Known bugs
 
-FIXME
+None. For now...
 
 
 ## To-do
 
-FIXME
+Add support for:
+
+- [Rainbow Delimiters](http://www.emacswiki.org/emacs/RainbowDelimiters).
+
+If you want for the theme to support something please open a new issue and I'll try my best to make it work out. :smile:
 
 
 ## License

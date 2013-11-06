@@ -105,7 +105,7 @@
   `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-trailing ((t (:background ,gruvbox-orange))))
-  `(whitespace-line ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-line ((t (:background nil :foreground nil)))) ;;disable this, it's annoying
   `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-indentation ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-empty ((t (:background nil :foreground nil))))
