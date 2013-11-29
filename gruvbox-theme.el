@@ -1,10 +1,10 @@
 ;;; gruvbox-theme.el --- A retro-groove colour theme for Emacs
 
-;; Copyright (C) 2013  Eduán Lávaque, Lee Machin
+;; Copyright (c) 2013 Lee Machin, Eduán Lávaque
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.3
+;; Version: 0.5
 
 ;;; Commentary:
 
@@ -49,7 +49,7 @@
       (gruvbox-aqua     "#8ec07c")
       (gruvbox-orange   "#fe8019"))
 
-;;256 colors version
+;;;256 colors version
 ;(let ((gruvbox-dark-0   "#262626")  ;235
 ;      (gruvbox-dark-1   "#3a3a3a")  ;237
 ;      (gruvbox-dark-2   "#4e4e4e")  ;239
@@ -109,7 +109,28 @@
   `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-indentation ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-empty ((t (:background nil :foreground nil))))
-  `(whitespace-space-after-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))))
+  `(whitespace-space-after-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+
+  ;;RainbowDelimiters
+  `(rainbow-delimiters-depth-1-face ((t (:foreground ,gruvbox-light-0))))
+  `(rainbow-delimiters-depth-2-face ((t (:foreground ,gruvbox-green))))
+  `(rainbow-delimiters-depth-3-face ((t (:foreground ,gruvbox-yellow))))
+  `(rainbow-delimiters-depth-4-face ((t (:foreground ,gruvbox-aqua))))
+  `(rainbow-delimiters-depth-5-face ((t (:foreground ,gruvbox-green))))
+  `(rainbow-delimiters-depth-6-face ((t (:foreground ,gruvbox-blue))))
+  `(rainbow-delimiters-depth-7-face ((t (:foreground ,gruvbox-yellow))))
+  `(rainbow-delimiters-depth-8-face ((t (:foreground ,gruvbox-green))))
+  `(rainbow-delimiters-depth-9-face ((t (:foreground ,gruvbox-blue))))
+  `(rainbow-delimiters-depth-10-face ((t (:foreground ,gruvbox-orange))))
+  `(rainbow-delimiters-depth-11-face ((t (:foreground ,gruvbox-green))))
+  `(rainbow-delimiters-depth-12-face ((t (:foreground ,gruvbox-blue))))
+
+  ;;;elscreen
+  ;`(elscreen-tab-background-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
+  ;`(elscreen-tab-control-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
+  ;`(elscreen-tab-current-screen-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
+  ;`(elscreen-tab-other-screen-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
+))
 
 (when load-file-name
   (add-to-list 'custom-theme-load-path

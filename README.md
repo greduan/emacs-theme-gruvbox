@@ -1,8 +1,8 @@
 # Gruvbox theme for Emacs
 
-Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim
-version originally by [Pavel Pertsev](https://github.com/morhetz) found
-[here](https://github.com/morhetz/gruvbox).
+Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim version originally by [Pavel Pertsev](https://github.com/morhetz) found [here](https://github.com/morhetz/gruvbox).
+
+Another version of this theme can be found here, by Lee Machin: https://github.com/leemachin/emacs-gruvbox-theme
 
 
 ## Installation and usage
@@ -21,8 +21,7 @@ version originally by [Pavel Pertsev](https://github.com/morhetz) found
    ```
    M-x load-theme RET gruvbox
    ```
-   Or add the following to your `init.el` or `.emacs` file to load the theme at
-   startup:
+   Or add the following to your `init.el` or `.emacs` file to load the theme at startup:
    ```
    (load-theme 'gruvbox t)
    ```
