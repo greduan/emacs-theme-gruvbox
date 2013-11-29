@@ -79,12 +79,12 @@
   `(default ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
   `(cursor  ((t (:background ,gruvbox-light-2))))
   `(hl-line ((t (:background ,gruvbox-dark-3))))
-  `(mode-line-inactive ((t (:box nil :foreground ,gruvbox-dark-0 :background ,gruvbox-dark-4))))
-  `(mode-line ((t (:box nil :foreground ,gruvbox-light-1 :background ,gruvbox-dark-4))))
+  `(mode-line-inactive ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-dark-0))))
+  `(mode-line ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-0))))
   `(fringe ((t (:background ,gruvbox-dark-0))))
   `(linum ((t (:foreground ,gruvbox-dark-4))))
   `(region ((t (:background ,gruvbox-dark-1))))
-  `(minibuffer-prompt ((default (:foreground ,gruvbox-green :background ,gruvbox-dark-0 :bold t))))
+  `(minibuffer-prompt ((default (:background ,gruvbox-dark-0 :foreground ,gruvbox-green :bold t))))
   `(ag-hit-face ((t (:foreground ,gruvbox-green))))
   `(ag-match-face ((t (:foreground ,gruvbox-red))))
 
@@ -114,7 +114,5 @@
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
-  ; (when (not window-system)
-  ;   (custom-set-faces '(default ((t (:background "nil")))))))
 
 (provide-theme 'gruvbox)
