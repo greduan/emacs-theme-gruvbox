@@ -5,6 +5,13 @@ Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim vers
 Another version of this theme can be found here, by Lee Machin: https://github.com/leemachin/emacs-gruvbox-theme
 
 
+## Supports
+
+This theme contains custom support for the following features and plugins:
+
+- `whitespace-mode`
+- [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
+
 ## Installation and usage
 
 1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
@@ -35,7 +42,7 @@ None. For now...
 
 Add support for:
 
-- [Rainbow Delimiters](http://www.emacswiki.org/emacs/RainbowDelimiters).
+- [ElScreen](https://github.com/knu/elscreen).
 
 If you want for the theme to support something please open a new issue and I'll try my best to make it work out. :smile:
 
