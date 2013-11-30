@@ -4,7 +4,7 @@
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.5.1
+;; Version: 0.6
 
 ;;; Commentary:
 
@@ -78,7 +78,7 @@
   ;;ui
   `(default ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
   `(cursor  ((t (:background ,gruvbox-light-2))))
-  `(hl-line ((t (:background ,gruvbox-dark-3))))
+  `(hl-line ((t (:background ,gruvbox-dark-1))))
   `(mode-line-inactive ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-dark-0))))
   `(mode-line ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-0))))
   `(fringe ((t (:background ,gruvbox-dark-0))))
@@ -124,9 +124,17 @@
   `(rainbow-delimiters-depth-10-face ((t (:foreground "#b16286"))))
   `(rainbow-delimiters-depth-11-face ((t (:foreground "#cc241d"))))
   `(rainbow-delimiters-depth-12-face ((t (:foreground "#d65d0e"))))
+  `(rainbow-delimiters-unmatched-face ((t (:background nil :foreground ,gruvbox-light-0))))
 
   ;;linum-relative
-  `(linum-relative-current-face ((t (:background ,gruvbox-dark-1 :foreground ,gruvbox-light-0))))
+  `(linum-relative-current-face ((t (:background ,gruvbox-dark-1 :foreground ,gruvbox-light-4))))
+
+  ;;Smartparens
+  `(sp-pair-overlay-face ((t (:background ,gruvbox-dark-2))))
+  ;`(sp-wrap-overlay-face ((t (:inherit sp-wrap-overlay-face))))
+  ;`(sp-wrap-tag-overlay-face ((t (:inherit sp-wrap-overlay-face))))
+  `(sp-show-pair-match-face ((t (:background ,gruvbox-light-2)))) ;;pair tags highlight
+  `(sp-show-pair-mismatch-face ((t (:background "red")))) ;;highlight for bracket without pair
 
   ;;;elscreen
   ;`(elscreen-tab-background-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
