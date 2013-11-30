@@ -12,6 +12,7 @@ This theme contains custom support for the following features and plugins:
 - `whitespace-mode`
 - [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
 - [Smartparens](https://github.com/Fuco1/smartparens)
+- [ElScreen](https://github.com/knu/elscreen)
 
 ## Installation and usage
 
@@ -41,9 +42,7 @@ None. For now...
 
 ## To-do
 
-Add support for:
-
-- [ElScreen](https://github.com/knu/elscreen)
+Nothing to do... :neutral_face:
 
 If you want for the theme to support something please open a new issue and I'll try my best to make it work out. :smile:
 

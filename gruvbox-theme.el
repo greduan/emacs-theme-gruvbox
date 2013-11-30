@@ -4,7 +4,7 @@
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.6
+;; Version: 0.7
 
 ;;; Commentary:
 
@@ -77,14 +77,14 @@
 
   ;;ui
   `(default ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
-  `(cursor  ((t (:background ,gruvbox-light-2))))
-  `(hl-line ((t (:background ,gruvbox-dark-1))))
-  `(mode-line-inactive ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-dark-0))))
-  `(mode-line ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-0))))
+  `(cursor ((t (:background ,gruvbox-yellow))))
+  `(mode-line ((t (:box nil :background ,gruvbox-dark-4 :foreground ,gruvbox-dark-0))))
+  `(mode-line-inactive ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-4))))
   `(fringe ((t (:background ,gruvbox-dark-0))))
   `(linum ((t (:foreground ,gruvbox-dark-4))))
-  `(region ((t (:background ,gruvbox-dark-1))))
-  `(minibuffer-prompt ((default (:background ,gruvbox-dark-0 :foreground ,gruvbox-green :bold t))))
+  `(hl-line ((t (:background ,gruvbox-dark-1))))
+  `(region ((t (:background ,gruvbox-dark-2)))) ;;selection
+  `(minibuffer-prompt ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-green :bold t))))
   `(ag-hit-face ((t (:foreground ,gruvbox-green))))
   `(ag-match-face ((t (:foreground ,gruvbox-red))))
 
@@ -100,10 +100,10 @@
   `(font-lock-warning-face ((t (:foreground ,gruvbox-red :bold t))))
 
   ;;whitespace-mode
-  `(whitespace-space ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
-  `(whitespace-hspace ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
-  `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
-  `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-space ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
+  `(whitespace-hspace ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
+  `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
+  `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
   `(whitespace-trailing ((t (:background ,gruvbox-orange))))
   `(whitespace-line ((t (:background ,gruvbox-red :foreground ,gruvbox-dark-0))))
   `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
@@ -137,10 +137,10 @@
   `(sp-show-pair-mismatch-face ((t (:background "red")))) ;;highlight for bracket without pair
 
   ;;;elscreen
-  ;`(elscreen-tab-background-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
-  ;`(elscreen-tab-control-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
-  ;`(elscreen-tab-current-screen-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
-  ;`(elscreen-tab-other-screen-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
+  `(elscreen-tab-background-face ((t (:box nil :background ,gruvbox-dark-0)))) ;;tab bar, not tabs
+  `(elscreen-tab-control-face ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-red :underline nil)))) ;;the controls, arrows 'n' stuff
+  `(elscreen-tab-current-screen-face ((t (:box nil :background ,gruvbox-dark-4 :foreground ,gruvbox-dark-0)))) ;;current tab
+  `(elscreen-tab-other-screen-face ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-4 :underline nil)))) ;;inactive tab
 ))
 
 (when load-file-name
