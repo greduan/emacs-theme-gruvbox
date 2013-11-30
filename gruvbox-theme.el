@@ -4,7 +4,7 @@
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.5
+;; Version: 0.5.1
 
 ;;; Commentary:
 
@@ -124,6 +124,9 @@
   `(rainbow-delimiters-depth-10-face ((t (:foreground "#b16286"))))
   `(rainbow-delimiters-depth-11-face ((t (:foreground "#cc241d"))))
   `(rainbow-delimiters-depth-12-face ((t (:foreground "#d65d0e"))))
+
+  ;;linum-relative
+  `(linum-relative-current-face ((t (:background ,gruvbox-dark-1 :foreground ,gruvbox-light-0))))
 
   ;;;elscreen
   ;`(elscreen-tab-background-face ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
