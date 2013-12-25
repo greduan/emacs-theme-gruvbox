@@ -1,9 +1,3 @@
-NO LONGER SUPPORTED BY ME! Sadly I've started using an old computer of mine that can't really keep up with Emacs all that well, making it uncomfortable for me to use it.
-
-What I mean by that is that I can still accept pull requests and such but adding stuff myself is a little tough right now...
-
----
-
 # Gruvbox theme for Emacs
 
 Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim version originally by [Pavel Pertsev](https://github.com/morhetz) found [here](https://github.com/morhetz/gruvbox).
