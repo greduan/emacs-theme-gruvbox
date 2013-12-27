@@ -145,6 +145,14 @@
   ;;ag (The Silver Searcher)
   `(ag-hit-face ((t (:foreground ,gruvbox-blue))))
   `(ag-match-face ((t (:foreground ,gruvbox-red))))
+  
+  ;;Git diffs
+  `(diff-changed ((t (:background nil :foreground ,gruvbox-light-1))))
+  `(diff-added ((t (:background nil :foreground ,gruvbox-green))))
+  `(diff-removed ((t (:background nil :foreground ,gruvbox-red))))
+  `(diff-indicator-changed ((t (:inherit diff-changed))))
+  `(diff-indicator-added ((t (:inherit diff-added))))
+  `(diff-indicator-removed ((t (:inherit diff-removed))))
 ))
 
 (when load-file-name
