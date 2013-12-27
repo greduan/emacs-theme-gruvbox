@@ -136,11 +136,15 @@
   `(sp-show-pair-match-face ((t (:background ,gruvbox-light-2)))) ;;pair tags highlight
   `(sp-show-pair-mismatch-face ((t (:background "red")))) ;;highlight for bracket without pair
 
-  ;;;elscreen
+  ;;elscreen
   `(elscreen-tab-background-face ((t (:box nil :background ,gruvbox-dark-0)))) ;;tab bar, not tabs
   `(elscreen-tab-control-face ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-red :underline nil)))) ;;the controls, arrows 'n' stuff
   `(elscreen-tab-current-screen-face ((t (:box nil :background ,gruvbox-dark-4 :foreground ,gruvbox-dark-0)))) ;;current tab
   `(elscreen-tab-other-screen-face ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-4 :underline nil)))) ;;inactive tab
+  
+  ;;ag (The Silver Searcher)
+  `(ag-hit-face ((t (:foreground ,gruvbox-blue))))
+  `(ag-match-face ((t (:foreground ,gruvbox-red))))
 ))
 
 (when load-file-name
