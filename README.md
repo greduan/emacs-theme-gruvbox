@@ -4,6 +4,8 @@ Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim vers
 
 Another version of this theme can be found here, by Lee Machin: https://github.com/leemachin/emacs-gruvbox-theme
 
+![Gruvbox theme screenshot](/screenshot.jpg "Gruvbox theme screenshot")
+
 
 ## Supports
 
