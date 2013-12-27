@@ -141,12 +141,12 @@
   `(elscreen-tab-control-face ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-red :underline nil)))) ;;the controls, arrows 'n' stuff
   `(elscreen-tab-current-screen-face ((t (:box nil :background ,gruvbox-dark-4 :foreground ,gruvbox-dark-0)))) ;;current tab
   `(elscreen-tab-other-screen-face ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-4 :underline nil)))) ;;inactive tab
-  
+
   ;;ag (The Silver Searcher)
   `(ag-hit-face ((t (:foreground ,gruvbox-blue))))
   `(ag-match-face ((t (:foreground ,gruvbox-red))))
-  
-  ;;Git diffs
+
+  ;;Diffs
   `(diff-changed ((t (:background nil :foreground ,gruvbox-light-1))))
   `(diff-added ((t (:background nil :foreground ,gruvbox-green))))
   `(diff-removed ((t (:background nil :foreground ,gruvbox-red))))
