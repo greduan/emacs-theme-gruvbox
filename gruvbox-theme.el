@@ -161,3 +161,5 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'gruvbox)
+
+;;; gruvbox-theme.el ends here
