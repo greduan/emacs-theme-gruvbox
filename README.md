@@ -18,6 +18,16 @@ This theme contains custom support for the following features and plugins:
 
 ## Installation and usage
 
+The recommended way to install the Gruvbox theme is with MELPA.
+
+### MELPA
+
+If you're an Emacs 24 user or you have a recent version of `package.el` you can install the Gruvbox theme from the [MELPA repository](http://melpa.milkbox.net/#/gruvbox-theme). The version of Projectile there will always be up-to-date, but it might be unstable (albeit rarely).
+
+### No `package.el`
+
+The following instructions are for in the case where you don't have access to `package.el` for some reason.
+
 1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
    ```shell
    curl https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el
@@ -36,6 +46,7 @@ This theme contains custom support for the following features and plugins:
    ```
    (load-theme 'gruvbox t)
    ```
+
 
 ## Known bugs
 
