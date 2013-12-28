@@ -4,7 +4,7 @@
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.7
+;; Version: 0.11
 
 ;;; Commentary:
 
@@ -26,7 +26,7 @@
 (deftheme gruvbox
   "A retro-groove colour theme")
 
-;;gui version
+;;GNU version
 (let ((gruvbox-dark-0   "#282828")
       (gruvbox-dark-1   "#3c3836")
       (gruvbox-dark-2   "#504945")
@@ -153,7 +153,25 @@
   `(diff-indicator-changed ((t (:inherit diff-changed))))
   `(diff-indicator-added ((t (:inherit diff-added))))
   `(diff-indicator-removed ((t (:inherit diff-removed))))
-))
+  
+  ;;Term
+  `(term-color-black ((t (:foreground ,gruvbox-dark-1))))
+  `(term-color-blue ((t (:foreground ,gruvbox-blue))))
+  `(term-color-cyan ((t (:foreground ,gruvbox-aqua))))
+  `(term-color-green ((t (:foreground ,gruvbox-green))))
+  `(term-color-magenta ((t (:foreground ,gruvbox-purple))))
+  `(term-color-red ((t (:foreground ,gruvbox-red))))
+  `(term-color-white ((t (:foreground ,gruvbox-light-1))))
+  `(term-color-yellow ((t (:foreground ,gruvbox-yellow))))
+  `(term-default-fg-color ((t (:foreground ,gruvbox-light-0))))
+  `(term-default-bg-color ((t (:background ,gruvbox-dark-0))))
+)
+(custom-theme-set-variables
+  'gruvbox
+
+  `(ansi-color-names-vector [,gruvbox-dark-1 ,gruvbox-red ,gruvbox-green ,gruvbox-yellow
+    ,gruvbox-blue ,gruvbox-purple ,gruvbox-aqua ,gruvbox-light-1]))
+)
 
 ;;;###autoload
 (when load-file-name

@@ -17,6 +17,8 @@ This theme contains custom support for the following features and plugins:
 - [ElScreen](https://github.com/knu/elscreen)
 - [ag.el](https://github.com/Wilfred/ag.el)
 - Diffs
+- Term
+- Shell(?)
 
 ## Installation and usage
 
