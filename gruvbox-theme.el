@@ -75,7 +75,7 @@
 (custom-theme-set-faces
   'gruvbox
 
-  ;;ui
+  ;;UI
   `(default ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
   `(cursor ((t (:background ,gruvbox-yellow))))
   `(mode-line ((t (:box nil :background ,gruvbox-dark-4 :foreground ,gruvbox-dark-0))))
@@ -88,7 +88,7 @@
   `(ag-hit-face ((t (:foreground ,gruvbox-green))))
   `(ag-match-face ((t (:foreground ,gruvbox-red))))
 
-  ;;basic
+  ;;Built-in syntax
   `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
   `(font-lock-constant-face ((t (:foreground ,gruvbox-purple))))
   `(font-lock-comment-face ((t (:foreground ,gruvbox-dark-4))))
@@ -133,8 +133,8 @@
   `(sp-pair-overlay-face ((t (:background ,gruvbox-dark-2))))
   ;`(sp-wrap-overlay-face ((t (:inherit sp-wrap-overlay-face))))
   ;`(sp-wrap-tag-overlay-face ((t (:inherit sp-wrap-overlay-face))))
-  `(sp-show-pair-match-face ((t (:background ,gruvbox-light-2)))) ;;pair tags highlight
-  `(sp-show-pair-mismatch-face ((t (:background "red")))) ;;highlight for bracket without pair
+  `(sp-show-pair-match-face ((t (:background ,gruvbox-light-2)))) ;;Pair tags highlight
+  `(sp-show-pair-mismatch-face ((t (:background "red")))) ;;Highlight for bracket without pair
 
   ;;elscreen
   `(elscreen-tab-background-face ((t (:box nil :background ,gruvbox-dark-0)))) ;;tab bar, not tabs
@@ -172,6 +172,12 @@
   `(ansi-color-names-vector [,gruvbox-dark-1 ,gruvbox-red ,gruvbox-green ,gruvbox-yellow
     ,gruvbox-blue ,gruvbox-purple ,gruvbox-aqua ,gruvbox-light-1]))
 )
+
+(defun gruvbox-set-ansi-color-names-vector ()
+  "Give comint and the like the same colours as the term colours we set"
+  (setq ansi-color-names-vector
+    [term-color-black term-color-red term-color-green term-color-yellow term-color-blue
+     term-color-purple term-color-aqua term-color-white]))
 
 ;;;###autoload
 (when load-file-name

@@ -18,7 +18,7 @@ This theme contains custom support for the following features and plugins:
 - [ag.el](https://github.com/Wilfred/ag.el)
 - Diffs
 - Term
-- Shell(?)
+- Comint (and the like)
 
 ## Installation and usage
 
