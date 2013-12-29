@@ -13,6 +13,7 @@ This theme contains custom support for the following features and plugins:
 
 - `whitespace-mode`
 - [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
+- [linum-relative](https://github.com/emacsmirror/linum-relative)
 - [Smartparens](https://github.com/Fuco1/smartparens)
 - [ElScreen](https://github.com/knu/elscreen)
 - [ag.el](https://github.com/Wilfred/ag.el)
