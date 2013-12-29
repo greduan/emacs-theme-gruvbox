@@ -4,7 +4,7 @@
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.11
+;; Version: 0.11.1
 
 ;;; Commentary:
 
@@ -26,7 +26,7 @@
 (deftheme gruvbox
   "A retro-groove colour theme")
 
-;;GNU version
+;;GUI version
 (let ((gruvbox-dark-0   "#282828")
       (gruvbox-dark-1   "#3c3836")
       (gruvbox-dark-2   "#504945")
