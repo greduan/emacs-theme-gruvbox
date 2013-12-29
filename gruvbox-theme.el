@@ -4,7 +4,7 @@
 
 ;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.11.1
+;; Version: 0.12
 
 ;;; Commentary:
 
@@ -85,8 +85,6 @@
   `(hl-line ((t (:background ,gruvbox-dark-1))))
   `(region ((t (:background ,gruvbox-dark-2)))) ;;selection
   `(minibuffer-prompt ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-green :bold t))))
-  `(ag-hit-face ((t (:foreground ,gruvbox-green))))
-  `(ag-match-face ((t (:foreground ,gruvbox-red))))
 
   ;;Built-in syntax
   `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
@@ -100,11 +98,11 @@
   `(font-lock-warning-face ((t (:foreground ,gruvbox-red :bold t))))
 
   ;;whitespace-mode
-  `(whitespace-space ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
-  `(whitespace-hspace ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
-  `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
-  `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-3))))
-  `(whitespace-trailing ((t (:background ,gruvbox-orange))))
+  `(whitespace-space ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-hspace ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
+  `(whitespace-trailing ((t (:background ,gruvbox-orange :foreground ,gruvbox-dark-0))))
   `(whitespace-line ((t (:background ,gruvbox-red :foreground ,gruvbox-dark-0))))
   `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-indentation ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
