@@ -27,7 +27,7 @@ The recommended way to install the Gruvbox theme is with MELPA.
 
 ### MELPA
 
-If you're an Emacs 24 user or you have a recent version of `package.el` you can install the Gruvbox theme from the [MELPA repository](http://melpa.milkbox.net/#/gruvbox-theme). The version of Projectile there will always be up-to-date, but it might be unstable (albeit rarely).
+If you're an Emacs 24 user or you have a recent version of `package.el` you can install the Gruvbox theme from the [MELPA repository](http://melpa.milkbox.net/#/gruvbox-theme). The version of `gruvbox-theme` there will always be up-to-date, but it might be unstable (albeit rarely).
 
 ### No `package.el`
 
