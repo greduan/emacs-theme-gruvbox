@@ -1,10 +1,11 @@
 ;;; gruvbox-theme.el --- A retro-groove colour theme for Emacs
 
-;; Copyright (c) 2013 Lee Machin, Eduán Lávaque
+;; Copyright (c) 2013 Lee Machin
+;; Copyright (c) 2013-2014 Greduan
 
-;; Author: Eduán Lávaque <eduanlavaque@gmail.com>
+;; Author: Greduan <eduan@websharks-inc.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.12
+;; Version: 0.13
 
 ;;; Commentary:
 
@@ -15,7 +16,8 @@
 
 ;; Pavel Pertsev created the original theme for Vim on which this port
 ;; is based.
-;; Lee Machin who created first port of the original theme, off of which
+
+;; Lee Machin is who created first port of the original theme, off of which
 ;; I'm working on to make it better.
 
 ;;; Code:
@@ -77,7 +79,7 @@
 
   ;;UI
   `(default ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-light-0))))
-  `(cursor ((t (:background ,gruvbox-yellow))))
+  `(cursor ((t (:background ,gruvbox-light-0))))
   `(mode-line ((t (:box nil :background ,gruvbox-dark-4 :foreground ,gruvbox-dark-0))))
   `(mode-line-inactive ((t (:box nil :background ,gruvbox-dark-2 :foreground ,gruvbox-light-4))))
   `(fringe ((t (:background ,gruvbox-dark-0))))
@@ -102,8 +104,8 @@
   `(whitespace-hspace ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-newline ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
-  `(whitespace-trailing ((t (:background ,gruvbox-orange :foreground ,gruvbox-dark-0))))
-  `(whitespace-line ((t (:background ,gruvbox-red :foreground ,gruvbox-dark-0))))
+  `(whitespace-trailing ((t (:background ,gruvbox-dark-1 :foreground ,gruvbox-red))))
+  `(whitespace-line ((t (:background ,gruvbox-dark-1 :foreground ,gruvbox-red))))
   `(whitespace-space-before-tab ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-indentation ((t (:background ,gruvbox-dark-0 :foreground ,gruvbox-dark-4))))
   `(whitespace-empty ((t (:background nil :foreground nil))))
