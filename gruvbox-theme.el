@@ -5,7 +5,7 @@
 
 ;; Author: Greduan <eduan@websharks-inc.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.13
+;; Version: 0.14
 
 ;;; Commentary:
 
@@ -133,7 +133,7 @@
   `(sp-pair-overlay-face ((t (:background ,gruvbox-dark-2))))
   ;`(sp-wrap-overlay-face ((t (:inherit sp-wrap-overlay-face))))
   ;`(sp-wrap-tag-overlay-face ((t (:inherit sp-wrap-overlay-face))))
-  `(sp-show-pair-match-face ((t (:background ,gruvbox-light-2)))) ;;Pair tags highlight
+  `(sp-show-pair-match-face ((t (:background ,gruvbox-dark-2)))) ;;Pair tags highlight
   `(sp-show-pair-mismatch-face ((t (:background "red")))) ;;Highlight for bracket without pair
 
   ;;elscreen
