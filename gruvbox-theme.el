@@ -3,7 +3,9 @@
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2014 Greduan
 
-;; Author: Greduan <eduan@websharks-inc.com>
+;; Authors: Lee Machin <ljmachin@gmail.com>
+;;          Greduan <eduan@websharks-inc.com>
+;; Maintainer: Greduan <eduan@websharks-inc.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
 ;; Version: 0.14
 
@@ -153,7 +155,7 @@
   `(diff-indicator-changed ((t (:inherit diff-changed))))
   `(diff-indicator-added ((t (:inherit diff-added))))
   `(diff-indicator-removed ((t (:inherit diff-removed))))
-  
+
   ;;Term
   `(term-color-black ((t (:foreground ,gruvbox-dark-1))))
   `(term-color-blue ((t (:foreground ,gruvbox-blue))))

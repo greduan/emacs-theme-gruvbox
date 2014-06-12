@@ -70,7 +70,8 @@ If you want for the theme to support something please open a new issue and I'll 
 ```
 The MIT License (MIT)
 
-Copyright (c) 2013 Lee Machin, Eduán Lávaque
+Copyright (c) 2013 Lee Machin
+              2013-2014 Greduan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
