@@ -7,7 +7,7 @@
 ;;          Greduan <eduan@websharks-inc.com>
 ;; Maintainer: Greduan <eduan@websharks-inc.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.14
+;; Version: 0.15.0
 
 ;;; Commentary:
 
