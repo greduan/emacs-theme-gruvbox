@@ -1,8 +1,11 @@
 # Gruvbox theme for Emacs
 
-Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim version originally by [Pavel Pertsev](https://github.com/morhetz) found [here](https://github.com/morhetz/gruvbox).
+Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim
+version originally by [Pavel Pertsev](https://github.com/morhetz) found
+[here](https://github.com/morhetz/gruvbox).
 
-Another version of this theme can be found here, by Lee Machin: https://github.com/leemachin/emacs-gruvbox-theme
+Another version of this theme can be found here, by Lee Machin:
+<https://github.com/leemachin/emacs-gruvbox-theme>
 
 ![Gruvbox theme screenshot](/screenshot.jpg "Gruvbox theme screenshot")
 
@@ -27,11 +30,15 @@ The recommended way to install the Gruvbox theme is with MELPA.
 
 ### MELPA
 
-If you're an Emacs 24 user or you have a recent version of `package.el` you can install the Gruvbox theme from the [MELPA repository](http://melpa.milkbox.net/#/gruvbox-theme). The version of `gruvbox-theme` there will always be up-to-date, but it might be unstable (albeit rarely).
+If you're an Emacs 24 user or you have a recent version of `package.el` you can
+install the Gruvbox theme from the [MELPA
+repository](http://melpa.milkbox.net/#/gruvbox-theme). The version of
+`gruvbox-theme` there will always be up-to-date.
 
 ### No `package.el`
 
-The following instructions are for in the case where you don't have access to `package.el` for some reason.
+The following instructions are for in the case where you don't have access to
+`package.el` for some reason.
 
 1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
    ```shell
@@ -62,7 +69,8 @@ None. For now...
 
 Nothing to do... :neutral_face:
 
-If you want for the theme to support something please open a new issue and I'll try my best to make it work out. :smile:
+If you want for the theme to support something please open a new issue and I'll
+try my best to make it work out. :smile:
 
 
 ## License
