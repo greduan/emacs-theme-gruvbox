@@ -2,10 +2,8 @@
 
 Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
-[here](https://github.com/morhetz/gruvbox).
-
-Another version of this theme can be found here, by Lee Machin:
-<https://github.com/leemachin/emacs-gruvbox-theme>
+[here](https://github.com/morhetz/gruvbox).  Look at the original colorscheme's
+repo for a lot of pictures.  Here's a sort of outdated screenshot:
 
 ![Gruvbox theme screenshot](/screenshot.jpg "Gruvbox theme screenshot")
 
@@ -62,12 +60,15 @@ The following instructions are for in the case where you don't have access to
 
 ## Known bugs
 
-None. For now...
+None.  For now...
 
 
 ## To-do
 
-Nothing to do... :neutral_face:
+- [Anzu](https://github.com/syohex/emacs-anzu#customization) support
+- [js2-mode](https://github.com/mooz/js2-mode/blob/d96d8e7ff7ce3c04c7fd409d4f75dbc94e9b9030/js2-mode.el#L1015) support
+- [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode/blob/8351e2df4fbbeb2a4003f2fb39f46d33803f3dac/ace-jump-mode.el#L287) support
+- Light version of theme.
 
 If you want for the theme to support something please open a new issue and I'll
 try my best to make it work out. :smile:
