@@ -33,7 +33,7 @@
 
 ;;; Code:
 
-(unless (>= 24 emacs-major-version)
+(unless (>= emacs-major-version 24)
   (error "requires Emacs 24 or later."))
 
 (deftheme gruvbox "A retro-groove colour theme")
