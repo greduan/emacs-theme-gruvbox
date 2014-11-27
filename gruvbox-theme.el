@@ -196,4 +196,8 @@
 
 (provide-theme 'gruvbox)
 
+;; Local Variables:
+;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
+;; End:
+
 ;;; gruvbox-theme.el ends here
