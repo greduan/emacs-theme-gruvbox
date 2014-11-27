@@ -72,13 +72,21 @@
       (gruvbox-neutral_aqua   (if (display-graphic-p) "#8ec07c" "#87af87"))
       (gruvbox-neutral_orange (if (display-graphic-p) "#fe8019" "#ff8700"))
 
+
+
+
       (gruvbox-faded_red      (if (display-graphic-p) "#9d0006" "color-88"))
       (gruvbox-faded_green    (if (display-graphic-p) "#79740e" "color-100"))
       (gruvbox-faded_yellow   (if (display-graphic-p) "#b57614" "color-136"))
       (gruvbox-faded_blue     (if (display-graphic-p) "#076678" "color-24"))
       (gruvbox-faded_purple   (if (display-graphic-p) "#8f3f71" "color-96"))
       (gruvbox-faded_aqua     (if (display-graphic-p) "#427b58" "color-66"))
-      (gruvbox-faded_orange   (if (display-graphic-p) "#af3a03" "color-130")))
+      (gruvbox-faded_orange   (if (display-graphic-p) "#af3a03" "color-130"))
+
+      (gruvbox-delimiter-one    (if (display-graphic-p) "#458588" "color-30"))
+      (gruvbox-delimiter-two    (if (display-graphic-p) "#b16286" "color-168"))
+      (gruvbox-delimiter-three  (if (display-graphic-p) "#cc241d" "color-124"))
+      (gruvbox-delimiter-four   (if (display-graphic-p) "#d65d0e" "color-166")))
 
   (custom-theme-set-faces
     'gruvbox
@@ -120,18 +128,18 @@
     ;; TODO
     ;; - Replace with variable values
     ;; RainbowDelimiters
-    `(rainbow-delimiters-depth-1-face   ((t (:foreground "#458588"))))
-    `(rainbow-delimiters-depth-2-face   ((t (:foreground "#b16286"))))
-    `(rainbow-delimiters-depth-3-face   ((t (:foreground "#cc241d"))))
-    `(rainbow-delimiters-depth-4-face   ((t (:foreground "#d65d0e"))))
-    `(rainbow-delimiters-depth-5-face   ((t (:foreground "#458488"))))
-    `(rainbow-delimiters-depth-6-face   ((t (:foreground "#b16286"))))
-    `(rainbow-delimiters-depth-7-face   ((t (:foreground "#cc241d"))))
-    `(rainbow-delimiters-depth-8-face   ((t (:foreground "#d65d0e"))))
-    `(rainbow-delimiters-depth-9-face   ((t (:foreground "#458588"))))
-    `(rainbow-delimiters-depth-10-face  ((t (:foreground "#b16286"))))
-    `(rainbow-delimiters-depth-11-face  ((t (:foreground "#cc241d"))))
-    `(rainbow-delimiters-depth-12-face  ((t (:foreground "#d65d0e"))))
+    `(rainbow-delimiters-depth-1-face   ((t (:foreground ,gruvbox-delimiter-one))))
+    `(rainbow-delimiters-depth-2-face   ((t (:foreground ,gruvbox-delimiter-two))))
+    `(rainbow-delimiters-depth-3-face   ((t (:foreground ,gruvbox-delimiter-three))))
+    `(rainbow-delimiters-depth-4-face   ((t (:foreground ,gruvbox-delimiter-four))))
+    `(rainbow-delimiters-depth-5-face   ((t (:foreground ,gruvbox-delimiter-one))))
+    `(rainbow-delimiters-depth-6-face   ((t (:foreground ,gruvbox-delimiter-two))))
+    `(rainbow-delimiters-depth-7-face   ((t (:foreground ,gruvbox-delimiter-three))))
+    `(rainbow-delimiters-depth-8-face   ((t (:foreground ,gruvbox-delimiter-four))))
+    `(rainbow-delimiters-depth-9-face   ((t (:foreground ,gruvbox-delimiter-one))))
+    `(rainbow-delimiters-depth-10-face  ((t (:foreground ,gruvbox-delimiter-two))))
+    `(rainbow-delimiters-depth-11-face  ((t (:foreground ,gruvbox-delimiter-three))))
+    `(rainbow-delimiters-depth-12-face  ((t (:foreground ,gruvbox-delimiter-four))))
     `(rainbow-delimiters-unmatched-face ((t (:background nil :foreground ,gruvbox-light0))))
 
     ;; linum-relative
