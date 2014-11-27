@@ -34,7 +34,7 @@
 ;;; Code:
 
 (unless (>= emacs-major-version 24)
-  (error "requires Emacs 24 or later."))
+  (error "Requires Emacs 24 or later"))
 
 (deftheme gruvbox "A retro-groove colour theme")
 (let ((gruvbox-dark0_hard  (if (display-graphic-p) "#1d2021" "color-234"))
@@ -78,7 +78,12 @@
       (gruvbox-faded_blue     (if (display-graphic-p) "#076678" "color-24"))
       (gruvbox-faded_purple   (if (display-graphic-p) "#8f3f71" "color-96"))
       (gruvbox-faded_aqua     (if (display-graphic-p) "#427b58" "color-66"))
-      (gruvbox-faded_orange   (if (display-graphic-p) "#af3a03" "color-130")))
+      (gruvbox-faded_orange   (if (display-graphic-p) "#af3a03" "color-130"))
+
+      (gruvbox-delimiter-one    (if (display-graphic-p) "#458588" "color-30"))
+      (gruvbox-delimiter-two    (if (display-graphic-p) "#b16286" "color-168"))
+      (gruvbox-delimiter-three  (if (display-graphic-p) "#cc241d" "color-124"))
+      (gruvbox-delimiter-four   (if (display-graphic-p) "#d65d0e" "color-166")))
 
   (custom-theme-set-faces
     'gruvbox
@@ -117,21 +122,19 @@
     `(whitespace-empty ((t (:background nil :foreground nil))))
     `(whitespace-space-after-tab ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
 
-    ;; TODO
-    ;; - Replace with variable values
     ;; RainbowDelimiters
-    `(rainbow-delimiters-depth-1-face   ((t (:foreground "#458588"))))
-    `(rainbow-delimiters-depth-2-face   ((t (:foreground "#b16286"))))
-    `(rainbow-delimiters-depth-3-face   ((t (:foreground "#cc241d"))))
-    `(rainbow-delimiters-depth-4-face   ((t (:foreground "#d65d0e"))))
-    `(rainbow-delimiters-depth-5-face   ((t (:foreground "#458488"))))
-    `(rainbow-delimiters-depth-6-face   ((t (:foreground "#b16286"))))
-    `(rainbow-delimiters-depth-7-face   ((t (:foreground "#cc241d"))))
-    `(rainbow-delimiters-depth-8-face   ((t (:foreground "#d65d0e"))))
-    `(rainbow-delimiters-depth-9-face   ((t (:foreground "#458588"))))
-    `(rainbow-delimiters-depth-10-face  ((t (:foreground "#b16286"))))
-    `(rainbow-delimiters-depth-11-face  ((t (:foreground "#cc241d"))))
-    `(rainbow-delimiters-depth-12-face  ((t (:foreground "#d65d0e"))))
+    `(rainbow-delimiters-depth-1-face   ((t (:foreground ,gruvbox-delimiter-one))))
+    `(rainbow-delimiters-depth-2-face   ((t (:foreground ,gruvbox-delimiter-two))))
+    `(rainbow-delimiters-depth-3-face   ((t (:foreground ,gruvbox-delimiter-three))))
+    `(rainbow-delimiters-depth-4-face   ((t (:foreground ,gruvbox-delimiter-four))))
+    `(rainbow-delimiters-depth-5-face   ((t (:foreground ,gruvbox-delimiter-one))))
+    `(rainbow-delimiters-depth-6-face   ((t (:foreground ,gruvbox-delimiter-two))))
+    `(rainbow-delimiters-depth-7-face   ((t (:foreground ,gruvbox-delimiter-three))))
+    `(rainbow-delimiters-depth-8-face   ((t (:foreground ,gruvbox-delimiter-four))))
+    `(rainbow-delimiters-depth-9-face   ((t (:foreground ,gruvbox-delimiter-one))))
+    `(rainbow-delimiters-depth-10-face  ((t (:foreground ,gruvbox-delimiter-two))))
+    `(rainbow-delimiters-depth-11-face  ((t (:foreground ,gruvbox-delimiter-three))))
+    `(rainbow-delimiters-depth-12-face  ((t (:foreground ,gruvbox-delimiter-four))))
     `(rainbow-delimiters-unmatched-face ((t (:background nil :foreground ,gruvbox-light0))))
 
     ;; linum-relative
@@ -182,7 +185,7 @@
     ,gruvbox-neutral_purple ,gruvbox-neutral_aqua ,gruvbox-light1])))
 
 (defun gruvbox-set-ansi-color-names-vector ()
-  "Give comint and the like the same colours as the term colours we set"
+  "Give comint and the like the same colours as the term colours we set."
   (setq ansi-color-names-vector
     [term-color-black term-color-red term-color-green term-color-yellow term-color-blue
      term-color-purple term-color-aqua term-color-white]))
