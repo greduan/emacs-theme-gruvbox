@@ -125,8 +125,6 @@
     `(whitespace-empty ((t (:background nil :foreground nil))))
     `(whitespace-space-after-tab ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
 
-    ;; TODO
-    ;; - Replace with variable values
     ;; RainbowDelimiters
     `(rainbow-delimiters-depth-1-face   ((t (:foreground ,gruvbox-delimiter-one))))
     `(rainbow-delimiters-depth-2-face   ((t (:foreground ,gruvbox-delimiter-two))))
