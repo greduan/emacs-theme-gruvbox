@@ -18,6 +18,7 @@ This theme contains custom support for the following features and plugins:
 - [Smartparens](https://github.com/Fuco1/smartparens)
 - [ElScreen](https://github.com/knu/elscreen)
 - [ag.el](https://github.com/Wilfred/ag.el)
+- [js2-mode](https://github.com/mooz/js2-mode)
 - Diffs
 - Term
 - Comint (and the like)
@@ -66,7 +67,6 @@ None.  For now...
 ## To-do
 
 - [Anzu](https://github.com/syohex/emacs-anzu#customization) support
-- [js2-mode](https://github.com/mooz/js2-mode/blob/d96d8e7ff7ce3c04c7fd409d4f75dbc94e9b9030/js2-mode.el#L1015) support
 - [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode/blob/8351e2df4fbbeb2a4003f2fb39f46d33803f3dac/ace-jump-mode.el#L287) support
 - Light version of theme.
 
