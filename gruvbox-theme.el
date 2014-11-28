@@ -82,7 +82,7 @@
 
       (gruvbox-delimiter-one    (if (display-graphic-p) "#458588" "color-30"))
       (gruvbox-delimiter-two    (if (display-graphic-p) "#b16286" "color-168"))
-      (gruvbox-delimiter-three  (if (display-graphic-p) "#cc241d" "color-124"))
+      (gruvbox-delimiter-three  (if (display-graphic-p) "#8ec07c" "color-108"))
       (gruvbox-delimiter-four   (if (display-graphic-p) "#d65d0e" "color-166")))
 
   (custom-theme-set-faces
