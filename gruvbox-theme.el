@@ -140,6 +140,10 @@
     ;; linum-relative
     `(linum-relative-current-face       ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
 
+    ;; Highlight indentation mode
+    `(highlight-indentation-current-column-face ((t (:background ,gruvbox-dark2 ))))
+    `(highlight-indentation-face                ((t (:background ,gruvbox-dark1 ))))
+
     ;; Smartparens
     `(sp-pair-overlay-face              ((t (:background ,gruvbox-dark2))))
     ;`(sp-wrap-overlay-face             ((t (:inherit sp-wrap-overlay-face))))
