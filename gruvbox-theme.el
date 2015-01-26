@@ -4,8 +4,8 @@
 ;; Copyright (c) 2013-2014 Greduan
 
 ;; Authors: Lee Machin <ljmachin@gmail.com>
-;;          Greduan <eduan@websharks-inc.com>
-;; Maintainer: Greduan <eduan@websharks-inc.com>
+;;          Greduan <me@greduan.com>
+;; Maintainer: jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
 ;; Version: 0.15.0
 
