@@ -67,12 +67,7 @@ None.  For now...
 ## To-do
 
 - [Anzu](https://github.com/syohex/emacs-anzu#customization) support
-- [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode/blob/8351e2df4fbbeb2a4003f2fb39f46d33803f3dac/ace-jump-mode.el#L287) support
 - Light version of theme.
-
-If you want for the theme to support something please open a new issue and I'll
-try my best to make it work out. :smile:
-
 
 ## License
 
