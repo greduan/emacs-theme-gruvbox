@@ -7,7 +7,7 @@
 ;;          Greduan <me@greduan.com>
 ;; Maintainer: jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.15.0
+;; Version: 0.15.1
 
 ;;; Commentary:
 
@@ -97,6 +97,7 @@
     `(linum                             ((t (:foreground ,gruvbox-dark4))))
     `(hl-line                           ((t (:background ,gruvbox-dark1))))
     `(region                            ((t (:background ,gruvbox-dark2)))) ;;selection
+    `(secondary-selection               ((t (:background ,gruvbox-dark1))))
     `(minibuffer-prompt                 ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-neutral_green :bold t))))
 
     ;; Built-in syntax
