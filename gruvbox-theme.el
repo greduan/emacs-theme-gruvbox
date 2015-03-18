@@ -1,7 +1,7 @@
 ;;; gruvbox-theme.el --- A retro-groove colour theme for Emacs
 
 ;; Copyright (c) 2013 Lee Machin
-;; Copyright (c) 2013-2014 Greduan
+;; Copyright (c) 2013-2015 Greduan
 
 ;; Authors: Lee Machin <ljmachin@gmail.com>
 ;;          Greduan <me@greduan.com>
