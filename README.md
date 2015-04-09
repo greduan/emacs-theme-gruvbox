@@ -21,6 +21,7 @@ This theme contains custom support for the following features and plugins:
 - [js2-mode](https://github.com/mooz/js2-mode)
 - Diffs
 - Term
+- Helm
 - Comint (and the like)
 
 ## Installation and usage
