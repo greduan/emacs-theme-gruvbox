@@ -212,7 +212,7 @@
     `(helm-ff-executable                        ((t ( :foreground ,gruvbox-turquoise4  ))))
     `(helm-ff-file                              ((t ( :foreground ,gruvbox-sienna ))))
     `(helm-ff-invalid-symlink                   ((t ( :foreground ,gruvbox-white         :background ,gruvbox-bright_red   ))))
-    `(helm-ff-prefix                            ((t ( :foreground ,gruvbox-black         :background ,gruvbox-neutral_yello))))
+    `(helm-ff-prefix                            ((t ( :foreground ,gruvbox-black         :background ,gruvbox-neutral_yellow))))
     `(helm-ff-symlink                           ((t ( :foreground ,gruvbox-neutral_orange ))))
     `(helm-grep-cmd-line                        ((t ( :foreground ,gruvbox-neutral_green ))))
     `(helm-grep-file                            ((t ( :foreground ,gruvbox-faded_purple ))))
