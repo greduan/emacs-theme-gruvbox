@@ -192,6 +192,9 @@
     `(js2-jsdoc-html-tag-name           ((t (:background nil :foreground ,gruvbox-light4 ))))
     `(js2-jsdoc-html-tag-delimiter      ((t (:background nil :foreground ,gruvbox-light3 ))))
 
+    ;; popup-tip
+    `(popup-tip-face                    ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-neutral_yellow))))
+
     ;; helm
     `(helm-M-x-key                              ((t ( :foreground ,gruvbox-neutral_orange  ))))
     `(helm-action                               ((t ( :foreground ,gruvbox-white :underline t ))))
