@@ -102,7 +102,7 @@
     `(mode-line                         ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light2))))
     `(mode-line-inactive                ((t (:box nil :background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
     `(fringe                            ((t (:background ,gruvbox-dark0))))
-    `(linum                             ((t (:foreground ,gruvbox-dark4))))
+    `(linum                             ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
     `(hl-line                           ((t (:background ,gruvbox-dark1))))
     `(region                            ((t (:background ,gruvbox-dark2)))) ;;selection
     `(secondary-selection               ((t (:background ,gruvbox-dark1))))
