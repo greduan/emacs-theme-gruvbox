@@ -99,8 +99,8 @@
     ;; UI
     `(default                           ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-light0))))
     `(cursor                            ((t (:background ,gruvbox-light0))))
-    `(mode-line                         ((t (:box nil :background ,gruvbox-dark4 :foreground ,gruvbox-dark0))))
-    `(mode-line-inactive                ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light4))))
+    `(mode-line                         ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light2))))
+    `(mode-line-inactive                ((t (:box nil :background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
     `(fringe                            ((t (:background ,gruvbox-dark0))))
     `(linum                             ((t (:foreground ,gruvbox-dark4))))
     `(hl-line                           ((t (:background ,gruvbox-dark1))))
@@ -259,7 +259,16 @@
     `(term-color-white                  ((t (:foreground ,gruvbox-light1))))
     `(term-color-yellow                 ((t (:foreground ,gruvbox-neutral_yellow))))
     `(term-default-fg-color             ((t (:foreground ,gruvbox-light0))))
-    `(term-default-bg-color             ((t (:background ,gruvbox-dark0)))))
+    `(term-default-bg-color             ((t (:background ,gruvbox-dark0))))
+
+    ;; Smart-mode-line
+    `(sml/global            ((t (:foreground ,gruvbox-burlywood4 :inverse-video nil))))
+    `(sml/modes             ((t (:foreground ,gruvbox-bright_green))))
+    `(sml/filename          ((t (:foreground ,gruvbox-bright_red :weight bold))))
+    `(sml/prefix            ((t (:foreground ,gruvbox-light1))))
+    `(sml/read-only         ((t (:foreground ,gruvbox-neutral_blue))))
+    `(persp-selected-face   ((t (:foreground ,gruvbox-neutral_orange)))))
+
 
 (custom-theme-set-variables
   'gruvbox
