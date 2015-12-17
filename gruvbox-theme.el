@@ -112,7 +112,7 @@
     `(font-lock-builtin-face            ((t (:foreground ,gruvbox-neutral_orange))))
     `(font-lock-constant-face           ((t (:foreground ,gruvbox-neutral_purple))))
     `(font-lock-comment-face            ((t (:foreground ,gruvbox-dark4))))
-    `(font-lock-function-name-face      ((t (:foreground ,gruvbox-neutral_green))))
+    `(font-lock-function-name-face      ((t (:foreground ,gruvbox-neutral_yellow))))
     `(font-lock-keyword-face            ((t (:foreground ,gruvbox-neutral_red))))
     `(font-lock-string-face             ((t (:foreground ,gruvbox-neutral_green))))
     `(font-lock-variable-name-face      ((t (:foreground ,gruvbox-neutral_blue))))
