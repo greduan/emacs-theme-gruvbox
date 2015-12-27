@@ -192,8 +192,13 @@
     `(js2-jsdoc-html-tag-name           ((t (:background nil :foreground ,gruvbox-light4 ))))
     `(js2-jsdoc-html-tag-delimiter      ((t (:background nil :foreground ,gruvbox-light3 ))))
 
-    ;; popup-tip
-    `(popup-tip-face                    ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-neutral_yellow))))
+
+    ;; popup
+    `(popup-face                                ((t (:foreground ,gruvbox-light1 :background ,gruvbox-dark1))))
+    `(popup-menu-mouse-face                     ((t (:foreground ,gruvbox-light0 :background ,gruvbox-faded_green))))
+    `(popup-menu-selection-face                 ((t (:foreground ,gruvbox-light0 :background ,gruvbox-faded_green))))
+    `(popup-tip-face                            ((t (:foreground ,gruvbox-light2 :background ,gruvbox-dark2))))
+
 
     ;; helm
     `(helm-M-x-key                              ((t ( :foreground ,gruvbox-neutral_orange  ))))
