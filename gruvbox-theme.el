@@ -7,7 +7,7 @@
 ;;          Greduan <me@greduan.com>
 ;; Maintainer: jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.15.1
+;; Version: 0.16
 
 ;;; Commentary:
 
