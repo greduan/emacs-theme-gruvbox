@@ -170,6 +170,24 @@
     `(ag-hit-face                       ((t (:foreground ,gruvbox-neutral_blue))))
     `(ag-match-face                     ((t (:foreground ,gruvbox-neutral_red))))
 
+    ;; ediff
+    `(ediff-current-diff-A              ((t    (:foreground  ,gruvbox-light0         :background  ,gruvbox-neutral_red))))
+    `(ediff-current-diff-Ancestor       ((t    (:foreground  ,gruvbox-light0         :background  ,gruvbox-neutral_red))))
+    `(ediff-current-diff-B              ((t    (:foreground  ,gruvbox-light0         :background  ,gruvbox-faded_aqua))))
+    `(ediff-current-diff-C              ((t    (:foreground  ,gruvbox-dark0_soft     :background  ,gruvbox-neutral_orange))))
+    `(ediff-fine-diff-A                 ((t    (:foreground  ,gruvbox-dark0_soft     :background  ,gruvbox-light2))))
+    `(ediff-fine-diff-Ancestor          ((t    (:foreground  ,gruvbox-dark0_soft     :background  ,gruvbox-light2))))
+    `(ediff-fine-diff-B                 ((t    (:foreground  ,gruvbox-light0         :background  ,gruvbox-neutral_red))))
+    `(ediff-fine-diff-C                 ((t    (:foreground  ,gruvbox-light0         :background  ,gruvbox-faded_aqua))))
+    `(ediff-even-diff-A                 ((t    (:background  ,gruvbox-dark0_soft))))
+    `(ediff-even-diff-Ancestor          ((t    (:background  ,gruvbox-dark0_soft))))
+    `(ediff-even-diff-B                 ((t    (:background  ,gruvbox-dark0_soft))))
+    `(ediff-even-diff-C                 ((t    (:background  ,gruvbox-dark0_soft))))
+    `(ediff-odd-diff-A                  ((t    (:background  ,gruvbox-dark2))))
+    `(ediff-odd-diff-Ancestor           ((t    (:background  ,gruvbox-dark2))))
+    `(ediff-odd-diff-B                  ((t    (:background  ,gruvbox-dark2))))
+    `(ediff-odd-diff-C                  ((t    (:background  ,gruvbox-dark2))))
+
     ;; Diffs
     `(diff-changed                      ((t (:background nil :foreground ,gruvbox-light1))))
     `(diff-added                        ((t (:background nil :foreground ,gruvbox-neutral_green))))
