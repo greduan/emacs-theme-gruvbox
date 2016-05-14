@@ -107,6 +107,7 @@
     `(region                            ((t (:background ,gruvbox-dark2)))) ;;selection
     `(secondary-selection               ((t (:background ,gruvbox-dark1))))
     `(minibuffer-prompt                 ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-neutral_green :bold t))))
+    `(vertical-border                   ((t (:foreground ,gruvbox-dark2))))
 
     ;; Built-in syntax
     `(font-lock-builtin-face            ((t (:foreground ,gruvbox-neutral_orange))))
