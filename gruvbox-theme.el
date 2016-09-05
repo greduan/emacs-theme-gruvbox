@@ -108,6 +108,8 @@
     `(secondary-selection               ((t (:background ,gruvbox-dark1))))
     `(minibuffer-prompt                 ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-neutral_green :bold t))))
     `(vertical-border                   ((t (:foreground ,gruvbox-dark2))))
+    `(link                              ((t (:foreground ,gruvbox-faded_blue :underline t))))
+    `(shadow                            ((t (:foreground ,gruvbox-dark4))))
 
     ;; Built-in syntax
     `(font-lock-builtin-face            ((t (:foreground ,gruvbox-neutral_orange))))
