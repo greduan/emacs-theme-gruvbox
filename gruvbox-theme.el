@@ -307,6 +307,16 @@
     `(org-deadline-announce             ((t (:foreground ,gruvbox-faded_red))))
     `(org-time-grid                     ((t (:foreground ,gruvbox-faded_orange))))
 
+    ;; org-habit
+    `(org-habit-clear-face              ((t (:background ,gruvbox-faded_blue))))
+    `(org-habit-clear-future-face       ((t (:background ,gruvbox-neutral_blue))))
+    `(org-habit-ready-face              ((t (:background ,gruvbox-faded_green))))
+    `(org-habit-ready-future-face       ((t (:background ,gruvbox-neutral_green))))
+    `(org-habit-alert-face              ((t (:background ,gruvbox-faded_yellow))))
+    `(org-habit-alert-future-face       ((t (:background ,gruvbox-neutral_yellow))))
+    `(org-habit-overdue-face            ((t (:background ,gruvbox-faded_red))))
+    `(org-habit-overdue-future-face     ((t (:background ,gruvbox-neutral_red))))
+
     ;; Smart-mode-line
     `(sml/global            ((t (:foreground ,gruvbox-burlywood4 :inverse-video nil))))
     `(sml/modes             ((t (:foreground ,gruvbox-bright_green))))
