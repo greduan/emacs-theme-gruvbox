@@ -267,6 +267,18 @@
     `(term-default-fg-color             ((t (:foreground ,gruvbox-light0))))
     `(term-default-bg-color             ((t (:background ,gruvbox-dark0))))
 
+    ;; message-mode
+    `(message-header-to                 ((t (:inherit font-lock-variable-name-face))))
+    `(message-header-cc                 ((t (:inherit font-lock-variable-name-face))))
+    `(message-header-subject            ((t (:foreground ,gruvbox-neutral_orange :weight bold))))
+    `(message-header-newsgroups         ((t (:foreground ,gruvbox-neutral_yellow :weight bold))))
+    `(message-header-other              ((t (:inherit font-lock-variable-name-face))))
+    `(message-header-name               ((t (:inherit font-lock-keyword-face))))
+    `(message-header-xheader            ((t (:foreground ,gruvbox-faded_blue))))
+    `(message-separator                 ((t (:inherit font-lock-comment-face))))
+    `(message-cited-text                ((t (:inherit font-lock-comment-face))))
+    `(message-mml                       ((t (:foreground ,gruvbox-faded_green :weight bold))))
+
     ;; Smart-mode-line
     `(sml/global            ((t (:foreground ,gruvbox-burlywood4 :inverse-video nil))))
     `(sml/modes             ((t (:foreground ,gruvbox-bright_green))))
