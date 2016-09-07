@@ -36,8 +36,12 @@
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
 
+(defcustom gruvbox-contrast 'medium
+  "Contrast level for the theme background."
+  :options '(soft medium hard))
+
 (deftheme gruvbox "A retro-groove colour theme")
-(let ((gruvbox-dark0_hard  (if (display-graphic-p) "#1d2021" "color-234"))
+(let* ((gruvbox-dark0_hard  (if (display-graphic-p) "#1d2021" "color-234"))
       (gruvbox-dark0       (if (display-graphic-p) "#282828" "color-235"))
       (gruvbox-dark0_soft  (if (display-graphic-p) "#32302f" "color-236"))
       (gruvbox-dark1       (if (display-graphic-p) "#3c3836" "color-237"))
@@ -91,22 +95,28 @@
       (gruvbox-lightblue4       (if (display-graphic-p) "#66999D" "LightBlue4"))
       (gruvbox-burlywood4       (if (display-graphic-p) "#BBAA97" "burlywood4"))
       (gruvbox-aquamarine4      (if (display-graphic-p) "#83A598" "aquamarine4"))
-      (gruvbox-turquoise4       (if (display-graphic-p) "#61ACBB" "turquoise4")))
+      (gruvbox-turquoise4       (if (display-graphic-p) "#61ACBB" "turquoise4"))
+
+      (gruvbox-bg (case gruvbox-contrast
+		    (hard gruvbox-dark0_hard)
+		    (soft gruvbox-dark0_soft)
+		    ;; Medium by default.
+		    (t    gruvbox-dark0))))
 
   (custom-theme-set-faces
     'gruvbox
 
     ;; UI
-    `(default                           ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-light0))))
+    `(default                           ((t (:background ,gruvbox-bg :foreground ,gruvbox-light0))))
     `(cursor                            ((t (:background ,gruvbox-light0))))
     `(mode-line                         ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light2))))
     `(mode-line-inactive                ((t (:box nil :background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
-    `(fringe                            ((t (:background ,gruvbox-dark0))))
-    `(linum                             ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
+    `(fringe                            ((t (:background ,gruvbox-bg))))
+    `(linum                             ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
     `(hl-line                           ((t (:background ,gruvbox-dark1))))
     `(region                            ((t (:background ,gruvbox-dark2)))) ;;selection
     `(secondary-selection               ((t (:background ,gruvbox-dark1))))
-    `(minibuffer-prompt                 ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-neutral_green :bold t))))
+    `(minibuffer-prompt                 ((t (:background ,gruvbox-bg :foreground ,gruvbox-neutral_green :bold t))))
     `(vertical-border                   ((t (:foreground ,gruvbox-dark2))))
 
     ;; Built-in syntax
@@ -121,16 +131,16 @@
     `(font-lock-warning-face            ((t (:foreground ,gruvbox-neutral_red :bold t))))
 
     ;; whitespace-mode
-    `(whitespace-space                  ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
-    `(whitespace-hspace                 ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
-    `(whitespace-tab                    ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
-    `(whitespace-newline                ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
+    `(whitespace-space                  ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
+    `(whitespace-hspace                 ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
+    `(whitespace-tab                    ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
+    `(whitespace-newline                ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
     `(whitespace-trailing               ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-neutral_red))))
     `(whitespace-line                   ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-neutral_red))))
-    `(whitespace-space-before-tab       ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
-    `(whitespace-indentation            ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
+    `(whitespace-space-before-tab       ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
+    `(whitespace-indentation            ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
     `(whitespace-empty                  ((t (:background nil :foreground nil))))
-    `(whitespace-space-after-tab        ((t (:background ,gruvbox-dark0 :foreground ,gruvbox-dark4))))
+    `(whitespace-space-after-tab        ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
 
     ;; RainbowDelimiters
     `(rainbow-delimiters-depth-1-face   ((t (:foreground ,gruvbox-delimiter-one))))
@@ -162,7 +172,7 @@
     `(sp-show-pair-mismatch-face        ((t (:background ,gruvbox-neutral_red)))) ;; Highlight for bracket without pair
 
     ;; elscreen
-    `(elscreen-tab-background-face      ((t (:box nil :background ,gruvbox-dark0)))) ;; Tab bar, not the tabs
+    `(elscreen-tab-background-face      ((t (:box nil :background ,gruvbox-bg)))) ;; Tab bar, not the tabs
     `(elscreen-tab-control-face         ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-neutral_red :underline nil)))) ;; The controls
     `(elscreen-tab-current-screen-face  ((t (:box nil :background ,gruvbox-dark4 :foreground ,gruvbox-dark0)))) ;; Current tab
     `(elscreen-tab-other-screen-face    ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light4 :underline nil)))) ;; Inactive tab
@@ -265,7 +275,7 @@
     `(term-color-white                  ((t (:foreground ,gruvbox-light1))))
     `(term-color-yellow                 ((t (:foreground ,gruvbox-neutral_yellow))))
     `(term-default-fg-color             ((t (:foreground ,gruvbox-light0))))
-    `(term-default-bg-color             ((t (:background ,gruvbox-dark0))))
+    `(term-default-bg-color             ((t (:background ,gruvbox-bg))))
 
     ;; Smart-mode-line
     `(sml/global            ((t (:foreground ,gruvbox-burlywood4 :inverse-video nil))))
