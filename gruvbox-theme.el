@@ -341,6 +341,16 @@
     `(org-habit-overdue-face            ((t (:background ,gruvbox-faded_red))))
     `(org-habit-overdue-future-face     ((t (:background ,gruvbox-neutral_red))))
 
+    ;; elfeed
+    `(elfeed-search-title-face          ((t (:foreground ,gruvbox-medium))))
+    `(elfeed-search-unread-title-face   ((t (:foreground ,gruvbox-light0))))
+    `(elfeed-search-date-face           ((t (:inherit font-lock-builtin-face :underline t))))
+    `(elfeed-search-feed-face           ((t (:inherit font-lock-variable-name-face))))
+    `(elfeed-search-tag-face            ((t (:inherit font-lock-keyword-face))))
+    `(elfeed-search-last-update-face    ((t (:inherit font-lock-comment-face))))
+    `(elfeed-search-unread-count-face   ((t (:inherit font-lock-comment-face))))
+    `(elfeed-search-filter-face         ((t (:inherit font-lock-string-face))))
+
     ;; Smart-mode-line
     `(sml/global            ((t (:foreground ,gruvbox-burlywood4 :inverse-video nil))))
     `(sml/modes             ((t (:foreground ,gruvbox-bright_green))))
