@@ -32,6 +32,8 @@
 ;; to make better and more feature complete.
 
 ;;; Code:
+(eval-when-compile
+  (require 'cl-lib))
 
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
@@ -97,7 +99,7 @@
       (gruvbox-aquamarine4      (if (display-graphic-p) "#83A598" "aquamarine4"))
       (gruvbox-turquoise4       (if (display-graphic-p) "#61ACBB" "turquoise4"))
 
-      (gruvbox-bg (case gruvbox-contrast
+      (gruvbox-bg (cl-case gruvbox-contrast
 		    (hard gruvbox-dark0_hard)
 		    (soft gruvbox-dark0_soft)
 		    ;; Medium by default.
