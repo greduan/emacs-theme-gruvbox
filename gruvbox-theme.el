@@ -110,7 +110,7 @@
 
     ;; UI
     `(default                           ((t (:background ,gruvbox-bg :foreground ,gruvbox-light0))))
-    `(cursor                            ((t (:background ,gruvbox-light4))))
+    `(cursor                            ((t (:background ,gruvbox-light4 :foreground ,gruvbox-neutral_yellow))))
     `(mode-line                         ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light2))))
     `(mode-line-inactive                ((t (:box nil :background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
     `(fringe                            ((t (:background ,gruvbox-dark0_hard))))
