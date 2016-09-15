@@ -116,6 +116,7 @@
     `(fringe                            ((t (:background ,gruvbox-bg))))
     `(linum                             ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
     `(hl-line                           ((t (:background ,gruvbox-dark1))))
+    '(linum-highlight-face              ((t (:background ,gruvbox-dark1))))
     `(region                            ((t (:background ,gruvbox-dark2)))) ;;selection
     `(secondary-selection               ((t (:background ,gruvbox-dark1))))
     `(minibuffer-prompt                 ((t (:background ,gruvbox-bg :foreground ,gruvbox-neutral_green :bold t))))
