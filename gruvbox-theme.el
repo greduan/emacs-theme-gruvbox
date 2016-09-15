@@ -113,10 +113,10 @@
     `(cursor                            ((t (:background ,gruvbox-light4))))
     `(mode-line                         ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light2))))
     `(mode-line-inactive                ((t (:box nil :background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
-    `(fringe                            ((t (:background ,gruvbox-bg))))
+    `(fringe                            ((t (:background ,gruvbox-dark0_hard))))
     `(linum                             ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
     `(hl-line                           ((t (:background ,gruvbox-dark1))))
-    '(linum-highlight-face              ((t (:background ,gruvbox-dark1))))
+    `(linum-highlight-face              ((t (:background ,gruvbox-dark1))))
     `(region                            ((t (:background ,gruvbox-dark2)))) ;;selection
     `(secondary-selection               ((t (:background ,gruvbox-dark1))))
     `(minibuffer-prompt                 ((t (:background ,gruvbox-bg :foreground ,gruvbox-neutral_green :bold t))))
