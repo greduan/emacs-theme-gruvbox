@@ -360,7 +360,14 @@
     `(sml/filename          ((t (:foreground ,gruvbox-bright_red :weight bold))))
     `(sml/prefix            ((t (:foreground ,gruvbox-light1))))
     `(sml/read-only         ((t (:foreground ,gruvbox-neutral_blue))))
-    `(persp-selected-face   ((t (:foreground ,gruvbox-neutral_orange)))))
+    `(persp-selected-face   ((t (:foreground ,gruvbox-neutral_orange))))
+
+    ;; anzu-mode
+    `(anzu-mode-line        ((t (:foreground ,gruvbox-yellow :weight bold))))
+
+    )
+
+  
 
 
 (custom-theme-set-variables
