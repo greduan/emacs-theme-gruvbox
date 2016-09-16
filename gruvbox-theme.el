@@ -362,12 +362,17 @@
     `(sml/read-only         ((t (:foreground ,gruvbox-neutral_blue))))
     `(persp-selected-face   ((t (:foreground ,gruvbox-neutral_orange))))
 
+    ;;isearch
+    `(isearch                       ((t (:foreground ,gruvbox-dark0 :background ,gruvbox-neutral_orange))))
+    `(isearch-lazy-highlight-face   ((t (:foreground ,gruvbox-dark0 :background ,gruvbox-neutral_yellow))))
+
     ;; anzu-mode
     `(anzu-mode-line        ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
-        `(anzu-match-1          ((t (:background ,gruvbox-bright_green))))
+    `(anzu-match-1          ((t (:background ,gruvbox-bright_green))))
     `(anzu-match-2          ((t (:background ,gruvbox-faded_yellow))))
     `(anzu-match-3          ((t (:background ,gruvbox-aquamarine4))))
-    `(anzu-replace-to       ((t (:foreground ,gruvbox-bright_yellow)))))
+    `(anzu-replace-to       ((t (:foreground ,gruvbox-bright_yellow))))
+    `(anzu-replace-highlight ((t (:inherit isearch)))))
 
   
 
