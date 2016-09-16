@@ -372,7 +372,11 @@
     `(anzu-match-2          ((t (:background ,gruvbox-faded_yellow))))
     `(anzu-match-3          ((t (:background ,gruvbox-aquamarine4))))
     `(anzu-replace-to       ((t (:foreground ,gruvbox-bright_yellow))))
-    `(anzu-replace-highlight ((t (:inherit isearch)))))
+    `(anzu-replace-highlight ((t (:inherit isearch))))
+
+    ;; Show-paren-mode
+    `(show-paren-match      ((t (:background ,gruvbox-dark3 :weight bold))))
+    `(show-paren-mismatch   ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark3 :weight bold)))))
 
 
 (custom-theme-set-variables
