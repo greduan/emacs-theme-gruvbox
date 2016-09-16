@@ -363,7 +363,7 @@
     `(persp-selected-face   ((t (:foreground ,gruvbox-neutral_orange))))
 
     ;; anzu-mode
-    `(anzu-mode-line        ((t (:foreground ,gruvbox-yellow :weight bold))))
+    `(anzu-mode-line        ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
 
     )
 
