@@ -41,7 +41,7 @@
 (defcustom gruvbox-contrast 'medium
   "Contrast level for the theme background."
   :options '(soft medium hard)
-  :group   '(gruvbox-theme))
+  )
 
 (deftheme gruvbox "A retro-groove colour theme")
 (let* ((gruvbox-dark0_hard  "#1d2021" )
