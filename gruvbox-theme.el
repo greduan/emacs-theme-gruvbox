@@ -363,7 +363,7 @@
 
         ;;isearch
     `(isearch                       ((t (:foreground ,gruvbox-black :background ,gruvbox-neutral_orange))))
-    `(lazy-highlight-face           ((t (:foreground ,gruvbox-black :background ,gruvbox-neutral_yellow))))
+    `(lazy-highlight           ((t (:foreground ,gruvbox-black :background ,gruvbox-neutral_yellow))))
     `(isearch-fail                  ((t (:foreground ,gruvbox-light0 :background ,gruvbox-bright_red))))
 
     ;; anzu-mode
