@@ -362,7 +362,11 @@
     `(persp-selected-face   ((t (:foreground ,gruvbox-neutral_orange))))
 
     ;; anzu-mode
-    `(anzu-mode-line        ((t (:foreground ,gruvbox-bright_yellow :weight bold)))))
+    `(anzu-mode-line        ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
+    `(anzu-match-1          ((t (:background ,gruvbox-bright_green))))
+    `(anzu-match-2          ((t (:background ,gruvbox-faded_yellow))))
+    `(anzu-match-3          ((t (:background ,gruvbox-aquamarine4))))
+    `(anzu-replace-to       ((t (:foreground ,gruvbox-bright_yellow)))))
 
 
 (custom-theme-set-variables
