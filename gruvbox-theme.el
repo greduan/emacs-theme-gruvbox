@@ -40,7 +40,8 @@
 
 (defcustom gruvbox-contrast 'medium
   "Contrast level for the theme background."
-  :options '(soft medium hard))
+  :options '(soft medium hard)
+  :group   '(gruvbox-theme))
 
 (deftheme gruvbox "A retro-groove colour theme")
 (let* ((gruvbox-dark0_hard  "#1d2021" )
@@ -116,7 +117,7 @@
     `(fringe                            ((t (:background ,gruvbox-dark0_hard))))
     `(linum                             ((t (:background ,gruvbox-bg :foreground ,gruvbox-dark4))))
     `(hl-line                           ((t (:background ,gruvbox-dark1))))
-    `(linum-highlight-face              ((t (:background ,gruvbox-dark1))))
+    `(linum-highlight-face              ((t (:background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
     `(region                            ((t (:background ,gruvbox-dark2)))) ;;selection
     `(secondary-selection               ((t (:background ,gruvbox-dark1))))
     `(minibuffer-prompt                 ((t (:background ,gruvbox-bg :foreground ,gruvbox-neutral_green :bold t))))
@@ -373,7 +374,12 @@
     `(anzu-match-2          ((t (:background ,gruvbox-faded_yellow))))
     `(anzu-match-3          ((t (:background ,gruvbox-aquamarine4))))
     `(anzu-replace-to       ((t (:foreground ,gruvbox-bright_yellow))))
-    `(anzu-replace-highlight ((t (:inherit isearch)))))
+    `(anzu-replace-highlight ((t (:inherit isearch))))
+
+    ;; Show-paren-mode
+    `(show-paren-match      ((t (:background ,gruvbox-dark3 :weight bold))))
+    `(show-paren-mismatch   ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark3 :weight bold))))
+    )
 
   
 
