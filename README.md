@@ -19,6 +19,7 @@ This theme contains custom support for the following features and plugins:
 - [ElScreen](https://github.com/knu/elscreen)
 - [ag.el](https://github.com/Wilfred/ag.el)
 - [js2-mode](https://github.com/mooz/js2-mode)
+- [Anzu](https://github.com/syohex/emacs-anzu#customization) support
 - Diffs
 - Term
 - Helm
@@ -67,7 +68,6 @@ None.  For now...
 
 ## To-do
 
-- [Anzu](https://github.com/syohex/emacs-anzu#customization) support
 - [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode/blob/8351e2df4fbbeb2a4003f2fb39f46d33803f3dac/ace-jump-mode.el#L287) support
 - Light version of theme.
 
