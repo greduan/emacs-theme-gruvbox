@@ -380,7 +380,7 @@
 
     ;; Ace-window
     `(aw-background-face        ((t (:forground  ,gruvbox-light1 :background ,gruvbox-bg :inverse-video nil))))
-    `(aw-leading-char-face ((t (:foreground ,gruvbox-bright_orange :background ,gruvbox-bg :height 4.0 :box 1))))
+    `(aw-leading-char-face ((t (:foreground ,gruvbox-bright_orange :background ,gruvbox-bg :height 4.0 :box (:line-width 1 :color ,gruvbox-bright_orange)))))
     )
 
 
