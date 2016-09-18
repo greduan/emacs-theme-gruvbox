@@ -381,6 +381,7 @@
     ;; Ace-window
     `(aw-background-face        ((t (:forground  ,gruvbox-light1 :background ,gruvbox-bg :inverse-video nil))))
     `(aw-leading-char-face ((t (:foreground ,gruvbox-bright_orange :background ,gruvbox-bg :height 4.0 :box (:line-width 1 :color ,gruvbox-bright_orange)))))
+    
     ;; show-paren
     `(show-paren-match      ((t (:background ,gruvbox-dark3 :weight bold))))
     `(show-paren-mismatch   ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark3 :weight bold))))
