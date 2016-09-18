@@ -111,7 +111,7 @@
 
     ;; UI
     `(default                           ((t (:background ,gruvbox-bg :foreground ,gruvbox-light0))))
-    `(cursor                            ((t (:background ,gruvbox-light4 :foreground ,gruvbox-neutral_yellow))))
+    `(cursor                            ((t (:background ,gruvbox-light4))))
     `(mode-line                         ((t (:box nil :background ,gruvbox-dark2 :foreground ,gruvbox-light2))))
     `(mode-line-inactive                ((t (:box nil :background ,gruvbox-dark1 :foreground ,gruvbox-light4))))
     `(fringe                            ((t (:background ,gruvbox-dark0_hard))))
@@ -379,6 +379,14 @@
     ;; Show-paren-mode
     `(show-paren-match      ((t (:background ,gruvbox-dark3 :weight bold))))
     `(show-paren-mismatch   ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark3 :weight bold))))
+
+    ;; Ace-jump-mode
+    `(ace-jump-face-background  ((t (:foreground ,gruvbox-light4 :background ,gruvbox-bg :inverse-video nil))))
+    `(ace-jump-face-foreground  ((t (:foreground ,gruvbox-bright_red :background ,gruvbox-bg :inverse-video nil :box 1))))
+
+    ;; Ace-window
+    `(aw-background-face        ((t (:forground  ,gruvbox-light1 :background ,gruvbox-bg :inverse-video nil))))
+    `(aw-leading-char-face ((t (:foreground ,gruvbox-bright_orange :background ,gruvbox-bg :height 4.0 :box 1))))
     )
 
   
