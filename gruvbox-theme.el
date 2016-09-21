@@ -366,6 +366,14 @@
     `(lazy-highlight           ((t (:foreground ,gruvbox-black :background ,gruvbox-neutral_yellow))))
     `(isearch-fail                  ((t (:foreground ,gruvbox-light0 :background ,gruvbox-bright_red))))
 
+    ;; markdown-mode
+    `(markdown-header-face-1                       ((t (:foreground ,gruvbox-neutral_blue))))
+    `(markdown-header-face-2                       ((t (:foreground ,gruvbox-neutral_yellow))))
+    `(markdown-header-face-3                       ((t (:foreground ,gruvbox-neutral_purple))))
+    `(markdown-header-face-4                       ((t (:foreground ,gruvbox-neutral_red))))
+    `(markdown-header-face-5                       ((t (:foreground ,gruvbox-neutral_green))))
+    `(markdown-header-face-6                       ((t (:foreground ,gruvbox-neutral_aqua))))
+    
     ;; anzu-mode
     `(anzu-mode-line        ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
     `(anzu-match-1          ((t (:background ,gruvbox-bright_green))))
