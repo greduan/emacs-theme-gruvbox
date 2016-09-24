@@ -387,6 +387,18 @@
     ;; Ace-window
     `(aw-background-face        ((t (:forground  ,gruvbox-light1 :background ,gruvbox-bg :inverse-video nil))))
     `(aw-leading-char-face ((t (:foreground ,gruvbox-bright_orange :background ,gruvbox-bg :height 4.0 :box 1))))
+
+    ;; Ivy
+    `(ivy-confirm-face              ((t (:foreground ,gruvbox-faded_green :background ,gruvbox-bg))))
+    `(ivy-match-required-face       ((t (:foreground ,gruvbox-neutral_red :background ,gruvbox-bg))))
+    `(ivy-remote                    ((t (:foreground ,gruvbox-bright_blue :background ,gruvbox-bg))))
+    `(ivy-subdir                    ((t (:foreground ,gruvbox-bright_yellow :background ,gruvbox-bg))))
+    `(ivy-current-match             ((t (:foreground ,gruvbox-white :background ,gruvbox-turquoise4 :weight bold :underline t))))
+    `(ivy-minibuffer-match-face-1   ((t (:foreground ,gruvbox-neutral_orange :background ,gruvbox-dark2))))
+    `(ivy-minibuffer-match-face-2   ((t (:foreground ,gruvbox-neutral_yellow :background ,gruvbox-dark2))))
+    `(ivy-minibuffer-match-face-3   ((t (:foreground ,gruvbox-faded_orange :background ,gruvbox-dark2))))
+    `(ivy-minibuffer-match-face-4   ((t (:foreground ,gruvbox-faded_yellow :background ,gruvbox-dark2))))
+    `(ivy-modified-buffer)
     )
 
   
