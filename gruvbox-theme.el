@@ -86,6 +86,10 @@
       (gruvbox-faded_aqua     (if (display-graphic-p) "#427b58" "color-66"))
       (gruvbox-faded_orange   (if (display-graphic-p) "#af3a03" "color-130"))
 
+      (gruvbox-dark_red        (if (display-graphic-p) "#421E1E" "color-52"))
+      (gruvbox-dark_blue       (if (display-graphic-p) "#2B3C44" "color-4"))
+      (gruvbox-dark_aqua       (if (display-graphic-p) "#36473A" "color-23"))
+
       (gruvbox-delimiter-one    (if (display-graphic-p) "#458588" "color-30"))
       (gruvbox-delimiter-two    (if (display-graphic-p) "#b16286" "color-168"))
       (gruvbox-delimiter-three  (if (display-graphic-p) "#8ec07c" "color-108"))
@@ -385,6 +389,27 @@
     ;; show-paren
     `(show-paren-match      ((t (:background ,gruvbox-dark3 :weight bold))))
     `(show-paren-mismatch   ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark3 :weight bold))))
+
+    ;; MODE SUPPORT: dired+
+    `(diredp-file-name                          ((t (:foreground ,gruvbox-light2 ))))
+    `(diredp-file-suffix                        ((t (:foreground ,gruvbox-light4 ))))
+    `(diredp-compressed-file-suffix             ((t (:foreground ,gruvbox-faded_blue ))))
+    `(diredp-dir-name                           ((t (:foreground ,gruvbox-faded_blue ))))
+    `(diredp-dir-heading                        ((t (:foreground ,gruvbox-bright_blue ))))
+    `(diredp-symlink                            ((t (:foreground ,gruvbox-bright_orange ))))
+    `(diredp-date-time                          ((t (:foreground ,gruvbox-light3 ))))
+    `(diredp-number                             ((t (:foreground ,gruvbox-faded_blue ))))
+    `(diredp-no-priv                            ((t (:foreground ,gruvbox-dark4 ))))
+    `(diredp-other-priv                         ((t (:foreground ,gruvbox-dark2 ))))
+    `(diredp-rare-priv                          ((t (:foreground ,gruvbox-dark4 ))))
+    `(diredp-ignored-file-name                  ((t (:foreground ,gruvbox-dark4 ))))
+   
+    `(diredp-dir-priv                           ((t (:foreground ,gruvbox-faded_blue  :background ,gruvbox-dark_blue))))
+    `(diredp-exec-priv                          ((t (:foreground ,gruvbox-faded_blue  :background ,gruvbox-dark_blue))))
+    `(diredp-link-priv                          ((t (:foreground ,gruvbox-faded_aqua  :background ,gruvbox-dark_aqua))))
+    `(diredp-read-priv                          ((t (:foreground ,gruvbox-bright_red  :background ,gruvbox-dark_red))))
+    `(diredp-write-priv                         ((t (:foreground ,gruvbox-bright_aqua :background ,gruvbox-dark_aqua))))
+
 )
 
 
