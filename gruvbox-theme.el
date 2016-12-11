@@ -42,8 +42,6 @@
   "Contrast level for the theme background."
   :options '(soft medium hard))
 
-(deftheme gruvbox "A retro-groove colour theme")
-
 (defmacro gruvbox-with-colors-for-variant (variant &rest body)
   "Evaluate BODY with the gruvbox colors for VARIANT bound."
   (declare (indent 0))
@@ -449,8 +447,6 @@
                                 ,gruvbox-neutral_aqua
                                 ,gruvbox-light1]))))
 
-(gruvbox-create-theme 'dark 'gruvbox)
-
 (defun gruvbox-set-ansi-color-names-vector ()
   "Give comint and the like the same colours as the term colours we set."
   (setq ansi-color-names-vector
@@ -464,7 +460,7 @@
                  (file-name-as-directory
                   (file-name-directory load-file-name))))
 
-(provide-theme 'gruvbox)
+(provide 'gruvbox-theme)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
