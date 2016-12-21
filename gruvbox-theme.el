@@ -439,27 +439,27 @@
     )
 
     ;; Set some variables
-    ;; (custom-theme-set-variables
-    ;;     'gruvbox
+    (custom-theme-set-variables
+        'gruvbox
 
-    ;;     ;; Frame-Background
-    ;;     '(frame-background-mode 'dark)
+        ;; Frame-Background
+        '(frame-background-mode 'dark)
 
-    ;;     ;; FCI-Mode
-    ;;     '(fci-rule-color gruvbox-neutral-blue)
+        ;; FCI-Mode
+        '(fci-rule-color gruvbox-neutral-blue)
 
-    ;;     ;; Ansi Colors
-    ;;     '(ansi-color-names-vector
-    ;;          [
-    ;;              gruvbox-dark0
-    ;;              gruvbox-bright-red
-    ;;              gruvbox-bright-green
-    ;;              gruvbox-bright-yellow
-    ;;              gruvbox-bright-blue
-    ;;              gruvbox-bright-purple
-    ;;              gruvbox-bright-aqua
-    ;;              gruvbox-light1])
-    ;; )
+        ;; Ansi Colors
+        '(ansi-color-names-vector
+             [
+                 gruvbox-dark0
+                 gruvbox-bright-red
+                 gruvbox-bright-green
+                 gruvbox-bright-yellow
+                 gruvbox-bright-blue
+                 gruvbox-bright-purple
+                 gruvbox-bright-aqua
+                 gruvbox-light1])
+    )
 )
 
 
