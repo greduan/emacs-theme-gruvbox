@@ -3,6 +3,7 @@
 ;;; Code:
 (eval-when-compile
   (require 'cl-lib))
+(require 'cl)
 
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
