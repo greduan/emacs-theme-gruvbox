@@ -1,6 +1,43 @@
 ;;; gruvbox-theme.el --- A retro-groove colour theme for Emacs
 
+;; Copyright (c) 2013 Lee Machin
+;; Copyright (c) 2013-2016 Greduan
+
+;; Authors: Lee Machin <ljmachin@gmail.com>,
+;;          Greduan <me@greduan.com>,
+;;          Jason Milkins <jasonm23@gmail.com>,
+;;          Mekeor <... please add>
+;; Maintainer: jasonm23 <jasonm23@gmail.com>
+;; URL: http://github.com/Greduan/emacs-theme-gruvbox
+;;
+;; Version: 0.2.0
+
+;;; Commentary:
+;;
+;; A port of the Gruvbox colorscheme for Vim, built on top of the new built-in
+;; theme support in Emacs 24.
+;;
+;; This theme contains my own modifications and it's a bit opinionated
+;; sometimes, deviating from the original because of it. I try to stay true to
+;; the original as much as possible, however. I only make changes where I would
+;; have made the changes on the original.
+;;
+;; Since there is no direct equivalent in syntax highlighting from Vim to Emacs
+;; some stuff may look different, especially in stuff like JS2-mode, where it
+;; adds stuff that Vim doesn't have, in terms of syntax.
+
+;; Versions after 0.2.0 are using Autothemer - https://github.com/sebastiansturm/autothemer
+
+;;; Credits:
+
+;; Pavel Pertsev created the original theme for Vim, on which this port
+;; is based.
+
+;; Lee Machin created the first port of the original theme, which I'm working on
+;; to make better and more feature complete.
+
 ;;; Code:
+
 (eval-when-compile
   (require 'cl-lib))
 (require 'cl)
@@ -50,36 +87,35 @@
   (gruvbox-neutral-red    "#cc241d" "#af0000" "red")
   (gruvbox-neutral-green  "#98971a" "#87af00" "green")
   (gruvbox-neutral-yellow "#d79921" "#d78700" "yellow")
-  (gruvbox-neutral-blue   "#458588" "#5f8787"  "blue")
+  (gruvbox-neutral-blue   "#458588" "#5f8787" "blue")
   (gruvbox-neutral-purple "#b16286" "#af5f87" "magenta")
-  (gruvbox-neutral-aqua   "#689d6a" "#5faf87"  "cyan")
+  (gruvbox-neutral-aqua   "#689d6a" "#5faf87" "cyan")
   (gruvbox-neutral-orange "#d65d0e" "#d75f00" "yellow")
 
-  (gruvbox-faded-red      "#9d0006" "#870000"  "red")
+  (gruvbox-faded-red      "#9d0006" "#870000" "red")
   (gruvbox-faded-green    "#79740e" "#878700" "green")
   (gruvbox-faded-yellow   "#b57614" "#af8700" "yellow")
-  (gruvbox-faded-blue     "#076678" "#005f87"  "blue")
-  (gruvbox-faded-purple   "#8f3f71" "#875f87"  "magenta")
-  (gruvbox-faded-aqua     "#427b58" "#5f8787"  "cyan")
+  (gruvbox-faded-blue     "#076678" "#005f87" "blue")
+  (gruvbox-faded-purple   "#8f3f71" "#875f87" "magenta")
+  (gruvbox-faded-aqua     "#427b58" "#5f8787" "cyan")
   (gruvbox-faded-orange   "#af3a03" "#af5f00" "yellow")
 
   (gruvbox-dark-red        "#421E1E" "#5f0000" "red")
-  (gruvbox-dark-blue       "#2B3C44" "#000080"  "blue")
+  (gruvbox-dark-blue       "#2B3C44" "#000080" "blue")
   (gruvbox-dark-aqua       "#36473A" "#005f5f" "cyan")
 
-  (gruvbox-delimiter-one   "#458588" "#008787"       nil)
-  (gruvbox-delimiter-two   "#b16286" "#d75f87"      nil)
-  (gruvbox-delimiter-three "#8ec07c" "#87af87"      nil)
-  (gruvbox-delimiter-four  "#d65d0e" "#d75f00"      nil)
-  (gruvbox-white           "#FFFFFF" "white"          nil)
-  (gruvbox-black           "#000000" "black"          nil)
-  (gruvbox-sienna          "#DD6F48" "sienna"         nil)
+  (gruvbox-delimiter-one   "#458588" "#008787" nil)
+  (gruvbox-delimiter-two   "#b16286" "#d75f87" nil)
+  (gruvbox-delimiter-three "#8ec07c" "#87af87" nil)
+  (gruvbox-delimiter-four  "#d65d0e" "#d75f00" nil)
+  (gruvbox-white           "#FFFFFF" "white"   nil)
+  (gruvbox-black           "#000000" "black"   nil)
+  (gruvbox-sienna          "#DD6F48" "sienna"  nil)
   (gruvbox-darkslategray4  "#528B8B" "DarkSlateGray4" nil)
   (gruvbox-lightblue4      "#66999D" "LightBlue4"     nil)
   (gruvbox-burlywood4      "#BBAA97" "burlywood4"     nil)
   (gruvbox-aquamarine4     "#83A598" "aquamarine4"    nil)
   (gruvbox-turquoise4      "#61ACBB" "turquoise4"     nil))
-
 
  ((default             (:background gruvbox-bg :foreground gruvbox-light0))
   (cursor              (:background gruvbox-light0))
