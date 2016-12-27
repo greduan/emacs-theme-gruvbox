@@ -35,6 +35,9 @@
 (eval-when-compile
   (require 'cl-lib))
 
+(eval-when-compile
+  (require 'cl-macs))
+
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
 
