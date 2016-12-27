@@ -7,7 +7,7 @@
 ;;          Greduan <me@greduan.com>
 ;; Maintainer: jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 0.17
+;; Version: 0.18
 
 ;;; Commentary:
 
@@ -15,9 +15,9 @@
 ;; theme support in Emacs 24.
 ;;
 ;; This theme contains my own modifications and it's a bit opinionated
-;; sometimes, deviating from the original because of it. I try to stay true to
-;; the original as much as possible, however. I only make changes where I would
-;; have made the changes on the original.
+;; sometimes, deviating from the original because of it. I try to stay
+;; true to the original as much as possible, however. I only make
+;; changes where I would have made the changes on the original.
 ;;
 ;; Since there is no direct equivalent in syntax highlighting from Vim to Emacs
 ;; some stuff may look different, especially in stuff like JS2-mode, where it
@@ -104,10 +104,10 @@
       (gruvbox-turquoise4       (if (display-graphic-p) "#61ACBB" "turquoise4"))
 
       (gruvbox-bg (cl-case gruvbox-contrast
-		    (hard gruvbox-dark0_hard)
-		    (soft gruvbox-dark0_soft)
-		    ;; Medium by default.
-		    (t    gruvbox-dark0))))
+        (hard gruvbox-dark0_hard)
+        (soft gruvbox-dark0_soft)
+        ;; Medium by default.
+        (t    gruvbox-dark0))))
 
   (custom-theme-set-faces
     'gruvbox
@@ -377,7 +377,7 @@
     `(markdown-header-face-4                       ((t (:foreground ,gruvbox-neutral_red))))
     `(markdown-header-face-5                       ((t (:foreground ,gruvbox-neutral_green))))
     `(markdown-header-face-6                       ((t (:foreground ,gruvbox-neutral_aqua))))
-    
+
     ;; anzu-mode
     `(anzu-mode-line        ((t (:foreground ,gruvbox-bright_yellow :weight bold))))
     `(anzu-match-1          ((t (:background ,gruvbox-bright_green))))
