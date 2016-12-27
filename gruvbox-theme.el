@@ -7,7 +7,7 @@
 ;;          Greduan <me@greduan.com>
 ;; Maintainer: jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 1.00
+;; Version: 1.01
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -403,6 +403,13 @@
   ;; show-paren
   (show-paren-match                                                (:background gruvbox-dark3 :weight 'bold))
   (show-paren-mismatch                                             (:background gruvbox-bright_red :foreground gruvbox-dark3 :weight 'bold))
+
+  ;; ivy
+  (ivy-current-match                                               (:foreground ,gruvbox-white :weight bold :underline t))
+  (ivy-minibuffer-match-face-1                                     (:foreground ,gruvbox-neutral_orange))
+  (ivy-minibuffer-match-face-2                                     (:foreground ,gruvbox-neutral_yellow))
+  (ivy-minibuffer-match-face-3                                     (:foreground ,gruvbox-faded_orange))
+  (ivy-minibuffer-match-face-4                                     (:foreground ,gruvbox-faded_yellow))
 
   ;; MODE SUPPORT: dired+
   (diredp-file-name                                                (:foreground gruvbox-light2))
