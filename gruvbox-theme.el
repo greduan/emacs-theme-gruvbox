@@ -53,15 +53,15 @@
 
       (gruvbox-medium      (if (display-graphic-p) "#928374" "color-245")) ;; or 244
 
-      (gruvbox-light0_hard (if (display-graphic-p) "#ffffc8" "color-230"))
-      (gruvbox-light0      (if (display-graphic-p) "#fdf4c1" "color-229"))
-      (gruvbox-light0_soft (if (display-graphic-p) "#f4e8ba" "color-228"))
+      (gruvbox-light0_hard (if (display-graphic-p) "#f9f5d7" "color-230"))
+      (gruvbox-light0      (if (display-graphic-p) "#fbf1c7" "color-229"))
+      (gruvbox-light0_soft (if (display-graphic-p) "#f2e5bc" "color-228"))
       (gruvbox-light1      (if (display-graphic-p) "#ebdbb2" "color-223"))
       (gruvbox-light2      (if (display-graphic-p) "#d5c4a1" "color-250"))
       (gruvbox-light3      (if (display-graphic-p) "#bdae93" "color-248"))
       (gruvbox-light4      (if (display-graphic-p) "#a89984" "color-246"))
 
-      (gruvbox-bright_red     (if (display-graphic-p) "#fb4933" "color-167"))
+      (gruvbox-bright_red     (if (display-graphic-p) "#fb4934" "color-167"))
       (gruvbox-bright_green   (if (display-graphic-p) "#b8bb26" "color-142"))
       (gruvbox-bright_yellow  (if (display-graphic-p) "#fabd2f" "color-214"))
       (gruvbox-bright_blue    (if (display-graphic-p) "#83a598" "color-109"))
@@ -70,13 +70,13 @@
       (gruvbox-bright_orange  (if (display-graphic-p) "#fe8019" "color-208"))
 
       ;; neutral, no 256-color code, requested, nice work-around meanwhile
-      (gruvbox-neutral_red    (if (display-graphic-p) "#fb4934" "#d75f5f"))
-      (gruvbox-neutral_green  (if (display-graphic-p) "#b8bb26" "#afaf00"))
-      (gruvbox-neutral_yellow (if (display-graphic-p) "#fabd2f" "#ffaf00"))
-      (gruvbox-neutral_blue   (if (display-graphic-p) "#83a598" "#87afaf"))
-      (gruvbox-neutral_purple (if (display-graphic-p) "#d3869b" "#d787af"))
-      (gruvbox-neutral_aqua   (if (display-graphic-p) "#8ec07c" "#87af87"))
-      (gruvbox-neutral_orange (if (display-graphic-p) "#fe8019" "#ff8700"))
+      (gruvbox-neutral_red    (if (display-graphic-p) "#cc241d" "#d75f5f"))
+      (gruvbox-neutral_green  (if (display-graphic-p) "#98971a" "#afaf00"))
+      (gruvbox-neutral_yellow (if (display-graphic-p) "#d79921" "#ffaf00"))
+      (gruvbox-neutral_blue   (if (display-graphic-p) "#458588" "#87afaf"))
+      (gruvbox-neutral_purple (if (display-graphic-p) "#b16286" "#d787af"))
+      (gruvbox-neutral_aqua   (if (display-graphic-p) "#689d6a" "#87af87"))
+      (gruvbox-neutral_orange (if (display-graphic-p) "#d65d0e" "#ff8700"))
 
       (gruvbox-faded_red      (if (display-graphic-p) "#9d0006" "color-88"))
       (gruvbox-faded_green    (if (display-graphic-p) "#79740e" "color-100"))
@@ -385,7 +385,7 @@
     ;; Ace-window
     `(aw-background-face        ((t (:forground  ,gruvbox-light1 :background ,gruvbox-bg :inverse-video nil))))
     `(aw-leading-char-face ((t (:foreground ,gruvbox-bright_orange :background ,gruvbox-bg :height 4.0 :box (:line-width 1 :color ,gruvbox-bright_orange)))))
-    
+
     ;; show-paren
     `(show-paren-match      ((t (:background ,gruvbox-dark3 :weight bold))))
     `(show-paren-mismatch   ((t (:background ,gruvbox-bright_red :foreground ,gruvbox-dark3 :weight bold))))
@@ -403,7 +403,7 @@
     `(diredp-other-priv                         ((t (:foreground ,gruvbox-dark2 ))))
     `(diredp-rare-priv                          ((t (:foreground ,gruvbox-dark4 ))))
     `(diredp-ignored-file-name                  ((t (:foreground ,gruvbox-dark4 ))))
-   
+
     `(diredp-dir-priv                           ((t (:foreground ,gruvbox-faded_blue  :background ,gruvbox-dark_blue))))
     `(diredp-exec-priv                          ((t (:foreground ,gruvbox-faded_blue  :background ,gruvbox-dark_blue))))
     `(diredp-link-priv                          ((t (:foreground ,gruvbox-faded_aqua  :background ,gruvbox-dark_aqua))))
