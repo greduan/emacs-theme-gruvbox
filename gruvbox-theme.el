@@ -2,12 +2,16 @@
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Greduan
+;; Copyright (c) 2016-2017 Jason Milkins
 
-;; Authors: Lee Machin <ljmachin@gmail.com>
-;;          Greduan <me@greduan.com>
-;; Maintainer: jasonm23 <jasonm23@gmail.com>
+;; Author: Jason Milkins <jasonm23@gmail.com>
+;; (current maintainer)
+;;
+;; Author-list: Lee Machin <ljmachin@gmail.com>,
+;;              Greduan <me@greduan.com>
+;;
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 1.10.0
+;; Version: 1.11.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -32,8 +36,12 @@
 ;; Pavel Pertsev created the original theme for Vim, on which this port
 ;; is based.
 
-;; Lee Machin created the first port of the original theme, which I'm working on
-;; to make better and more feature complete.
+;; Lee Machin created the first port of the original theme, which
+;; Greduan developed further adding support for several major modes.
+;;
+;; Jason Milkins (ocodo) has maintained the theme since 2015 and is
+;; working with the community to add further mode support and align
+;; the project more closely with Vim Gruvbox.
 
 ;;; Code:
 (eval-when-compile
@@ -63,7 +71,7 @@
   (gruvbox-dark3           "#665c54" "#626262")
   (gruvbox-dark4           "#7c6f64" "#767676")
 
-  (gruvbox-medium          "#928374" "#8a8a8a")
+  (gruvbox-gray            "#928374" "#8a8a8a")
 
   (gruvbox-light0_hard     "#ffffc8" "#ffffdf")
   (gruvbox-light0          "#fdf4c1" "#ffffaf")
@@ -123,8 +131,8 @@
  ;; UI
  ((default                                   (:background gruvbox-bg :foreground gruvbox-light0))
   (cursor                                    (:background gruvbox-light0))
-  (mode-line                                 (:box nil :background gruvbox-dark2 :foreground gruvbox-light2))
-  (mode-line-inactive                        (:box nil :background gruvbox-dark1 :foreground gruvbox-light4))
+  (mode-line                                 (:background gruvbox-dark2 :foreground gruvbox-light2 :box nil))
+  (mode-line-inactive                        (:background gruvbox-dark1 :foreground gruvbox-light4 :box nil))
   (fringe                                    (:background gruvbox-bg))
   (linum                                     (:background gruvbox-bg :foreground gruvbox-dark4))
   (hl-line                                   (:background gruvbox-dark1))
@@ -188,10 +196,10 @@
   ;;(sp-wrap-tag-overlay-face                 (:inherit 'sp-wrap-overlay-face))
 
   ;; elscreen
-  (elscreen-tab-background-face              (:box nil :background gruvbox-bg)) ;; Tab bar, not the tabs
-  (elscreen-tab-control-face                 (:box nil :background gruvbox-dark2 :foreground gruvbox-neutral_red :underline nil)) ;; The controls
-  (elscreen-tab-current-screen-face          (:box nil :background gruvbox-dark4 :foreground gruvbox-dark0)) ;; Current tab
-  (elscreen-tab-other-screen-face            (:box nil :background gruvbox-dark2 :foreground gruvbox-light4 :underline nil)) ;; Inactive tab
+  (elscreen-tab-background-face              (:background gruvbox-bg :box nil)) ;; Tab bar, not the tabs
+  (elscreen-tab-control-face                 (:background gruvbox-dark2 :foreground gruvbox-neutral_red :underline nil :box nil)) ;; The controls
+  (elscreen-tab-current-screen-face          (:background gruvbox-dark4 :foreground gruvbox-dark0 :box nil)) ;; Current tab
+  (elscreen-tab-other-screen-face            (:background gruvbox-dark2 :foreground gruvbox-light4 :underline nil :box nil)) ;; Inactive tab
 
   ;; ag (The Silver Searcher)
   (ag-hit-face                               (:foreground gruvbox-neutral_blue))
@@ -208,7 +216,7 @@
   (js2-warning                               (:underline (:color gruvbox-bright_yellow :style 'wave)))
   (js2-error                                 (:underline (:color gruvbox-bright_red :style 'wave)))
   (js2-external-variable                     (:underline (:color gruvbox-bright_aqua :style 'wave)))
-  (js2-jsdoc-tag                             (:background nil :foreground gruvbox-medium))
+  (js2-jsdoc-tag                             (:background nil :foreground gruvbox-gray  ))
   (js2-jsdoc-type                            (:background nil :foreground gruvbox-light4))
   (js2-jsdoc-value                           (:background nil :foreground gruvbox-light3))
   (js2-function-param                        (:background nil :foreground gruvbox-bright_aqua))
@@ -317,7 +325,7 @@
   (org-drawer                                (:inherit 'font-lock-function-face))
   (org-column                                (:background gruvbox-dark0))
   (org-column-title                          (:background gruvbox-dark0 :underline t :weight 'bold))
-  (org-warning                               (:bold t :foreground gruvbox-neutral_red :weight 'bold :underline nil))
+  (org-warning                               (:foreground gruvbox-neutral_red :weight 'bold :underline nil :bold t))
   (org-archived                              (:foreground gruvbox-light0 :weight 'bold))
   (org-link                                  (:foreground gruvbox-faded_aqua :underline t))
   (org-footnote                              (:foreground gruvbox-neutral_aqua :underline t))
@@ -326,8 +334,8 @@
   (org-sexp-date                             (:foreground gruvbox-faded_blue :underline t))
   (org-tag                                   (:bold t :weight 'bold))
   (org-list-dt                               (:bold t :weight 'bold))
-  (org-todo                                  (:bold t :foreground gruvbox-neutral_red :weight 'bold))
-  (org-done                                  (:bold t :foreground gruvbox-neutral_aqua :weight 'bold))
+  (org-todo                                  (:foreground gruvbox-neutral_red :weight 'bold :bold t))
+  (org-done                                  (:foreground gruvbox-neutral_aqua :weight 'bold :bold t))
   (org-agenda-done                           (:foreground gruvbox-neutral_aqua))
   (org-headline-done                         (:foreground gruvbox-neutral_aqua))
   (org-table                                 (:foreground gruvbox-neutral_blue))
@@ -354,7 +362,7 @@
   (org-habit-overdue-future-face             (:background gruvbox-neutral_red))
 
   ;; elfeed
-  (elfeed-search-title-face                  (:foreground gruvbox-medium))
+  (elfeed-search-title-face                  (:foreground gruvbox-gray  ))
   (elfeed-search-unread-title-face           (:foreground gruvbox-light0))
   (elfeed-search-date-face                   (:inherit 'font-lock-builtin-face :underline t))
   (elfeed-search-feed-face                   (:inherit 'font-lock-variable-name-face))
