@@ -435,14 +435,15 @@
   (diredp-write-priv                         (:foreground gruvbox-bright_aqua :background gruvbox-dark_aqua)))
 
  (custom-theme-set-variables 'gruvbox
-                             `(ansi-color-names-vector [,gruvbox-dark1
-                                                        ,gruvbox-neutral_red
-                                                        ,gruvbox-neutral_green
-                                                        ,gruvbox-neutral_yellow
-                                                        ,gruvbox-neutral_blue
-                                                        ,gruvbox-neutral_purple
-                                                        ,gruvbox-neutral_aqua
-                                                        ,gruvbox-light1])))
+                             `(ansi-color-names-vector
+                               [,gruvbox-dark1
+                                ,gruvbox-neutral_red
+                                ,gruvbox-neutral_green
+                                ,gruvbox-neutral_yellow
+                                ,gruvbox-neutral_blue
+                                ,gruvbox-neutral_purple
+                                ,gruvbox-neutral_aqua
+                                ,gruvbox-light1])))
 
 ;;;###autoload
 (and load-file-name
