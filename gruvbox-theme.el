@@ -7,7 +7,7 @@
 ;;          Greduan <me@greduan.com>
 ;; Maintainer: jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 1.04
+;; Version: 1.10.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -52,70 +52,67 @@
  gruvbox
  "A retro-groove colour theme"
 
- ((((class color) (min-colors #xFFFFFF) (background dark))   ;; color column 1 GUI/24bit
-   ((class color) (min-colors #xFF)     (background dark))   ;; color column 2 Xterm/256
+ ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
+   ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
 
-   ((class color) (min-colors #xFFFFFF) (background light))  ;; color column 1 GUI/24bit
-   ((class color) (min-colors #xFF)     (background light))) ;; color column 2 Xterm/256
+  (gruvbox-dark0_hard      "#1d2021" "#1c1c1c")
+  (gruvbox-dark0           "#282828" "#262626")
+  (gruvbox-dark0_soft      "#32302f" "#303030")
+  (gruvbox-dark1           "#3c3836" "#3a3a3a")
+  (gruvbox-dark2           "#504945" "#4e4e4e")
+  (gruvbox-dark3           "#665c54" "#626262")
+  (gruvbox-dark4           "#7c6f64" "#767676")
 
-  (gruvbox-dark0_hard     "#1d2021" "#1c1c1c" "#f9f5d7" "#ffffdf")
-  (gruvbox-dark0          "#282828" "#262626" "#fbf1c7" "#ffffaf")
-  (gruvbox-dark0_soft     "#32302f" "#303030" "#f2e5bc" "#ffff87")
-  (gruvbox-dark1          "#3c3836" "#3a3a3a" "#ebdbb2" "#ffdfaf")
-  (gruvbox-dark2          "#504945" "#4e4e4e" "#d5c4a1" "#bcbcbc")
-  (gruvbox-dark3          "#665c54" "#626262" "#bdae93" "#a8a8a8")
-  (gruvbox-dark4          "#7c6f64" "#767676" "#a89984" "#949494")
+  (gruvbox-medium          "#928374" "#8a8a8a")
 
-  (gruvbox-medium         "#928374" "#8a8a8a" "#928374" "#8a8a8a")
+  (gruvbox-light0_hard     "#ffffc8" "#ffffdf")
+  (gruvbox-light0          "#fdf4c1" "#ffffaf")
+  (gruvbox-light0_soft     "#f4e8ba" "#ffff87")
+  (gruvbox-light1          "#ebdbb2" "#ffdfaf")
+  (gruvbox-light2          "#d5c4a1" "#bcbcbc")
+  (gruvbox-light3          "#bdae93" "#a8a8a8")
+  (gruvbox-light4          "#a89984" "#949494")
 
-  (gruvbox-light0_hard    "#f9f5d7" "#ffffdf" "#1d2021" "#1c1c1c")
-  (gruvbox-light0         "#fbf1c7" "#ffffaf" "#282828" "#262626")
-  (gruvbox-light0_soft    "#f2e5bc" "#ffff87" "#32302f" "#303030")
-  (gruvbox-light1         "#ebdbb2" "#ffdfaf" "#3c3836" "#3a3a3a")
-  (gruvbox-light2         "#d5c4a1" "#bcbcbc" "#504945" "#4e4e4e")
-  (gruvbox-light3         "#bdae93" "#a8a8a8" "#665c54" "#626262")
-  (gruvbox-light4         "#a89984" "#949494" "#7c6f64" "#767676")
+  (gruvbox-bright_red      "#fb4933" "#d75f5f")
+  (gruvbox-bright_green    "#b8bb26" "#afaf00")
+  (gruvbox-bright_yellow   "#fabd2f" "#ffaf00")
+  (gruvbox-bright_blue     "#83a598" "#87afaf")
+  (gruvbox-bright_purple   "#d3869b" "#d787af")
+  (gruvbox-bright_aqua     "#8ec07c" "#87af87")
+  (gruvbox-bright_orange   "#fe8019" "#ff8700")
 
-  (gruvbox-bright_red     "#fb4934" "#d75f5f" "#9d0006" "#870000")
-  (gruvbox-bright_green   "#b8bb26" "#afaf00" "#79740e" "#878700")
-  (gruvbox-bright_yellow  "#fabd2f" "#ffaf00" "#b57614" "#af8700")
-  (gruvbox-bright_blue    "#83a598" "#87afaf" "#076678" "#005f87")
-  (gruvbox-bright_purple  "#d3869b" "#d787af" "#8f3f71" "#875f87")
-  (gruvbox-bright_aqua    "#8ec07c" "#87af87" "#427b58" "#5f8787")
-  (gruvbox-bright_orange  "#fe8019" "#ff8700" "#af3a03" "#af5f00")
+  (gruvbox-neutral_red     "#fb4934" "#d75f5f")
+  (gruvbox-neutral_green   "#b8bb26" "#afaf00")
+  (gruvbox-neutral_yellow  "#fabd2f" "#ffaf00")
+  (gruvbox-neutral_blue    "#83a598" "#87afaf")
+  (gruvbox-neutral_purple  "#d3869b" "#d787af")
+  (gruvbox-neutral_aqua    "#8ec07c" "#87af87")
+  (gruvbox-neutral_orange  "#fe8019" "#ff8700")
 
-  (gruvbox-neutral_red    "#cc241d" "#d75f5f" "#cc241d" "#d75f5f")
-  (gruvbox-neutral_green  "#98971a" "#afaf00" "#98971a" "#afaf00")
-  (gruvbox-neutral_yellow "#d79921" "#ffaf00" "#d79921" "#ffaf00")
-  (gruvbox-neutral_blue   "#458588" "#87afaf" "#458588" "#87afaf")
-  (gruvbox-neutral_purple "#b16286" "#d787af" "#b16286" "#d787af")
-  (gruvbox-neutral_aqua   "#689d6a" "#87af87" "#689d6a" "#87af87")
-  (gruvbox-neutral_orange "#d65d0e" "#ff8700" "#d65d0e" "#ff8700")
+  (gruvbox-faded_red       "#9d0006" "#870000")
+  (gruvbox-faded_green     "#79740e" "#878700")
+  (gruvbox-faded_yellow    "#b57614" "#af8700")
+  (gruvbox-faded_blue      "#076678" "#005f87")
+  (gruvbox-faded_purple    "#8f3f71" "#875f87")
+  (gruvbox-faded_aqua      "#427b58" "#5f8787")
+  (gruvbox-faded_orange    "#af3a03" "#af5f00")
 
-  (gruvbox-faded_red      "#9d0006" "#870000" "#fb4934" "#d75f5f")
-  (gruvbox-faded_green    "#79740e" "#878700" "#b8bb26" "#afaf00")
-  (gruvbox-faded_yellow   "#b57614" "#af8700" "#fabd2f" "#ffaf00")
-  (gruvbox-faded_blue     "#076678" "#005f87" "#83a598" "#87afaf")
-  (gruvbox-faded_purple   "#8f3f71" "#875f87" "#d3869b" "#d787af")
-  (gruvbox-faded_aqua     "#427b58" "#5f8787" "#8ec07c" "#87af87")
-  (gruvbox-faded_orange   "#af3a03" "#af5f00" "#fe8019" "#ff8700")
+  (gruvbox-dark_red        "#421E1E" "#5f0000")
+  (gruvbox-dark_blue       "#2B3C44" "#000080")
+  (gruvbox-dark_aqua       "#36473A" "#005f5f")
 
-  (gruvbox-dark_red        "#421E1E" "#5f0000" "#421E1E" "#5f0000")
-  (gruvbox-dark_blue       "#2B3C44" "#000080" "#2B3C44" "#000080")
-  (gruvbox-dark_aqua       "#36473A" "#005f5f" "#36473A" "#005f5f")
-
-  (gruvbox-delimiter-one    "#458588" "#008787"        "#458588" "#008787"       )
-  (gruvbox-delimiter-two    "#b16286" "#d75f87"        "#b16286" "#d75f87"       )
-  (gruvbox-delimiter-three  "#8ec07c" "#87af87"        "#8ec07c" "#87af87"       )
-  (gruvbox-delimiter-four   "#d65d0e" "#d75f00"        "#d65d0e" "#d75f00"       )
-  (gruvbox-white            "#FFFFFF" "white"          "#FFFFFF" "white"         )
-  (gruvbox-black            "#000000" "black"          "#000000" "black"         )
-  (gruvbox-sienna           "#DD6F48" "sienna"         "#DD6F48" "sienna"        )
-  (gruvbox-darkslategray4   "#528B8B" "DarkSlateGray4" "#528B8B" "DarkSlateGray4")
-  (gruvbox-lightblue4       "#66999D" "LightBlue4"     "#66999D" "LightBlue4"    )
-  (gruvbox-burlywood4       "#BBAA97" "burlywood4"     "#BBAA97" "burlywood4"    )
-  (gruvbox-aquamarine4      "#83A598" "aquamarine4"    "#83A598" "aquamarine4"   )
-  (gruvbox-turquoise4       "#61ACBB" "turquoise4"     "#61ACBB" "turquoise4"    )
+  (gruvbox-delimiter-one   "#458588" "#008787")
+  (gruvbox-delimiter-two   "#b16286" "#d75f87")
+  (gruvbox-delimiter-three "#8ec07c" "#87af87")
+  (gruvbox-delimiter-four  "#d65d0e" "#d75f00")
+  (gruvbox-white           "#FFFFFF" "white")
+  (gruvbox-black           "#000000" "black")
+  (gruvbox-sienna          "#DD6F48" "sienna")
+  (gruvbox-darkslategray4  "#528B8B" "DarkSlateGray4")
+  (gruvbox-lightblue4      "#66999D" "LightBlue4")
+  (gruvbox-burlywood4      "#BBAA97" "burlywood4")
+  (gruvbox-aquamarine4     "#83A598" "aquamarine4")
+  (gruvbox-turquoise4      "#61ACBB" "turquoise4")
 
   (gruvbox-bg (cl-case gruvbox-contrast
                 (hard gruvbox-dark0_hard)
@@ -187,8 +184,8 @@
   (sp-pair-overlay-face                      (:background gruvbox-dark2))
   (sp-show-pair-match-face                   (:background gruvbox-dark2)) ;; Pair tags highlight
   (sp-show-pair-mismatch-face                (:background gruvbox-neutral_red)) ;; Highlight for bracket without pair
-  ;(sp-wrap-overlay-face                     (:inherit 'sp-wrap-overlay-face))
-  ;(sp-wrap-tag-overlay-face                 (:inherit 'sp-wrap-overlay-face))
+  ;;(sp-wrap-overlay-face                     (:inherit 'sp-wrap-overlay-face))
+  ;;(sp-wrap-tag-overlay-face                 (:inherit 'sp-wrap-overlay-face))
 
   ;; elscreen
   (elscreen-tab-background-face              (:box nil :background gruvbox-bg)) ;; Tab bar, not the tabs
