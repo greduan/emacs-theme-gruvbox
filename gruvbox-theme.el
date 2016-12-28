@@ -7,7 +7,7 @@
 ;;          Greduan <me@greduan.com>
 ;; Maintainer: jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 1.02
+;; Version: 1.03
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -52,11 +52,11 @@
  gruvbox
  "A retro-groove colour theme"
 
- ((((class color) (min-colors #xFFFFFF) (background 'dark))  ;; color column 1 GUI/24bit
-   ((class color) (min-colors #xFF)     (background 'dark)) ;; color column 2 Xterm/256
+ ((((class color) (min-colors #xFFFFFF) (background dark))   ;; color column 1 GUI/24bit
+   ((class color) (min-colors #xFF)     (background dark))   ;; color column 2 Xterm/256
 
-   ((class color) (min-colors #xFFFFFF) (background 'light))  ;; color column 1 GUI/24bit
-   ((class color) (min-colors #xFF)     (background 'light))) ;; color column 2 Xterm/256
+   ((class color) (min-colors #xFFFFFF) (background light))  ;; color column 1 GUI/24bit
+   ((class color) (min-colors #xFF)     (background light))) ;; color column 2 Xterm/256
 
   (gruvbox-dark0_hard     "#1d2021" "#1c1c1c" "#f9f5d7" "#ffffdf")
   (gruvbox-dark0          "#282828" "#262626" "#fbf1c7" "#ffffaf")
@@ -443,18 +443,6 @@
                                                         ,gruvbox-neutral_purple
                                                         ,gruvbox-neutral_aqua
                                                         ,gruvbox-light1])))
-
-(defun gruvbox-set-ansi-color-names-vector ()
-  "Give comint and the like the same colours as the term colours we set."
-  (setq ansi-color-names-vector
-        [term-color-black
-         term-color-red
-         term-color-green
-         term-color-yellow
-         term-color-blue
-         term-color-purple
-         term-color-aqua
-         term-color-white]))
 
 ;;;###autoload
 (and load-file-name
