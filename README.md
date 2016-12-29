@@ -1,29 +1,50 @@
-# Gruvbox theme for Emacs
+![Gruvbox Palette](gruvbox-emacs-palette.png "Gruvbox theme palette")
 
-Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim
+Gruvbox is a retro groove color scheme for Emacs. It is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
-[here](https://github.com/morhetz/gruvbox).  Look at the original colorscheme's
-repo for a lot of pictures.  Here's a sort of outdated screenshot:
+[here](https://github.com/morhetz/gruvbox).
 
-![Gruvbox theme screenshot](/screenshot.jpg "Gruvbox theme screenshot")
+Pavel's version has evolved since this version was made, and now
+includes a light version, and other changes.  Syntax highlighting is
+applied differently in the Vim version too.
 
+We are in the process of adding a light version and we'll also try to add
+a version which maps syntax closer to the current Vim Gruvbox.
+
+We won't be changing the main Emacs Gruvbox theme, because there's a
+lot of people who've been using it for a few years, and we don't want
+to mess with their preferences.
+
+![Gruvbox theme screenshot](screenshot.png "Gruvbox theme screenshot")
 
 ## Supports
 
 This theme contains custom support for the following features and plugins:
 
-- `whitespace-mode`
-- [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
-- [linum-relative](https://github.com/emacsmirror/linum-relative)
-- [Smartparens](https://github.com/Fuco1/smartparens)
-- [ElScreen](https://github.com/knu/elscreen)
-- [ag.el](https://github.com/Wilfred/ag.el)
-- [js2-mode](https://github.com/mooz/js2-mode)
+- Ace jump
+- Ace window
 - [Anzu](https://github.com/syohex/emacs-anzu#customization) support
-- Diffs
-- Term
-- Helm
 - Comint (and the like)
+- Company
+- Diffs
+- Dired+
+- [ElScreen](https://github.com/knu/elscreen)
+- Elfeed
+- Helm
+- Highlight Indent
+- Ivy
+- Markdown
+- Message
+- Org
+- Popup
+- [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
+- Smart modeline
+- [Smartparens](https://github.com/Fuco1/smartparens)
+- Term
+- [Ag.el](https://github.com/Wilfred/ag.el)
+- [Js2-mode](https://github.com/mooz/js2-mode)
+- [Linum-relative](https://github.com/emacsmirror/linum-relative)
+- Whitespace-mode
 
 ## Installation and usage
 
@@ -61,19 +82,12 @@ The following instructions are for in the case where you don't have access to
    ```
 
 
-## Known bugs
+## Issues
 
-None.  For now...
+See https://github.com/greduan/emacs-theme-gruvbox/issues
 
-
-## To-do
-
-- [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode/blob/8351e2df4fbbeb2a4003f2fb39f46d33803f3dac/ace-jump-mode.el#L287) support
-- Light version of theme.
-
-If you want for the theme to support something please open a new issue and I'll
-try my best to make it work out. :smile:
-
+If you want the theme to support something please open a new issue and we'll
+try our best to make it happen. :smile:
 
 ## License
 
@@ -82,6 +96,7 @@ The MIT License (MIT)
 
 Copyright (c) 2013 Lee Machin
               2013-2016 Greduan
+              2015-2017 Jason Milkins
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

@@ -1,0 +1,1056 @@
+body {
+  font-family: "SauceCodePro Nerd Font";
+  font-weight: lighter; }
+
+h1 {
+  font-size: 42pt; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 3px; }
+
+.gruvbox-swatch {
+  width: 128px;
+  height: 128px;
+  font-size: 10pt;
+  float: left;
+  margin: 1px 1px 0 0; }
+  .gruvbox-swatch .content {
+    padding: 10px; }
+
+.gruvbox-dark0_hard {
+  color: #FFFFFF;
+  background-color: #1d2021;
+  height: 118px; }
+
+.gruvbox-dark0_hard-after {
+  height: 10px;
+  width: 128px;
+  background-color: #050606; }
+
+.gruvbox-dark0_hard-xterm {
+  color: #FFFFFF;
+  background-color: #1c1c1c;
+  height: 118px; }
+
+.gruvbox-dark0_hard-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #030303; }
+
+.gruvbox-dark0 {
+  color: #FFFFFF;
+  background-color: #282828;
+  height: 118px; }
+
+.gruvbox-dark0-after {
+  height: 10px;
+  width: 128px;
+  background-color: #0f0f0f; }
+
+.gruvbox-dark0-xterm {
+  color: #FFFFFF;
+  background-color: #262626;
+  height: 118px; }
+
+.gruvbox-dark0-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #0d0d0d; }
+
+.gruvbox-dark0_soft {
+  color: #FFFFFF;
+  background-color: #32302f;
+  height: 118px; }
+
+.gruvbox-dark0_soft-after {
+  height: 10px;
+  width: 128px;
+  background-color: #181716; }
+
+.gruvbox-dark0_soft-xterm {
+  color: #FFFFFF;
+  background-color: #303030;
+  height: 118px; }
+
+.gruvbox-dark0_soft-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #171717; }
+
+.gruvbox-dark1 {
+  color: #FFFFFF;
+  background-color: #3c3836;
+  height: 118px; }
+
+.gruvbox-dark1-after {
+  height: 10px;
+  width: 128px;
+  background-color: #211f1e; }
+
+.gruvbox-dark1-xterm {
+  color: #FFFFFF;
+  background-color: #3a3a3a;
+  height: 118px; }
+
+.gruvbox-dark1-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #212121; }
+
+.gruvbox-dark2 {
+  color: #FFFFFF;
+  background-color: #504945;
+  height: 118px; }
+
+.gruvbox-dark2-after {
+  height: 10px;
+  width: 128px;
+  background-color: #35302d; }
+
+.gruvbox-dark2-xterm {
+  color: #FFFFFF;
+  background-color: #4e4e4e;
+  height: 118px; }
+
+.gruvbox-dark2-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #353535; }
+
+.gruvbox-dark3 {
+  color: #FFFFFF;
+  background-color: #665c54;
+  height: 118px; }
+
+.gruvbox-dark3-after {
+  height: 10px;
+  width: 128px;
+  background-color: #4a433d; }
+
+.gruvbox-dark3-xterm {
+  color: #FFFFFF;
+  background-color: #626262;
+  height: 118px; }
+
+.gruvbox-dark3-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #494949; }
+
+.gruvbox-dark4 {
+  color: #FFFFFF;
+  background-color: #7c6f64;
+  height: 118px; }
+
+.gruvbox-dark4-after {
+  height: 10px;
+  width: 128px;
+  background-color: #60564d; }
+
+.gruvbox-dark4-xterm {
+  color: #FFFFFF;
+  background-color: #767676;
+  height: 118px; }
+
+.gruvbox-dark4-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #5d5d5d; }
+
+.gruvbox-gray {
+  color: #000000;
+  background-color: #928374;
+  height: 118px; }
+
+.gruvbox-gray-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a89d91; }
+
+.gruvbox-gray-xterm {
+  color: #000000;
+  background-color: #8a8a8a;
+  height: 118px; }
+
+.gruvbox-gray-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a4a4a4; }
+
+.gruvbox-light0_hard {
+  color: #000000;
+  background-color: #ffffc8;
+  height: 118px; }
+
+.gruvbox-light0_hard-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fffffb; }
+
+.gruvbox-light0_hard-xterm {
+  color: #000000;
+  background-color: #ffffdf;
+  height: 118px; }
+
+.gruvbox-light0_hard-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: white; }
+
+.gruvbox-light0 {
+  color: #000000;
+  background-color: #fdf4c1;
+  height: 118px; }
+
+.gruvbox-light0-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fffdf2; }
+
+.gruvbox-light0-xterm {
+  color: #000000;
+  background-color: #ffffaf;
+  height: 118px; }
+
+.gruvbox-light0-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #ffffe2; }
+
+.gruvbox-light0_soft {
+  color: #000000;
+  background-color: #f4e8ba;
+  height: 118px; }
+
+.gruvbox-light0_soft-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fbf7e6; }
+
+.gruvbox-light0_soft-xterm {
+  color: #000000;
+  background-color: #ffff87;
+  height: 118px; }
+
+.gruvbox-light0_soft-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #ffffba; }
+
+.gruvbox-light1 {
+  color: #000000;
+  background-color: #ebdbb2;
+  height: 118px; }
+
+.gruvbox-light1-after {
+  height: 10px;
+  width: 128px;
+  background-color: #f6eeda; }
+
+.gruvbox-light1-xterm {
+  color: #000000;
+  background-color: #ffdfaf;
+  height: 118px; }
+
+.gruvbox-light1-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fff3e2; }
+
+.gruvbox-light2 {
+  color: #000000;
+  background-color: #d5c4a1;
+  height: 118px; }
+
+.gruvbox-light2-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e5dac4; }
+
+.gruvbox-light2-xterm {
+  color: #000000;
+  background-color: #bcbcbc;
+  height: 118px; }
+
+.gruvbox-light2-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #d6d6d6; }
+
+.gruvbox-light3 {
+  color: #000000;
+  background-color: #bdae93;
+  height: 118px; }
+
+.gruvbox-light3-after {
+  height: 10px;
+  width: 128px;
+  background-color: #d0c6b3; }
+
+.gruvbox-light3-xterm {
+  color: #000000;
+  background-color: #a8a8a8;
+  height: 118px; }
+
+.gruvbox-light3-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #c2c2c2; }
+
+.gruvbox-light4 {
+  color: #000000;
+  background-color: #a89984;
+  height: 118px; }
+
+.gruvbox-light4-after {
+  height: 10px;
+  width: 128px;
+  background-color: #bdb2a2; }
+
+.gruvbox-light4-xterm {
+  color: #000000;
+  background-color: #949494;
+  height: 118px; }
+
+.gruvbox-light4-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #aeaeae; }
+
+.gruvbox-bright_red {
+  color: #000000;
+  background-color: #fb4933;
+  height: 118px; }
+
+.gruvbox-bright_red-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fc7665; }
+
+.gruvbox-bright_red-xterm {
+  color: #000000;
+  background-color: #d75f5f;
+  height: 118px; }
+
+.gruvbox-bright_red-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e18888; }
+
+.gruvbox-bright_green {
+  color: #FFFFFF;
+  background-color: #b8bb26;
+  height: 118px; }
+
+.gruvbox-bright_green-after {
+  height: 10px;
+  width: 128px;
+  background-color: #8e911d; }
+
+.gruvbox-bright_green-xterm {
+  color: #FFFFFF;
+  background-color: #afaf00;
+  height: 118px; }
+
+.gruvbox-bright_green-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #7c7c00; }
+
+.gruvbox-bright_yellow {
+  color: #000000;
+  background-color: #fabd2f;
+  height: 118px; }
+
+.gruvbox-bright_yellow-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fbcd61; }
+
+.gruvbox-bright_yellow-xterm {
+  color: #000000;
+  background-color: #ffaf00;
+  height: 118px; }
+
+.gruvbox-bright_yellow-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #ffbf33; }
+
+.gruvbox-bright_blue {
+  color: #000000;
+  background-color: #83a598;
+  height: 118px; }
+
+.gruvbox-bright_blue-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a1bab1; }
+
+.gruvbox-bright_blue-xterm {
+  color: #000000;
+  background-color: #87afaf;
+  height: 118px; }
+
+.gruvbox-bright_blue-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a6c3c3; }
+
+.gruvbox-bright_purple {
+  color: #000000;
+  background-color: #d3869b;
+  height: 118px; }
+
+.gruvbox-bright_purple-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e1abba; }
+
+.gruvbox-bright_purple-xterm {
+  color: #000000;
+  background-color: #d787af;
+  height: 118px; }
+
+.gruvbox-bright_purple-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e4adc9; }
+
+.gruvbox-bright_aqua {
+  color: #000000;
+  background-color: #8ec07c;
+  height: 118px; }
+
+.gruvbox-bright_aqua-after {
+  height: 10px;
+  width: 128px;
+  background-color: #acd19e; }
+
+.gruvbox-bright_aqua-xterm {
+  color: #000000;
+  background-color: #87af87;
+  height: 118px; }
+
+.gruvbox-bright_aqua-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a6c3a6; }
+
+.gruvbox-bright_orange {
+  color: #000000;
+  background-color: #fe8019;
+  height: 118px; }
+
+.gruvbox-bright_orange-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fe9c4c; }
+
+.gruvbox-bright_orange-xterm {
+  color: #000000;
+  background-color: #ff8700;
+  height: 118px; }
+
+.gruvbox-bright_orange-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #ff9f33; }
+
+.gruvbox-neutral_red {
+  color: #000000;
+  background-color: #fb4934;
+  height: 118px; }
+
+.gruvbox-neutral_red-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fc7666; }
+
+.gruvbox-neutral_red-xterm {
+  color: #000000;
+  background-color: #d75f5f;
+  height: 118px; }
+
+.gruvbox-neutral_red-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e18888; }
+
+.gruvbox-neutral_green {
+  color: #FFFFFF;
+  background-color: #b8bb26;
+  height: 118px; }
+
+.gruvbox-neutral_green-after {
+  height: 10px;
+  width: 128px;
+  background-color: #8e911d; }
+
+.gruvbox-neutral_green-xterm {
+  color: #FFFFFF;
+  background-color: #afaf00;
+  height: 118px; }
+
+.gruvbox-neutral_green-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #7c7c00; }
+
+.gruvbox-neutral_yellow {
+  color: #000000;
+  background-color: #fabd2f;
+  height: 118px; }
+
+.gruvbox-neutral_yellow-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fbcd61; }
+
+.gruvbox-neutral_yellow-xterm {
+  color: #000000;
+  background-color: #ffaf00;
+  height: 118px; }
+
+.gruvbox-neutral_yellow-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #ffbf33; }
+
+.gruvbox-neutral_blue {
+  color: #000000;
+  background-color: #83a598;
+  height: 118px; }
+
+.gruvbox-neutral_blue-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a1bab1; }
+
+.gruvbox-neutral_blue-xterm {
+  color: #000000;
+  background-color: #87afaf;
+  height: 118px; }
+
+.gruvbox-neutral_blue-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a6c3c3; }
+
+.gruvbox-neutral_purple {
+  color: #000000;
+  background-color: #d3869b;
+  height: 118px; }
+
+.gruvbox-neutral_purple-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e1abba; }
+
+.gruvbox-neutral_purple-xterm {
+  color: #000000;
+  background-color: #d787af;
+  height: 118px; }
+
+.gruvbox-neutral_purple-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e4adc9; }
+
+.gruvbox-neutral_aqua {
+  color: #000000;
+  background-color: #8ec07c;
+  height: 118px; }
+
+.gruvbox-neutral_aqua-after {
+  height: 10px;
+  width: 128px;
+  background-color: #acd19e; }
+
+.gruvbox-neutral_aqua-xterm {
+  color: #000000;
+  background-color: #87af87;
+  height: 118px; }
+
+.gruvbox-neutral_aqua-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a6c3a6; }
+
+.gruvbox-neutral_orange {
+  color: #000000;
+  background-color: #fe8019;
+  height: 118px; }
+
+.gruvbox-neutral_orange-after {
+  height: 10px;
+  width: 128px;
+  background-color: #fe9c4c; }
+
+.gruvbox-neutral_orange-xterm {
+  color: #000000;
+  background-color: #ff8700;
+  height: 118px; }
+
+.gruvbox-neutral_orange-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #ff9f33; }
+
+.gruvbox-faded_red {
+  color: #FFFFFF;
+  background-color: #9d0006;
+  height: 118px; }
+
+.gruvbox-faded_red-after {
+  height: 10px;
+  width: 128px;
+  background-color: #6a0004; }
+
+.gruvbox-faded_red-xterm {
+  color: #FFFFFF;
+  background-color: #870000;
+  height: 118px; }
+
+.gruvbox-faded_red-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #540000; }
+
+.gruvbox-faded_green {
+  color: #FFFFFF;
+  background-color: #79740e;
+  height: 118px; }
+
+.gruvbox-faded_green-after {
+  height: 10px;
+  width: 128px;
+  background-color: #4b4809; }
+
+.gruvbox-faded_green-xterm {
+  color: #FFFFFF;
+  background-color: #878700;
+  height: 118px; }
+
+.gruvbox-faded_green-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #545400; }
+
+.gruvbox-faded_yellow {
+  color: #FFFFFF;
+  background-color: #b57614;
+  height: 118px; }
+
+.gruvbox-faded_yellow-after {
+  height: 10px;
+  width: 128px;
+  background-color: #87580f; }
+
+.gruvbox-faded_yellow-xterm {
+  color: #FFFFFF;
+  background-color: #af8700;
+  height: 118px; }
+
+.gruvbox-faded_yellow-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #7c6000; }
+
+.gruvbox-faded_blue {
+  color: #FFFFFF;
+  background-color: #076678;
+  height: 118px; }
+
+.gruvbox-faded_blue-after {
+  height: 10px;
+  width: 128px;
+  background-color: #043d48; }
+
+.gruvbox-faded_blue-xterm {
+  color: #FFFFFF;
+  background-color: #005f87;
+  height: 118px; }
+
+.gruvbox-faded_blue-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #003b54; }
+
+.gruvbox-faded_purple {
+  color: #FFFFFF;
+  background-color: #8f3f71;
+  height: 118px; }
+
+.gruvbox-faded_purple-after {
+  height: 10px;
+  width: 128px;
+  background-color: #6c2f55; }
+
+.gruvbox-faded_purple-xterm {
+  color: #FFFFFF;
+  background-color: #875f87;
+  height: 118px; }
+
+.gruvbox-faded_purple-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #694a69; }
+
+.gruvbox-faded_aqua {
+  color: #FFFFFF;
+  background-color: #427b58;
+  height: 118px; }
+
+.gruvbox-faded_aqua-after {
+  height: 10px;
+  width: 128px;
+  background-color: #305a40; }
+
+.gruvbox-faded_aqua-xterm {
+  color: #FFFFFF;
+  background-color: #5f8787;
+  height: 118px; }
+
+.gruvbox-faded_aqua-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #4a6969; }
+
+.gruvbox-faded_orange {
+  color: #FFFFFF;
+  background-color: #af3a03;
+  height: 118px; }
+
+.gruvbox-faded_orange-after {
+  height: 10px;
+  width: 128px;
+  background-color: #7d2902; }
+
+.gruvbox-faded_orange-xterm {
+  color: #FFFFFF;
+  background-color: #af5f00;
+  height: 118px; }
+
+.gruvbox-faded_orange-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #7c4300; }
+
+.gruvbox-dark_red {
+  color: #FFFFFF;
+  background-color: #421E1E;
+  height: 118px; }
+
+.gruvbox-dark_red-after {
+  height: 10px;
+  width: 128px;
+  background-color: #1f0e0e; }
+
+.gruvbox-dark_red-xterm {
+  color: #FFFFFF;
+  background-color: #5f0000;
+  height: 118px; }
+
+.gruvbox-dark_red-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #2c0000; }
+
+.gruvbox-dark_blue {
+  color: #FFFFFF;
+  background-color: #2B3C44;
+  height: 118px; }
+
+.gruvbox-dark_blue-after {
+  height: 10px;
+  width: 128px;
+  background-color: #172025; }
+
+.gruvbox-dark_blue-xterm {
+  color: #FFFFFF;
+  background-color: #000080;
+  height: 118px; }
+
+.gruvbox-dark_blue-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #00004d; }
+
+.gruvbox-dark_aqua {
+  color: #FFFFFF;
+  background-color: #36473A;
+  height: 118px; }
+
+.gruvbox-dark_aqua-after {
+  height: 10px;
+  width: 128px;
+  background-color: #202a22; }
+
+.gruvbox-dark_aqua-xterm {
+  color: #FFFFFF;
+  background-color: #005f5f;
+  height: 118px; }
+
+.gruvbox-dark_aqua-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #002c2c; }
+
+.gruvbox-delimiter-one {
+  color: #FFFFFF;
+  background-color: #458588;
+  height: 118px; }
+
+.gruvbox-delimiter-one-after {
+  height: 10px;
+  width: 128px;
+  background-color: #346466; }
+
+.gruvbox-delimiter-one-xterm {
+  color: #FFFFFF;
+  background-color: #008787;
+  height: 118px; }
+
+.gruvbox-delimiter-one-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #005454; }
+
+.gruvbox-delimiter-two {
+  color: #000000;
+  background-color: #b16286;
+  height: 118px; }
+
+.gruvbox-delimiter-two-after {
+  height: 10px;
+  width: 128px;
+  background-color: #c284a0; }
+
+.gruvbox-delimiter-two-xterm {
+  color: #000000;
+  background-color: #d75f87;
+  height: 118px; }
+
+.gruvbox-delimiter-two-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e188a6; }
+
+.gruvbox-delimiter-three {
+  color: #000000;
+  background-color: #8ec07c;
+  height: 118px; }
+
+.gruvbox-delimiter-three-after {
+  height: 10px;
+  width: 128px;
+  background-color: #acd19e; }
+
+.gruvbox-delimiter-three-xterm {
+  color: #000000;
+  background-color: #87af87;
+  height: 118px; }
+
+.gruvbox-delimiter-three-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a6c3a6; }
+
+.gruvbox-delimiter-four {
+  color: #FFFFFF;
+  background-color: #d65d0e;
+  height: 118px; }
+
+.gruvbox-delimiter-four-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a6480b; }
+
+.gruvbox-delimiter-four-xterm {
+  color: #FFFFFF;
+  background-color: #d75f00;
+  height: 118px; }
+
+.gruvbox-delimiter-four-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a44800; }
+
+.gruvbox-white {
+  color: #000000;
+  background-color: #FFFFFF;
+  height: 118px; }
+
+.gruvbox-white-after {
+  height: 10px;
+  width: 128px;
+  background-color: white; }
+
+.gruvbox-white-xterm {
+  color: #000000;
+  background-color: #FFFFFF;
+  height: 118px; }
+
+.gruvbox-white-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: white; }
+
+.gruvbox-black {
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 118px; }
+
+.gruvbox-black-after {
+  height: 10px;
+  width: 128px;
+  background-color: black; }
+
+.gruvbox-black-xterm {
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 118px; }
+
+.gruvbox-black-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: black; }
+
+.gruvbox-sienna {
+  color: #000000;
+  background-color: #DD6F48;
+  height: 118px; }
+
+.gruvbox-sienna-after {
+  height: 10px;
+  width: 128px;
+  background-color: #e59173; }
+
+.gruvbox-sienna-xterm {
+  color: #FFFFFF;
+  background-color: #882D17;
+  height: 118px; }
+
+.gruvbox-sienna-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #5c1f10; }
+
+.gruvbox-darkslategray4 {
+  color: #FFFFFF;
+  background-color: #528B8B;
+  height: 118px; }
+
+.gruvbox-darkslategray4-after {
+  height: 10px;
+  width: 128px;
+  background-color: #3f6b6b; }
+
+.gruvbox-darkslategray4-xterm {
+  color: #FFFFFF;
+  background-color: #528b8b;
+  height: 118px; }
+
+.gruvbox-darkslategray4-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #3f6b6b; }
+
+.gruvbox-lightblue4 {
+  color: #000000;
+  background-color: #66999D;
+  height: 118px; }
+
+.gruvbox-lightblue4-after {
+  height: 10px;
+  width: 128px;
+  background-color: #85aeb1; }
+
+.gruvbox-lightblue4-xterm {
+  color: #FFFFFF;
+  background-color: #68838b;
+  height: 118px; }
+
+.gruvbox-lightblue4-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #52686e; }
+
+.gruvbox-burlywood4 {
+  color: #000000;
+  background-color: #BBAA97;
+  height: 118px; }
+
+.gruvbox-burlywood4-after {
+  height: 10px;
+  width: 128px;
+  background-color: #cfc3b6; }
+
+.gruvbox-burlywood4-xterm {
+  color: #FFFFFF;
+  background-color: #8B7355;
+  height: 118px; }
+
+.gruvbox-burlywood4-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #6b5942; }
+
+.gruvbox-aquamarine4 {
+  color: #000000;
+  background-color: #83A598;
+  height: 118px; }
+
+.gruvbox-aquamarine4-after {
+  height: 10px;
+  width: 128px;
+  background-color: #a1bab1; }
+
+.gruvbox-aquamarine4-xterm {
+  color: #FFFFFF;
+  background-color: #458b74;
+  height: 118px; }
+
+.gruvbox-aquamarine4-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #346958; }
+
+.gruvbox-turquoise4 {
+  color: #000000;
+  background-color: #61ACBB;
+  height: 118px; }
+
+.gruvbox-turquoise4-after {
+  height: 10px;
+  width: 128px;
+  background-color: #85bfca; }
+
+.gruvbox-turquoise4-xterm {
+  color: #FFFFFF;
+  background-color: #00868b;
+  height: 118px; }
+
+.gruvbox-turquoise4-xterm-after {
+  height: 10px;
+  width: 128px;
+  background-color: #005558; }
+
+.separator {
+  clear: left;
+  height: 0px;
+  width: 100%; }
+
+.group-separator {
+  clear: left;
+  height: 10px;
+  width: 100%;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=gruvbox-theme-colors.css.map */
