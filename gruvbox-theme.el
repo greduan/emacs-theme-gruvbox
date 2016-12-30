@@ -73,9 +73,9 @@
 
   (gruvbox-gray            "#928374" "#8a8a8a")
 
-  (gruvbox-light0_hard     "#ffffc8" "#ffffdf")
+  (gruvbox-light0_hard     "#ffffc8" "#ffffd7")
   (gruvbox-light0          "#fdf4c1" "#ffffaf")
-  (gruvbox-light0_soft     "#f4e8ba" "#ffff87")
+  (gruvbox-light0_soft     "#f4e8ba" "#ffffaf")
   (gruvbox-light1          "#ebdbb2" "#ffdfaf")
   (gruvbox-light2          "#d5c4a1" "#bcbcbc")
   (gruvbox-light3          "#bdae93" "#a8a8a8")
@@ -106,21 +106,21 @@
   (gruvbox-faded_orange    "#af3a03" "#af5f00")
 
   (gruvbox-dark_red        "#421E1E" "#5f0000")
-  (gruvbox-dark_blue       "#2B3C44" "#000080")
+  (gruvbox-dark_blue       "#2B3C44" "#000087")
   (gruvbox-dark_aqua       "#36473A" "#005f5f")
 
   (gruvbox-delimiter-one   "#458588" "#008787")
   (gruvbox-delimiter-two   "#b16286" "#d75f87")
   (gruvbox-delimiter-three "#8ec07c" "#87af87")
   (gruvbox-delimiter-four  "#d65d0e" "#d75f00")
-  (gruvbox-white           "#FFFFFF" "white")
-  (gruvbox-black           "#000000" "black")
-  (gruvbox-sienna          "#DD6F48" "sienna")
-  (gruvbox-darkslategray4  "#528B8B" "DarkSlateGray4")
-  (gruvbox-lightblue4      "#66999D" "LightBlue4")
-  (gruvbox-burlywood4      "#BBAA97" "burlywood4")
-  (gruvbox-aquamarine4     "#83A598" "aquamarine4")
-  (gruvbox-turquoise4      "#61ACBB" "turquoise4")
+  (gruvbox-white           "#FFFFFF" "#FFFFFF")
+  (gruvbox-black           "#000000" "#000000")
+  (gruvbox-sienna          "#DD6F48" "#d7875f")
+  (gruvbox-darkslategray4  "#528B8B" "#5f8787")
+  (gruvbox-lightblue4      "#66999D" "#5fafaf")
+  (gruvbox-burlywood4      "#BBAA97" "#afaf87")
+  (gruvbox-aquamarine4     "#83A598" "#87af87")
+  (gruvbox-turquoise4      "#61ACBB" "#5fafaf")
 
   (gruvbox-bg (cl-case gruvbox-contrast
                 (hard gruvbox-dark0_hard)
