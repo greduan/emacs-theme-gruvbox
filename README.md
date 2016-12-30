@@ -1,4 +1,4 @@
-![Gruvbox Head](gruvbox-emacs-head.png "Gruvbox theme header")
+![Gruvbox Head](gruvbox-head.png "Gruvbox theme header")
 
 Gruvbox is a retro groove color scheme for Emacs. It is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
