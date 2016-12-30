@@ -218,7 +218,7 @@ window.onload=function(){
 
 Vue.component('palette-group', {
   props: ['title', 'colors', 'prefix'],
-  template: `<div class="palette-group">
+  template: `<div class="palette-group" v-on:click="makeImg">
                <h3>{{title}}</h3>
                <swatch v-for="swatch in colors"
                        v-bind:prefix="prefix"
@@ -232,7 +232,17 @@ Vue.component('palette-group', {
                </swatch>
                <div class="group-separator"></div>
              </div>
-`
+`,
+  methods:{
+    makeImg: function(e){
+      html2canvas(e.target, {
+        onrendered: function(canvas) {
+          document.body.appendChild(canvas);
+        },
+        background: undefined
+      });
+    }
+  }
 });
 
 Vue.component('swatch', {
