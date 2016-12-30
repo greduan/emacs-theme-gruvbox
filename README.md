@@ -17,7 +17,24 @@ to mess with their preferences.
 
 ![Gruvbox theme screenshot](screenshot.png "Gruvbox theme screenshot")
 
-![Gruvbox Palette](gruvbox-emacs-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Dark](darktones-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Mid](midtones-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Light](lighttones-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Bright](bright-colors-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Neutral](neutral-colors-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Faded](faded-colors-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Dark Notes](darknotes-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Solo Notes](solonotes-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Rainbow Delimiters](rainbow-delimiters-palette.png "Gruvbox theme palette")
+
 ## Supports
 
 This theme contains custom support for the following features and plugins:
