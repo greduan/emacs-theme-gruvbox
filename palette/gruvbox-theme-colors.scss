@@ -116,12 +116,7 @@ $light: #FFFFFF;
 }
 
 @function bottom-bar-color($color) {
-  $color-brightness: lightness($color);
-  $dark-text-brightness: lightness($dark);
-  $light-text-brightness: lightness($light);
-  @return if(abs($color-brightness - $light-text-brightness) > abs($color-brightness - $dark-text-brightness),
-             darken($color, 10%),
-             lighten($color, 10%));
+  @return  darken($color, 12%);
 }
 
 $swatch-width: 128px;
@@ -148,20 +143,25 @@ h1, h2, h3, h4, h5 {
   font-size: 10pt;
   float: left;
   margin: 1px 1px 0 0;
-
-  .content {
-    padding: 10px;
-  }
 }
 
 @each $name, $color in $gruvbox-palette {
   .#{$name} {
     color: contrast-foreground($color);
     background-color: $color;
-    height: $swatch-height - 10px;
+    height: $swatch-height - 8px;
+    .content {
+      font-size: 10pt;
+      padding: 6px;
+    }
+    .color-label {
+      font-size: 8pt;
+      padding: 10px;
+      padding-top: 60px;
+    }
   }
   .#{$name}-after {
-    height: 10px;
+    height: 8px;
     width: $swatch-width;
     background-color: bottom-bar-color($color);
   }
