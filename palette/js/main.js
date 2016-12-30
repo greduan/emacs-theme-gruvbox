@@ -107,7 +107,6 @@ window.onload=function(){
   var app = new Vue({
     el: '#app',
     data: {
-      title: 'GRUVBOX for Emacs',
       paletteGroups: [
         {
           title: "DARK TONES",
@@ -191,7 +190,7 @@ window.onload=function(){
           ]
         },
         {
-          title:"SOLONOTES",
+          title:"SOLO NOTES",
           prefix: "",
           colors:[
             "sienna",
@@ -220,7 +219,7 @@ window.onload=function(){
 Vue.component('palette-group', {
   props: ['title', 'colors', 'prefix'],
   template: `<div class="palette-group">
-               <h2>{{title}}</h2>
+               <h3>{{title}}</h3>
                <swatch v-for="swatch in colors"
                        v-bind:prefix="prefix"
                        v-bind:content="swatch">
@@ -242,6 +241,7 @@ Vue.component('swatch', {
                <div v-bind:class="cssClass">
                  <div class="content">{{unprefixed}}</div>
                  <div class="color-label">{{color}}</div>
+                 <div class="xterm" v-if="isXterm">Xterm 256</div>
                </div>
                <div v-bind:class="cssClassAfter"></div>
              </div>
@@ -251,7 +251,7 @@ Vue.component('swatch', {
       return `gruvbox-${this.content}${this.isXterm == "true" ? "-xterm" : ""}`;
     },
     cssClassAfter: function(){
-      return `gruvbox-${this.content}${this.isXterm == "true" ? "-xterm" : ""}-after`;
+      return `${this.cssClass}-after`;
     },
     color: function(){
       return palette[`${this.content}${this.isXterm == "true" ? "-xterm" : ""}`];
