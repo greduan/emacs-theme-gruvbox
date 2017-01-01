@@ -18,7 +18,6 @@
 ;;; Commentary:
 
 ;; Using autothemer since 1.0.0
-;; Includes gruvbox-select-theme and light version since 2.0.0
 
 ;; A port of the Gruvbox colorscheme for Vim, built on top of the new built-in
 ;; theme support in Emacs 24.
@@ -57,47 +56,29 @@
   "Contrast level for the theme background."
   :options '(soft medium hard))
 
-(defface gruvbox-light-medium-default
-  `((t ()))
-  "gruvbox light default")
+(defface gruvbox-dark-hard-default `((t ())) "dark default face for hard contrast")
+(defface gruvbox-dark-medium-default `((t ())) "dark default face for medium contrst")
+(defface gruvbox-dark-soft-default `((t ())) "dark default face for soft contrast")
 
-(defface gruvbox-dark-medium-default
-  `((t ()))
-  "gruvbox dark default")
-
-(defface gruvbox-light-soft-default
-  `((t ()))
-  "gruvbox light soft default")
-
-(defface gruvbox-dark-soft-default
-  `((t ()))
-  "gruvbox dark soft default")
-
-(defface gruvbox-light-hard-default
-  `((t ()))
-  "gruvbox light hard default")
-
-(defface gruvbox-dark-hard-default
-  `((t ()))
-  "gruvbox dark hard default")
+(defface gruvbox-light-hard-default `((t ())) "light default face for hard contrast")
+(defface gruvbox-light-medium-default `((t ())) "light default face for medium contrast")
+(defface gruvbox-light-soft-default `((t ())) "light default face for soft contrast")
 
 (autothemer-deftheme
  gruvbox
  "A retro-groove colour theme"
- ((((class color) (min-colors #xFFFFFF) (background dark))        ; col 1 GUI/24bit dark
-   ((class color) (min-colors #xFFFFFF) (background light))       ; col 2 GUI/24bit light
-   ((class color) (min-colors #xFF)     (background dark))        ; col 3 Xterm/256 dark
-   ((class color) (min-colors #xFF)     (background light)))      ; col 4 Xterm/256 light
+ ((((class color) (background dark) (min-colors #xFFFFFF))  ; 1: GUI/24bit dark
+   ((class color) (background dark) (min-colors #xFF))      ; 2: Xterm/256 dark
+   ((class color) (background light) (min-colors #xFFFFFF)) ; 3: GUI/24bit light
+   ((class color) (background light) (min-colors #xFF)))     ; 4: Xterm/256 light
 
-  ;; (gruvbox-fg_dark0        "#282828" "#282828" "#262626" "#262626")
-  ;; (gruvbox-fg_light0       "#fdf4c1" "#fdf4c1" "#ffffaf" "#ffffaf")
+  (gruvbox-bg0-dark_hard   "#1d2021" "#1c1c1c" "#1d2021" "#1c1c1c")
+  (gruvbox-bg0-dark        "#282828" "#262626" "#282828" "#262626")
+  (gruvbox-bg0-dark_soft   "#32302f" "#303030" "#32302f" "#303030")
 
-  ;; (gruvbox-bg_dark0_hard   "#1d2021" "#1d2021" "#1c1c1c" "#1c1c1c")
-  ;; (gruvbox-bg_dark0        "#282828" "#282828" "#262626" "#262626")
-  ;; (gruvbox-bg_dark0_soft   "#32302f" "#32302f" "#303030" "#303030")
-  ;; (gruvbox-bg_light0_hard  "#ffffc8" "#ffffc8" "#ffffd7" "#ffffd7")
-  ;; (gruvbox-bg_light0       "#fdf4c1" "#fdf4c1" "#ffffaf" "#ffffaf")
-  ;; (gruvbox-bg_light0_soft  "#f4e8ba" "#f4e8ba" "#ffffaf" "#ffffaf")
+  (gruvbox-bg0-light_hard  "#ffffc8" "#ffffd7" "#ffffc8" "#ffffd7")
+  (gruvbox-bg0-light       "#fdf4c1" "#ffffaf" "#fdf4c1" "#ffffaf")
+  (gruvbox-bg0-light_soft  "#f4e8ba" "#ffffaf" "#f4e8ba" "#ffffaf")
 
   (gruvbox-dark0_hard      "#1d2021" "#ffffc8" "#1c1c1c" "#ffffd7")
   (gruvbox-dark0           "#282828" "#fdf4c1" "#262626" "#ffffaf")
@@ -156,40 +137,46 @@
   (gruvbox-lightblue4      "#66999D" "#66999D" "#5fafaf" "#5fafaf")
   (gruvbox-burlywood4      "#BBAA97" "#BBAA97" "#afaf87" "#afaf87")
   (gruvbox-aquamarine4     "#83A598" "#83A598" "#87af87" "#87af87")
-  (gruvbox-turquoise4      "#61ACBB" "#61ACBB" "#5fafaf" "#5fafaf"))
+  (gruvbox-turquoise4      "#61ACBB" "#61ACBB" "#5fafaf" "#5fafaf")
+
+  (gruvbox-bg (cl-case gruvbox-contrast
+                (soft   gruvbox-dark0_soft)
+                (medium gruvbox-dark0)
+                (hard   gruvbox-dark0_hard))))
 
  ;; UI
- (;(gruvbox-dark-hard-default    (:foreground gruvbox-fg_light0 :background gruvbox-bg_dark0_hard))
-  ;(gruvbox-dark-medium-default  (:foreground gruvbox-fg_light0 :background gruvbox-bg_dark0))
-  ;(gruvbox-dark-soft-default    (:foreground gruvbox-fg_light0 :background gruvbox-bg_dark0_soft))
-  ;(gruvbox-light-hard-default   (:foreground gruvbox-fg_dark0  :background gruvbox-bg_light0_hard))
-  ;(gruvbox-light-medium-default (:foreground gruvbox-fg_dark0  :background gruvbox-bg_light0))
-  ;(gruvbox-light-soft-default   (:foreground gruvbox-fg_dark0  :background gruvbox-bg_light0_soft))
+ ((gruvbox-dark-hard-default    (:foreground gruvbox-bg0-light :background gruvbox-bg0-dark_hard))
+  (gruvbox-dark-medium-default  (:foreground gruvbox-bg0-light :background gruvbox-bg0-dark))
+  (gruvbox-dark-soft-default    (:foreground gruvbox-bg0-light :background gruvbox-bg0-dark_soft))
+
+  (gruvbox-light-hard-default    (:foreground gruvbox-bg0-dark :background gruvbox-bg0-light_hard))
+  (gruvbox-light-medium-default  (:foreground gruvbox-bg0-dark :background gruvbox-bg0-light))
+  (gruvbox-light-soft-default    (:foreground gruvbox-bg0-dark :background gruvbox-bg0-light_soft))
 
   (default                                   (:background gruvbox-dark0 :foreground gruvbox-light0))
   (cursor                                    (:background gruvbox-light0))
   (mode-line                                 (:background gruvbox-dark2 :foreground gruvbox-light2 :box nil))
   (mode-line-inactive                        (:background gruvbox-dark1 :foreground gruvbox-light4 :box nil))
-  (fringe                                    (:background 'unspecified :foreground 'unspecified :inherit 'default))
-  (linum                                     (:foreground gruvbox-dark4 :background 'unspecified :inherit 'default))
+  (fringe                                    (:background nil :foreground nil :inherit 'default))
+  (linum                                     (:foreground gruvbox-dark4 :background nil :inherit 'default))
   (hl-line                                   (:background gruvbox-dark1))
-  (region                                    (:background gruvbox-dark2)) ;;selection
+  (region                                    (:background gruvbox-dark2))
   (secondary-selection                       (:background gruvbox-dark1))
-  (minibuffer-prompt                         (:foreground gruvbox-bright_green :background 'unspecified :bold t :inherit 'default))
+  (minibuffer-prompt                         (:foreground gruvbox-bright_green :background nil :bold t :inherit 'default))
   (vertical-border                           (:foreground gruvbox-dark2))
   (link                                      (:foreground gruvbox-faded_blue :underline t))
   (shadow                                    (:foreground gruvbox-dark4))
 
   ;; Built-in syntax
-  (font-lock-builtin-face                           (:foreground gruvbox-neutral_orange))
-  (font-lock-constant-face                          (:foreground gruvbox-neutral_purple))
+  (font-lock-builtin-face                           (:foreground gruvbox-bright_orange))
+  (font-lock-constant-face                          (:foreground gruvbox-bright_purple))
   (font-lock-comment-face                           (:foreground gruvbox-dark4))
-  (font-lock-function-name-face                     (:foreground gruvbox-neutral_yellow))
-  (font-lock-keyword-face                           (:foreground gruvbox-neutral_red))
-  (font-lock-string-face                            (:foreground gruvbox-neutral_green))
-  (font-lock-variable-name-face                     (:foreground gruvbox-neutral_blue))
-  (font-lock-type-face                              (:foreground gruvbox-neutral_purple))
-  (font-lock-warning-face                           (:foreground gruvbox-neutral_red :bold t))
+  (font-lock-function-name-face                     (:foreground gruvbox-bright_yellow))
+  (font-lock-keyword-face                           (:foreground gruvbox-bright_red))
+  (font-lock-string-face                            (:foreground gruvbox-bright_green))
+  (font-lock-variable-name-face                     (:foreground gruvbox-bright_blue))
+  (font-lock-type-face                              (:foreground gruvbox-bright_purple))
+  (font-lock-warning-face                           (:foreground gruvbox-bright_red :bold t))
 
   ;; whitespace-mode
   (whitespace-space                          (:foreground gruvbox-dark4))
@@ -233,7 +220,7 @@
   ;;(sp-wrap-tag-overlay-face                 (:inherit 'sp-wrap-overlay-face))
 
   ;; elscreen
-  (elscreen-tab-background-face              (:background 'unspecified :foreground 'unspecified :box nil :inherit 'default)) ;; Tab bar, not the tabs
+  (elscreen-tab-background-face              (:background nil :foreground nil :box nil :inherit 'default)) ;; Tab bar, not the tabs
   (elscreen-tab-control-face                 (:background gruvbox-dark2 :foreground gruvbox-neutral_red :underline nil :box nil)) ;; The controls
   (elscreen-tab-current-screen-face          (:background gruvbox-dark4 :foreground gruvbox-dark0 :box nil)) ;; Current tab
   (elscreen-tab-other-screen-face            (:background gruvbox-dark2 :foreground gruvbox-light4 :underline nil :box nil)) ;; Inactive tab
@@ -344,7 +331,7 @@
   (term-color-white                          (:foreground gruvbox-light1))
   (term-color-yellow                         (:foreground gruvbox-neutral_yellow))
   (term-default-fg-color                     (:foreground gruvbox-light0))
-  (term-default-bg-color                     (:foreground 'unspecified :inherit 'default))
+  (term-default-bg-color                     (:foreground nil :inherit 'default))
 
   ;; message-mode
   (message-header-to                         (:inherit 'font-lock-variable-name-face))
@@ -448,12 +435,12 @@
   (anzu-replace-highlight                    (:inherit 'isearch))
 
   ;; Ace-jump-mode
-  (ace-jump-face-background                  (:foreground gruvbox-light4 :background 'unspecified :inverse-video nil :inherit 'default))
-  (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background 'unspecified :inverse-video nil :box 1 :inherit 'default))
+  (ace-jump-face-background                  (:foreground gruvbox-light4 :background nil :inverse-video nil :inherit 'default))
+  (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background nil :inverse-video nil :box 1 :inherit 'default))
 
   ;; Ace-window
-  (aw-background-face                        (:forground  gruvbox-light1 :inverse-video nil :background 'unspecified :inherit 'default))
-  (aw-leading-char-face                      (:foreground gruvbox-bright_orange :height 4.0 :background 'unspecified :box (:line-width 1 :color gruvbox-bright_orange :inherit 'default)))
+  (aw-background-face                        (:forground  gruvbox-light1 :inverse-video nil :background nil :inherit 'default))
+  (aw-leading-char-face                      (:foreground gruvbox-bright_orange :height 4.0 :background nil :box (:line-width 1 :color gruvbox-bright_orange :inherit 'default)))
 
   ;; show-paren
   (show-paren-match                          (:background gruvbox-dark3 :weight 'bold))
@@ -546,6 +533,23 @@
   "Get the default gruvbox face for VARIANT (light or dark)."
   (intern-soft (format "gruvbox-%s-%s-default" variant (or gruvbox-contrast "medium"))))
 
+(defun gruvbox-theme--get-default-background (variant)
+  "Get the default gruvbox background for VARIANT (light or dark)."
+  (face-attribute (gruvbox-theme--get-default-face variant) :background))
+
+(defun gruvbox-theme--get-default-foreground (variant)
+  "Get the default gruvbox foreground for VARIANT (light or dark)."
+  (face-attribute (gruvbox-theme--get-default-face variant) :foreground))
+
+(defun gruvbox-theme--set-default (variant)
+  "Set default face for VARIANT."
+  (let ((bg (gruvbox-theme--get-default-background variant))
+        (fg (gruvbox-theme--get-default-foreground variant)))
+    (set-face-attribute
+     'default nil
+     :foreground fg
+     :background bg)))
+
 (defun gruvbox-theme-load ()
   "Load gruvbox-theme and unload other themes."
   (interactive)
@@ -557,8 +561,7 @@
 (defun gruvbox-theme--load (variant)
   "Internal wrapper function for liading gruvbox VARIANT."
   (gruvbox-theme-load)
-  (let* ((default-face (gruvbox-theme--get-default-face variant)))
-    (set-face-attribute 'default nil )))
+  (gruvbox-theme--set-default variant))
 
 (defun gruvbox-theme-light ()
   "Enable gruvbox-theme and use light version."
@@ -578,7 +581,8 @@
     (completing-read "Gruvbox // contrast: " '(soft medium hard))))
   (setq gruvbox-contrast contrast)
   (cond ((string= variant "dark") (gruvbox-theme-dark))
-        ((string= variant "light") (gruvbox-theme-light))))
+        ((string= variant "light") (gruvbox-theme-light))
+        (t (error "Gruvbox only supports light and dark variants"))))
 
 (provide-theme 'gruvbox)
 
