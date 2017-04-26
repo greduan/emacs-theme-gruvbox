@@ -187,6 +187,9 @@
   ;; Highlight indentation mode
   (highlight-indentation-current-column-face (:background gruvbox-dark2))
   (highlight-indentation-face                (:background gruvbox-dark1))
+  
+  ;; Highlight linum
+  (linum-highlight-face                      (:background gruvbox-dark1 :foreground gruvbox-neutral_yellow))
 
   ;; Smartparens
   (sp-pair-overlay-face                      (:background gruvbox-dark2))
