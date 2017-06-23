@@ -291,14 +291,14 @@
   (company-preview-common                    (:foreground gruvbox-neutral_purple))
 
   ;; Term
-  (term-color-black                          (:foreground gruvbox-dark1))
-  (term-color-blue                           (:foreground gruvbox-neutral_blue))
-  (term-color-cyan                           (:foreground gruvbox-neutral_aqua))
-  (term-color-green                          (:foreground gruvbox-neutral_green))
-  (term-color-magenta                        (:foreground gruvbox-neutral_purple))
-  (term-color-red                            (:foreground gruvbox-neutral_red))
-  (term-color-white                          (:foreground gruvbox-light1))
-  (term-color-yellow                         (:foreground gruvbox-neutral_yellow))
+  (term-color-black                          (:foreground gruvbox-dark2 :background gruvbox-dark1))
+  (term-color-blue                           (:foreground gruvbox-bright_blue :background gruvbox-neutral_blue))
+  (term-color-cyan                           (:foreground gruvbox-bright_aqua :background gruvbox-neutral_aqua))
+  (term-color-green                          (:foreground gruvbox-bright_green :background gruvbox-neutral_green))
+  (term-color-magenta                        (:foreground gruvbox-bright_purple :background gruvbox-neutral_purple))
+  (term-color-red                            (:foreground gruvbox-bright_red :background gruvbox-neutral_red))
+  (term-color-white                          (:foreground gruvbox-light1 :background gruvbox-light1))
+  (term-color-yellow                         (:foreground gruvbox-bright_yellow :background gruvbox-neutral_yellow))
   (term-default-fg-color                     (:foreground gruvbox-light0))
   (term-default-bg-color                     (:background gruvbox-bg))
 
