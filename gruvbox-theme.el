@@ -187,7 +187,7 @@
   ;; Highlight indentation mode
   (highlight-indentation-current-column-face (:background gruvbox-dark2))
   (highlight-indentation-face                (:background gruvbox-dark1))
-  
+
   ;; Highlight linum
   (linum-highlight-face                      (:background gruvbox-dark1 :foreground gruvbox-neutral_yellow))
 
@@ -421,6 +421,11 @@
   (ivy-minibuffer-match-face-2               (:foreground gruvbox-neutral_yellow))
   (ivy-minibuffer-match-face-3               (:foreground gruvbox-faded_orange))
   (ivy-minibuffer-match-face-4               (:foreground gruvbox-faded_yellow))
+
+  ;; mu4e
+  (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
+  (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
+  (mu4e-highlight-face                       (:foreground gruvbox-neutral_green))
 
   ;; MODE SUPPORT: dired+
   (diredp-file-name                          (:foreground gruvbox-light2))
