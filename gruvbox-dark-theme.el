@@ -1,4 +1,4 @@
-;;; gruvbox-theme.el --- A retro-groove colour theme for Emacs
+;;; gruvbox-dark-theme.el --- A retro-groove colour theme for Emacs
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Greduan
@@ -62,8 +62,8 @@
   :group   'gruvbox)
 
 (autothemer-deftheme
- gruvbox
- "A retro-groove colour theme"
+ gruvbox-dark
+ "A retro-groove colour theme (dark version)"
 
  ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
    ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
@@ -452,7 +452,7 @@
   (diredp-read-priv                          (:foreground gruvbox-bright_red  :background gruvbox-dark_red))
   (diredp-write-priv                         (:foreground gruvbox-bright_aqua :background gruvbox-dark_aqua)))
 
- (custom-theme-set-variables 'gruvbox
+ (custom-theme-set-variables 'gruvbox-dark
                              `(ansi-color-names-vector
                                [,gruvbox-dark1
                                 ,gruvbox-neutral_red
@@ -470,10 +470,10 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide-theme 'gruvbox)
+(provide-theme 'gruvbox-dark)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; gruvbox-theme.el ends here
+;;; gruvbox-dark-theme.el ends here
