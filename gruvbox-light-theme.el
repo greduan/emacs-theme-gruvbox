@@ -1,4 +1,4 @@
-;;; gruvbox-theme.el --- A retro-groove colour theme for Emacs
+;;; gruvbox-light-theme.el --- A retro-groove colour theme for Emacs
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Greduan
@@ -476,4 +476,4 @@
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; gruvbox-theme.el ends here
+;;; gruvbox-light-theme.el ends here
