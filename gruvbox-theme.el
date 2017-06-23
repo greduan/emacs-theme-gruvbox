@@ -58,7 +58,6 @@
 
 (defcustom gruvbox-contrast 'medium
   "Contrast level for the theme background."
-  :type    'symbol
   :options '(soft medium hard)
   :group   'gruvbox)
 
