@@ -52,9 +52,15 @@
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
 
+(defgroup gruvbox nil
+  "Customizations for gruvbox color theme"
+  :group 'faces)
+
 (defcustom gruvbox-contrast 'medium
   "Contrast level for the theme background."
-  :options '(soft medium hard))
+  :type    'symbol
+  :options '(soft medium hard)
+  :group   'gruvbox)
 
 (autothemer-deftheme
  gruvbox
