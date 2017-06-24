@@ -1,4 +1,4 @@
-;;; gruvbox-light-theme.el --- A retro-groove colour theme for Emacs
+;;; gruvbox-light-medium-theme.el --- A retro-groove colour theme for Emacs
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Greduan
@@ -51,8 +51,8 @@
 (require 'gruvbox)
 
 (gruvbox-deftheme
- gruvbox-light
- "A retro-groove colour theme (light version)"
+ gruvbox-light-medium
+ "A retro-groove colour theme (light version, medium contrast)"
 
  ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
    ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
@@ -116,13 +116,9 @@
   (gruvbox-aquamarine4     "#83A598" "#87af87")
   (gruvbox-turquoise4      "#61ACBB" "#5fafaf")
 
-  (gruvbox-bg (cl-case gruvbox-contrast
-                (hard gruvbox-dark0_hard)
-                (soft gruvbox-dark0_soft)
-                ;; Medium by default.
-                (t    gruvbox-dark0))))
+  (gruvbox-bg gruvbox-dark0))
 
- (custom-theme-set-variables 'gruvbox-light
+ (custom-theme-set-variables 'gruvbox-light-medium
                              `(ansi-color-names-vector
                                [,gruvbox-dark1
                                 ,gruvbox-neutral_red
@@ -140,10 +136,10 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide-theme 'gruvbox-light)
+(provide-theme 'gruvbox-light-medium)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; gruvbox-light-theme.el ends here
+;;; gruvbox-light-medium-theme.el ends here
