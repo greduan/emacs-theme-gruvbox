@@ -47,20 +47,7 @@
 (eval-when-compile
   (require 'cl-lib))
 
-(require 'autothemer)
-
-(unless (>= emacs-major-version 24)
-  (error "Requires Emacs 24 or later"))
-
-(defgroup gruvbox nil
-  "Customizations for gruvbox color theme"
-  :group 'faces)
-
-(defcustom gruvbox-contrast 'medium
-  "Contrast level for the theme background.
-Valid options are \"soft\", \"medium\" and \"hard\""
-  :options '(soft medium hard)
-  :group   'gruvbox)
+(require 'gruvbox)
 
 (autothemer-deftheme
  gruvbox-light
