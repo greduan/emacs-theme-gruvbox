@@ -3,6 +3,7 @@
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Greduan
 ;; Copyright (c) 2016-2017 Jason Milkins
+;; Copyright (c) 2017 Martijn Terpstra
 
 ;; Author: Jason Milkins <jasonm23@gmail.com>
 ;; (current maintainer)
