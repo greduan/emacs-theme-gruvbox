@@ -57,7 +57,8 @@
   :group 'faces)
 
 (defcustom gruvbox-contrast 'medium
-  "Contrast level for the theme background."
+  "Contrast level for the theme background.
+Valid options are \"soft\", \"medium\" and \"hard\""
   :options '(soft medium hard)
   :group   'gruvbox)
 
