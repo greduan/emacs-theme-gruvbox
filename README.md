@@ -32,7 +32,7 @@ version originally by [Pavel Pertsev](https://github.com/morhetz) found
 
 ## Palette
 
-Note the dark an light tones are transposed in the light versions.
+Note the dark and light tones are transposed in the light versions.
 
 ![Gruvbox Palette Dark](darktones-palette.png "Gruvbox theme palette")
 
