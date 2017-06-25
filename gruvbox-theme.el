@@ -99,9 +99,9 @@
   (gruvbox-faded_aqua      "#427b58" "#5f8787")
   (gruvbox-faded_orange    "#af3a03" "#af5f00")
 
-  (gruvbox_red        "#421E1E" "#5f0000")
-  (gruvbox_blue       "#2B3C44" "#000087")
-  (gruvbox_aqua       "#36473A" "#005f5f")
+  (gruvbox-dark_red             "#421E1E" "#5f0000")
+  (gruvbox-dark_blue            "#2B3C44" "#000087")
+  (gruvbox-dark_aqua            "#36473A" "#005f5f")
 
   (gruvbox-delimiter-one   "#458588" "#008787")
   (gruvbox-delimiter-two   "#b16286" "#d75f87")
@@ -110,13 +110,13 @@
   (gruvbox-white           "#FFFFFF" "#FFFFFF")
   (gruvbox-black           "#000000" "#000000")
   (gruvbox-sienna          "#DD6F48" "#d7875f")
-  (gruvboxslategray4  "#528B8B" "#5f8787")
+  (gruvboxslategray4       "#528B8B" "#5f8787")
   (gruvbox-lightblue4      "#66999D" "#5fafaf")
   (gruvbox-burlywood4      "#BBAA97" "#afaf87")
   (gruvbox-aquamarine4     "#83A598" "#87af87")
   (gruvbox-turquoise4      "#61ACBB" "#5fafaf")
 
-  (gruvbox-bg gruvbox0))
+  (gruvbox-bg gruvbox-dark0))
 
  (custom-theme-set-variables 'gruvbox
                              `(ansi-color-names-vector
