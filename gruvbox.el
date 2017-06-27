@@ -369,6 +369,15 @@
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
      (mu4e-highlight-face                       (:foreground gruvbox-neutral_green))
 
+     ;; Ivy
+     (ivy-current-match                         (:foreground gruvbox-light0_hard :weight 'bold :underline t))
+     (ivy-match-required-face                   (:foreground gruvbox-bright_red  :weight 'bold))
+     (ivy-minibuffer-match-face-1               (:foreground gruvbox-faded_red))
+     (ivy-minibuffer-match-face-2               (:foreground gruvbox-faded_orange))
+     (ivy-minibuffer-match-face-3               (:foreground gruvbox-bright_orange))
+     (ivy-minibuffer-match-face-4               (:foreground gruvbox-bright_yellow))
+
+
      ;; MODE SUPPORT: dired+
      (diredp-file-name                          (:foreground gruvbox-light2))
      (diredp-file-suffix                        (:foreground gruvbox-light4))
