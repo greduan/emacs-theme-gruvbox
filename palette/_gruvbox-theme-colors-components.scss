@@ -1,0 +1,113 @@
+$dark: #000000;
+$light: #ffffff;
+
+@function contrast-foreground($color) {
+  $color-brightness: lightness($color);
+  $dark-text-brightness: lightness($dark);
+  $light-text-brightness: lightness($light);
+  @return if(abs($color-brightness - $light-text-brightness) > abs($color-brightness - $dark-text-brightness),
+  $light,
+  $dark);
+}
+
+@function bottom-bar-color($color) {
+  @return  darken($color, 12%);
+}
+
+$swatch-width: 128px;
+$swatch-height: 128px;
+
+body {
+  font-family: "SauceCodePro Nerd Font";
+  font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+$heads: (
+  h1: 42pt,
+  h2: 38pt,
+  h3: 28pt,
+  h4: 18pt,
+  h5: 14pt
+);
+
+@each $head, $size in $heads {
+  #{$head} {
+    font-size: $size;
+  }
+}
+
+.gruvbox-swatch {
+  width: $swatch-width;
+  height: $swatch-height;
+  font-size: 10pt;
+  float: left;
+  margin: 1px 1px 0 0;
+}
+
+@each $name, $color in $gruvbox-palette {
+  .#{$name} {
+    position: relative;
+    color: contrast-foreground($color);
+    background-color: $color;
+    height: $swatch-height - 8px;
+
+    .xterm {
+      position: absolute;
+      width: 112px;
+      top: -16px;
+      right: 0;
+      padding: 3px;
+      transform-origin: right bottom;
+      transform: rotate(270deg);
+      text-align: right;
+      font-size: 7pt;
+    }
+
+    .content {
+      position: absolute;
+      top: 5px;
+      left: 8px;
+      font-size: 10pt;
+    }
+
+    .color-label {
+      position: absolute;
+      bottom: 5px;
+      left: 8px;
+      font-size: 14pt;
+    }
+  }
+
+  .#{$name}-after {
+    height: 8px;
+    width: $swatch-width;
+    background-color: bottom-bar-color($color);
+  }
+}
+
+.separator {
+  clear: left;
+  height: 0;
+  width: 100%;
+}
+
+.group-separator {
+  clear: left;
+  height: 10px;
+  width: 100%;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+}

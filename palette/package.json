@@ -1,0 +1,27 @@
+{
+  "name": "emacs-gruvbox-palette-builder",
+  "version": "1.0.0",
+  "description": "Build palette pages / images for gruvbox on Emacs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint '**/*.scss'",
+    "build": "grunt"
+  },
+  "keywords": [
+    "emacs",
+    "gruvbox"
+  ],
+  "author": "Jason Milkins",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-stylelint": "^0.8.0",
+    "stylelint-config-sass-guidelines": "^2.1.0",
+    "stylelint-config-standard": "^16.0.0"
+  }
+}

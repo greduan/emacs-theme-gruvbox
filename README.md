@@ -4,18 +4,35 @@ Gruvbox is a retro groove color scheme for Emacs. It is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
 [here](https://github.com/morhetz/gruvbox).
 
-Pavel's version has evolved since this version was made, and now
-includes a light version, and other changes.  Syntax highlighting is
-applied differently in the Vim version too.
+## Theme versions
 
-We are in the process of adding a light version and we'll also try to add
-a version which maps syntax closer to the current Vim Gruvbox.
+#### gruvbox-dark-medium aka. gruvbox
 
-We won't be changing the main Emacs Gruvbox theme, because there's a
-lot of people who've been using it for a few years, and we don't want
-to mess with their preferences.
+![gruvbox-dark-medium aka. gruvbox](gruvbox-dark-medium-screenshot.png)
 
-![Gruvbox theme screenshot](screenshot.png "Gruvbox theme screenshot")
+#### gruvbox-dark-soft
+
+![gruvbox-dark-soft](gruvbox-dark-hard-screenshot.png)
+
+#### gruvbox-dark-hard
+
+![gruvbox-dark-hard](gruvbox-dark-soft-screenshot.png)
+
+#### gruvbox-light-medium
+
+![gruvbox-light-medium](gruvbox-light-medium-screenshot.png)
+
+#### gruvbox-light-soft
+
+![gruvbox-light-soft](gruvbox-light-hard-screenshot.png)
+
+#### gruvbox-light-hard
+
+![gruvbox-light-hard](gruvbox-light-soft-screenshot.png)
+
+## Palette
+
+Note the dark and light tones are transposed in the light versions.
 
 ![Gruvbox Palette Dark](darktones-palette.png "Gruvbox theme palette")
 
@@ -35,7 +52,7 @@ to mess with their preferences.
 
 ![Gruvbox Palette Rainbow Delimiters](rainbow-delimiters-palette.png "Gruvbox theme palette")
 
-## Supports
+## Mode Support
 
 This theme contains custom support for the following features and plugins:
 
