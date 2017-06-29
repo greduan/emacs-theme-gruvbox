@@ -358,7 +358,7 @@
      (show-paren-mismatch                       (:background gruvbox-bright_red :foreground gruvbox-dark3 :weight 'bold))
 
      ;; ivy
-     (ivy-current-match                         (:foreground gruvbox-white :weight 'bold :underline t))
+     (ivy-current-match                         (:foreground gruvbox-light0_hard :weight 'bold :underline t))
      (ivy-minibuffer-match-face-1               (:foreground gruvbox-neutral_orange))
      (ivy-minibuffer-match-face-2               (:foreground gruvbox-neutral_yellow))
      (ivy-minibuffer-match-face-3               (:foreground gruvbox-faded_orange))
