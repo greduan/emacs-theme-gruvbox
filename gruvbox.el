@@ -173,10 +173,10 @@
      (js2-jsdoc-html-tag-delimiter              (:background nil :foreground gruvbox-light3))
 
      ;; popup
-     (popup-face                                (:foreground gruvbox-light1 :background gruvbox-dark1))
-     (popup-menu-mouse-face                     (:foreground gruvbox-light0 :background gruvbox-faded_green))
-     (popup-menu-selection-face                 (:foreground gruvbox-light0 :background gruvbox-faded_green))
-     (popup-tip-face                            (:foreground gruvbox-light2 :background gruvbox-dark2))
+     (popup-face                                (:underline nil :foreground gruvbox-light1 :background gruvbox-dark1))
+     (popup-menu-mouse-face                     (:underline nil :foreground gruvbox-light0 :background gruvbox-faded_green))
+     (popup-menu-selection-face                 (:underline nil :foreground gruvbox-light0 :background gruvbox-faded_green))
+     (popup-tip-face                            (:underline nil :foreground gruvbox-light2 :background gruvbox-dark2))
 
      ;; helm
      (helm-M-x-key                              (:foreground gruvbox-neutral_orange ))
