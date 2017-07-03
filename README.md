@@ -6,27 +6,39 @@ version originally by [Pavel Pertsev](https://github.com/morhetz) found
 
 ## Theme versions
 
-#### gruvbox-dark-medium aka. gruvbox
+#### Gruvbox Dark Medium (aka. Gruvbox _default_)
+
+Theme name `gruvbox-dark-medium`
 
 ![gruvbox-dark-medium aka. gruvbox](images/gruvbox-dark-medium-screenshot.png)
 
-#### gruvbox-dark-soft
+#### Gruvbox Dark Soft
+
+Theme name `gruvbox-dark-soft`
 
 ![gruvbox-dark-soft](images/gruvbox-dark-hard-screenshot.png)
 
-#### gruvbox-dark-hard
+#### Gruvbox Dark Hard
+
+Theme name `gruvbox-dark-hard`
 
 ![gruvbox-dark-hard](images/gruvbox-dark-soft-screenshot.png)
 
-#### gruvbox-light-medium
+#### Gruvbox Light Medium
+
+Theme name `gruvbox-light-medium`
 
 ![gruvbox-light-medium](images/gruvbox-light-medium-screenshot.png)
 
-#### gruvbox-light-soft
+#### Gruvbox Light Soft
+
+Theme name `gruvbox-light-soft`
 
 ![gruvbox-light-soft](images/gruvbox-light-hard-screenshot.png)
 
-#### gruvbox-light-hard
+#### Gruvbox Light Hard
+
+Theme name `gruvbox-light-hard`
 
 ![gruvbox-light-hard](images/gruvbox-light-soft-screenshot.png)
 
@@ -69,6 +81,7 @@ This theme contains custom support for the following features and plugins:
 - Highlight Indent
 - Ivy
 - Markdown
+- Magit
 - Message
 - Org
 - Popup
