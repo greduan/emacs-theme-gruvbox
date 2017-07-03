@@ -94,6 +94,17 @@
      (font-lock-type-face                               (:foreground gruvbox-neutral_purple))
      (font-lock-warning-face                            (:foreground gruvbox-neutral_red :bold t))
 
+     ;; Basic faces
+     (error                                             (:foreground gruvbox-bright_red :bold t))
+     (success                                           (:foreground gruvbox-bright_green :bold t))
+     (warning                                           (:foreground gruvbox-bright_yellow :bold t))
+     (trailing-whitespace                               (:background gruvbox-neutral_red))
+     (escape-glyph                                      (:foreground gruvbox-bright_aqua))
+     (header-line                                       (:background gruvbox-dark0 :foreground gruvbox-light3 :box nil :inherit nil))
+     (highlight                                         (:background gruvbox-dark4 :foreground gruvbox-light0))
+     (homoglyph                                         (:foreground gruvbox-bright_yellow))
+     (match                                             (:foreground gruvbox-dark0 :background gruvbox-neutral_blue))
+
      ;; whitespace-mode
 
      (whitespace-space                          (:background gruvbox-bg :foreground gruvbox-dark4))
