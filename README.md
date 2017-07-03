@@ -1,4 +1,4 @@
-![Gruvbox Head](gruvbox-head.png "Gruvbox theme header")
+![Gruvbox Head](images/gruvbox-head.png "Gruvbox theme header")
 
 Gruvbox is a retro groove color scheme for Emacs. It is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
@@ -8,49 +8,49 @@ version originally by [Pavel Pertsev](https://github.com/morhetz) found
 
 #### gruvbox-dark-medium aka. gruvbox
 
-![gruvbox-dark-medium aka. gruvbox](gruvbox-dark-medium-screenshot.png)
+![gruvbox-dark-medium aka. gruvbox](images/gruvbox-dark-medium-screenshot.png)
 
 #### gruvbox-dark-soft
 
-![gruvbox-dark-soft](gruvbox-dark-hard-screenshot.png)
+![gruvbox-dark-soft](images/gruvbox-dark-hard-screenshot.png)
 
 #### gruvbox-dark-hard
 
-![gruvbox-dark-hard](gruvbox-dark-soft-screenshot.png)
+![gruvbox-dark-hard](images/gruvbox-dark-soft-screenshot.png)
 
 #### gruvbox-light-medium
 
-![gruvbox-light-medium](gruvbox-light-medium-screenshot.png)
+![gruvbox-light-medium](images/gruvbox-light-medium-screenshot.png)
 
 #### gruvbox-light-soft
 
-![gruvbox-light-soft](gruvbox-light-hard-screenshot.png)
+![gruvbox-light-soft](images/gruvbox-light-hard-screenshot.png)
 
 #### gruvbox-light-hard
 
-![gruvbox-light-hard](gruvbox-light-soft-screenshot.png)
+![gruvbox-light-hard](images/gruvbox-light-soft-screenshot.png)
 
 ## Palette
 
 Note the dark and light tones are transposed in the light versions.
 
-![Gruvbox Palette Dark](darktones-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Dark](images/darktones-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Mid](midtones-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Mid](images/midtones-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Light](lighttones-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Light](images/lighttones-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Bright](bright-colors-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Bright](images/bright-colors-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Neutral](neutral-colors-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Neutral](images/neutral-colors-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Faded](faded-colors-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Faded](images/faded-colors-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Dark Notes](darknotes-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Dark Notes](images/darknotes-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Solo Notes](solonotes-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Solo Notes](images/solonotes-palette.png "Gruvbox theme palette")
 
-![Gruvbox Palette Rainbow Delimiters](rainbow-delimiters-palette.png "Gruvbox theme palette")
+![Gruvbox Palette Rainbow Delimiters](images/rainbow-delimiters-palette.png "Gruvbox theme palette")
 
 ## Mode Support
 
