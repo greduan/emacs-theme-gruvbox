@@ -1,4 +1,4 @@
-;;; gruvbox-theme.el --- A retro-groove colour theme for Emacs
+;;; gruvbox-dark-soft-theme.el --- A retro-groove colour theme for Emacs
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Greduan
@@ -51,8 +51,8 @@
 (require 'gruvbox)
 
 (gruvbox-deftheme
- gruvbox
- "A retro-groove colour theme"
+ gruvbox-dark-soft
+ "A retro-groove colour theme (dark version, soft contrast)"
 
  ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
    ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
@@ -99,9 +99,9 @@
   (gruvbox-faded_aqua      "#427b58" "#5f8787")
   (gruvbox-faded_orange    "#af3a03" "#af5f00")
 
-  (gruvbox-dark_red             "#421E1E" "#5f0000")
-  (gruvbox-dark_blue            "#2B3C44" "#000087")
-  (gruvbox-dark_aqua            "#36473A" "#005f5f")
+  (gruvbox-dark_red        "#421E1E" "#5f0000")
+  (gruvbox-dark_blue       "#2B3C44" "#000087")
+  (gruvbox-dark_aqua       "#36473A" "#005f5f")
 
   (gruvbox-delimiter-one   "#458588" "#008787")
   (gruvbox-delimiter-two   "#b16286" "#d75f87")
@@ -110,17 +110,17 @@
   (gruvbox-white           "#FFFFFF" "#FFFFFF")
   (gruvbox-black           "#000000" "#000000")
   (gruvbox-sienna          "#DD6F48" "#d7875f")
-  (gruvboxslategray4       "#528B8B" "#5f8787")
+  (gruvbox-darkslategray4  "#528B8B" "#5f8787")
   (gruvbox-lightblue4      "#66999D" "#5fafaf")
   (gruvbox-burlywood4      "#BBAA97" "#afaf87")
   (gruvbox-aquamarine4     "#83A598" "#87af87")
   (gruvbox-turquoise4      "#61ACBB" "#5fafaf")
 
-  (gruvbox-bg gruvbox-dark0))
+  (gruvbox-bg gruvbox-dark0_soft))
 
- (custom-theme-set-variables 'gruvbox
+ (custom-theme-set-variables 'gruvbox-dark-soft
                              `(ansi-color-names-vector
-                               [,gruvbox1
+                               [,gruvbox-dark1
                                 ,gruvbox-neutral_red
                                 ,gruvbox-neutral_green
                                 ,gruvbox-neutral_yellow
@@ -129,7 +129,6 @@
                                 ,gruvbox-neutral_aqua
                                 ,gruvbox-light1])))
 
-
 ;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
@@ -137,11 +136,10 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide-theme 'gruvbox)
-
+(provide-theme 'gruvbox-dark-soft)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; gruvbox-theme.el ends here
+;;; gruvbox-dark-soft-theme.el ends here

@@ -1,28 +1,98 @@
-# Gruvbox theme for Emacs
+![Gruvbox Head](images/gruvbox-head.png "Gruvbox theme header")
 
-Gruvbox is a retro groove color scheme for Emacs. This is a port of the Vim
+Gruvbox is a retro groove color scheme for Emacs. It is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
-[here](https://github.com/morhetz/gruvbox).  Look at the original colorscheme's
-repo for a lot of pictures.  Here's a sort of outdated screenshot:
+[here](https://github.com/morhetz/gruvbox).
 
-![Gruvbox theme screenshot](/screenshot.jpg "Gruvbox theme screenshot")
+## Theme versions
 
+#### Gruvbox Dark Medium (aka. Gruvbox _default_)
 
-## Supports
+Theme name `gruvbox-dark-medium`
+
+![gruvbox-dark-medium aka. gruvbox](images/gruvbox-dark-medium-screenshot.png)
+
+#### Gruvbox Dark Soft
+
+Theme name `gruvbox-dark-soft`
+
+![gruvbox-dark-soft](images/gruvbox-dark-hard-screenshot.png)
+
+#### Gruvbox Dark Hard
+
+Theme name `gruvbox-dark-hard`
+
+![gruvbox-dark-hard](images/gruvbox-dark-soft-screenshot.png)
+
+#### Gruvbox Light Medium
+
+Theme name `gruvbox-light-medium`
+
+![gruvbox-light-medium](images/gruvbox-light-medium-screenshot.png)
+
+#### Gruvbox Light Soft
+
+Theme name `gruvbox-light-soft`
+
+![gruvbox-light-soft](images/gruvbox-light-hard-screenshot.png)
+
+#### Gruvbox Light Hard
+
+Theme name `gruvbox-light-hard`
+
+![gruvbox-light-hard](images/gruvbox-light-soft-screenshot.png)
+
+## Palette
+
+Note the dark and light tones are transposed in the light versions.
+
+![Gruvbox Palette Dark](images/darktones-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Mid](images/midtones-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Light](images/lighttones-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Bright](images/bright-colors-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Neutral](images/neutral-colors-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Faded](images/faded-colors-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Dark Notes](images/darknotes-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Solo Notes](images/solonotes-palette.png "Gruvbox theme palette")
+
+![Gruvbox Palette Rainbow Delimiters](images/rainbow-delimiters-palette.png "Gruvbox theme palette")
+
+## Mode Support
 
 This theme contains custom support for the following features and plugins:
 
-- `whitespace-mode`
-- [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
-- [linum-relative](https://github.com/emacsmirror/linum-relative)
-- [Smartparens](https://github.com/Fuco1/smartparens)
-- [ElScreen](https://github.com/knu/elscreen)
-- [ag.el](https://github.com/Wilfred/ag.el)
-- [js2-mode](https://github.com/mooz/js2-mode)
-- Diffs
-- Term
-- Helm
+- Ace jump
+- Ace window
+- [Anzu](https://github.com/syohex/emacs-anzu#customization) support
 - Comint (and the like)
+- Company
+- Diffs
+- Dired+
+- [ElScreen](https://github.com/knu/elscreen)
+- Elfeed
+- Helm
+- Highlight Indent
+- Ivy
+- Markdown
+- Magit
+- Message
+- Org
+- Popup
+- [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
+- Smart modeline
+- [Smartparens](https://github.com/Fuco1/smartparens)
+- Term
+- [Ag.el](https://github.com/Wilfred/ag.el)
+- [Js2-mode](https://github.com/mooz/js2-mode)
+- [Linum-relative](https://github.com/emacsmirror/linum-relative)
+- Whitespace-mode
 
 ## Installation and usage
 
@@ -60,20 +130,12 @@ The following instructions are for in the case where you don't have access to
    ```
 
 
-## Known bugs
+## Issues
 
-None.  For now...
+See https://github.com/greduan/emacs-theme-gruvbox/issues
 
-
-## To-do
-
-- [Anzu](https://github.com/syohex/emacs-anzu#customization) support
-- [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode/blob/8351e2df4fbbeb2a4003f2fb39f46d33803f3dac/ace-jump-mode.el#L287) support
-- Light version of theme.
-
-If you want for the theme to support something please open a new issue and I'll
-try my best to make it work out. :smile:
-
+If you want the theme to support something please open a new issue and we'll
+try our best to make it happen. :smile:
 
 ## License
 
@@ -82,6 +144,7 @@ The MIT License (MIT)
 
 Copyright (c) 2013 Lee Machin
               2013-2016 Greduan
+              2015-2017 Jason Milkins
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

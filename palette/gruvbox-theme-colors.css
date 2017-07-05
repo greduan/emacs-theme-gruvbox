@@ -1,0 +1,3733 @@
+body {
+  font-family: "SauceCodePro Nerd Font";
+  font-weight: lighter;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+h1 {
+  font-size: 42pt;
+}
+
+h2 {
+  font-size: 38pt;
+}
+
+h3 {
+  font-size: 28pt;
+}
+
+h4 {
+  font-size: 18pt;
+}
+
+h5 {
+  font-size: 14pt;
+}
+
+.gruvbox-swatch {
+  width: 128px;
+  height: 128px;
+  font-size: 10pt;
+  float: left;
+  margin: 1px 1px 0 0;
+}
+
+.gruvbox-dark0_hard {
+  position: relative;
+  color: #ffffff;
+  background-color: #1d2021;
+  height: 120px;
+}
+.gruvbox-dark0_hard .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark0_hard .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark0_hard .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark0_hard-after {
+  height: 8px;
+  width: 128px;
+  background-color: black;
+}
+
+.gruvbox-dark0_hard-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #1c1c1c;
+  height: 120px;
+}
+.gruvbox-dark0_hard-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark0_hard-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark0_hard-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark0_hard-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: black;
+}
+
+.gruvbox-dark0 {
+  position: relative;
+  color: #ffffff;
+  background-color: #282828;
+  height: 120px;
+}
+.gruvbox-dark0 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark0 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark0 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark0-after {
+  height: 8px;
+  width: 128px;
+  background-color: #090909;
+}
+
+.gruvbox-dark0-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #262626;
+  height: 120px;
+}
+.gruvbox-dark0-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark0-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark0-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark0-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #070707;
+}
+
+.gruvbox-dark0_soft {
+  position: relative;
+  color: #ffffff;
+  background-color: #32302f;
+  height: 120px;
+}
+.gruvbox-dark0_soft .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark0_soft .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark0_soft .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark0_soft-after {
+  height: 8px;
+  width: 128px;
+  background-color: #121211;
+}
+
+.gruvbox-dark0_soft-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #303030;
+  height: 120px;
+}
+.gruvbox-dark0_soft-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark0_soft-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark0_soft-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark0_soft-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #111111;
+}
+
+.gruvbox-dark1 {
+  position: relative;
+  color: #ffffff;
+  background-color: #3c3836;
+  height: 120px;
+}
+.gruvbox-dark1 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark1 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark1 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark1-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1c1a19;
+}
+
+.gruvbox-dark1-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #3a3a3a;
+  height: 120px;
+}
+.gruvbox-dark1-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark1-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark1-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark1-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1b1b1b;
+}
+
+.gruvbox-dark2 {
+  position: relative;
+  color: #ffffff;
+  background-color: #504945;
+  height: 120px;
+}
+.gruvbox-dark2 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark2 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark2 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark2-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2f2b29;
+}
+
+.gruvbox-dark2-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #4e4e4e;
+  height: 120px;
+}
+.gruvbox-dark2-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark2-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark2-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark2-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2f2f2f;
+}
+
+.gruvbox-dark3 {
+  position: relative;
+  color: #ffffff;
+  background-color: #665c54;
+  height: 120px;
+}
+.gruvbox-dark3 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark3 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark3 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark3-after {
+  height: 8px;
+  width: 128px;
+  background-color: #443e38;
+}
+
+.gruvbox-dark3-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #626262;
+  height: 120px;
+}
+.gruvbox-dark3-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark3-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark3-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark3-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #434343;
+}
+
+.gruvbox-dark4 {
+  position: relative;
+  color: #ffffff;
+  background-color: #7c6f64;
+  height: 120px;
+}
+.gruvbox-dark4 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark4 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark4 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #5a5149;
+}
+
+.gruvbox-dark4-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #767676;
+  height: 120px;
+}
+.gruvbox-dark4-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark4-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark4-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #575757;
+}
+
+.gruvbox-gray {
+  position: relative;
+  color: #000000;
+  background-color: #928374;
+  height: 120px;
+}
+.gruvbox-gray .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-gray .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-gray .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-gray-after {
+  height: 8px;
+  width: 128px;
+  background-color: #716458;
+}
+
+.gruvbox-gray-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #8a8a8a;
+  height: 120px;
+}
+.gruvbox-gray-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-gray-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-gray-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-gray-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6b6b6b;
+}
+
+.gruvbox-light0_hard {
+  position: relative;
+  color: #000000;
+  background-color: #ffffc8;
+  height: 120px;
+}
+.gruvbox-light0_hard .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light0_hard .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light0_hard .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light0_hard-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffff8b;
+}
+
+.gruvbox-light0_hard-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffffd7;
+  height: 120px;
+}
+.gruvbox-light0_hard-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light0_hard-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light0_hard-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light0_hard-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffff9a;
+}
+
+.gruvbox-light0 {
+  position: relative;
+  color: #000000;
+  background-color: #fdf4c1;
+  height: 120px;
+}
+.gruvbox-light0 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light0 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light0 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light0-after {
+  height: 8px;
+  width: 128px;
+  background-color: #fbe986;
+}
+
+.gruvbox-light0-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffffaf;
+  height: 120px;
+}
+.gruvbox-light0-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light0-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light0-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light0-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffff72;
+}
+
+.gruvbox-light0_soft {
+  position: relative;
+  color: #000000;
+  background-color: #f4e8ba;
+  height: 120px;
+}
+.gruvbox-light0_soft .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light0_soft .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light0_soft .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light0_soft-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ecd685;
+}
+
+.gruvbox-light0_soft-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffdfaf;
+  height: 120px;
+}
+.gruvbox-light0_soft-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light0_soft-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light0_soft-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light0_soft-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffc772;
+}
+
+.gruvbox-light1 {
+  position: relative;
+  color: #000000;
+  background-color: #ebdbb2;
+  height: 120px;
+}
+.gruvbox-light1 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light1 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light1 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light1-after {
+  height: 8px;
+  width: 128px;
+  background-color: #dec481;
+}
+
+.gruvbox-light1-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffdfaf;
+  height: 120px;
+}
+.gruvbox-light1-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light1-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light1-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light1-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffc772;
+}
+
+.gruvbox-light2 {
+  position: relative;
+  color: #000000;
+  background-color: #d5c4a1;
+  height: 120px;
+}
+.gruvbox-light2 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light2 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light2 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light2-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c2a977;
+}
+
+.gruvbox-light2-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #bcbcbc;
+  height: 120px;
+}
+.gruvbox-light2-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light2-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light2-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light2-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9d9d9d;
+}
+
+.gruvbox-light3 {
+  position: relative;
+  color: #000000;
+  background-color: #bdae93;
+  height: 120px;
+}
+.gruvbox-light3 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light3 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light3 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light3-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a6926d;
+}
+
+.gruvbox-light3-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #a8a8a8;
+  height: 120px;
+}
+.gruvbox-light3-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light3-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light3-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light3-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #898989;
+}
+
+.gruvbox-light4 {
+  position: relative;
+  color: #000000;
+  background-color: #a89984;
+  height: 120px;
+}
+.gruvbox-light4 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light4 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light4 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #8c7b63;
+}
+
+.gruvbox-light4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #949494;
+  height: 120px;
+}
+.gruvbox-light4-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-light4-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-light4-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-light4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #757575;
+}
+
+.gruvbox-bright_red {
+  position: relative;
+  color: #000000;
+  background-color: #fb4933;
+  height: 120px;
+}
+.gruvbox-bright_red .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_red .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_red .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ec1e05;
+}
+
+.gruvbox-bright_red-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d75f5f;
+  height: 120px;
+}
+.gruvbox-bright_red-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_red-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_red-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c73232;
+}
+
+.gruvbox-bright_green {
+  position: relative;
+  color: #ffffff;
+  background-color: #b8bb26;
+  height: 120px;
+}
+.gruvbox-bright_green .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_green .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_green .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #86881c;
+}
+
+.gruvbox-bright_green-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #afaf00;
+  height: 120px;
+}
+.gruvbox-bright_green-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_green-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_green-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #727200;
+}
+
+.gruvbox-bright_yellow {
+  position: relative;
+  color: #000000;
+  background-color: #fabd2f;
+  height: 120px;
+}
+.gruvbox-bright_yellow .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_yellow .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_yellow .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e6a306;
+}
+
+.gruvbox-bright_yellow-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffaf00;
+  height: 120px;
+}
+.gruvbox-bright_yellow-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_yellow-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_yellow-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c28500;
+}
+
+.gruvbox-bright_blue {
+  position: relative;
+  color: #000000;
+  background-color: #83a598;
+  height: 120px;
+}
+.gruvbox-bright_blue .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_blue .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_blue .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #63887a;
+}
+
+.gruvbox-bright_blue-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87afaf;
+  height: 120px;
+}
+.gruvbox-bright_blue-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_blue-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_blue-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649595;
+}
+
+.gruvbox-bright_purple {
+  position: relative;
+  color: #000000;
+  background-color: #d3869b;
+  height: 120px;
+}
+.gruvbox-bright_purple .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_purple .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_purple .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c35976;
+}
+
+.gruvbox-bright_purple-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d787af;
+  height: 120px;
+}
+.gruvbox-bright_purple-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_purple-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_purple-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c85990;
+}
+
+.gruvbox-bright_aqua {
+  position: relative;
+  color: #000000;
+  background-color: #8ec07c;
+  height: 120px;
+}
+.gruvbox-bright_aqua .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_aqua .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_aqua .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6aac53;
+}
+
+.gruvbox-bright_aqua-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87af87;
+  height: 120px;
+}
+.gruvbox-bright_aqua-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_aqua-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_aqua-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649564;
+}
+
+.gruvbox-bright_orange {
+  position: relative;
+  color: #000000;
+  background-color: #fe8019;
+  height: 120px;
+}
+.gruvbox-bright_orange .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_orange .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_orange .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d96201;
+}
+
+.gruvbox-bright_orange-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ff8700;
+  height: 120px;
+}
+.gruvbox-bright_orange-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-bright_orange-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-bright_orange-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-bright_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c26700;
+}
+
+.gruvbox-neutral_red {
+  position: relative;
+  color: #000000;
+  background-color: #fb4934;
+  height: 120px;
+}
+.gruvbox-neutral_red .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_red .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_red .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ed1d05;
+}
+
+.gruvbox-neutral_red-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d75f5f;
+  height: 120px;
+}
+.gruvbox-neutral_red-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_red-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_red-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c73232;
+}
+
+.gruvbox-neutral_green {
+  position: relative;
+  color: #ffffff;
+  background-color: #b8bb26;
+  height: 120px;
+}
+.gruvbox-neutral_green .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_green .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_green .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #86881c;
+}
+
+.gruvbox-neutral_green-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #afaf00;
+  height: 120px;
+}
+.gruvbox-neutral_green-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_green-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_green-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #727200;
+}
+
+.gruvbox-neutral_yellow {
+  position: relative;
+  color: #000000;
+  background-color: #fabd2f;
+  height: 120px;
+}
+.gruvbox-neutral_yellow .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_yellow .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_yellow .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e6a306;
+}
+
+.gruvbox-neutral_yellow-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffaf00;
+  height: 120px;
+}
+.gruvbox-neutral_yellow-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_yellow-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_yellow-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c28500;
+}
+
+.gruvbox-neutral_blue {
+  position: relative;
+  color: #000000;
+  background-color: #83a598;
+  height: 120px;
+}
+.gruvbox-neutral_blue .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_blue .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_blue .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #63887a;
+}
+
+.gruvbox-neutral_blue-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87afaf;
+  height: 120px;
+}
+.gruvbox-neutral_blue-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_blue-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_blue-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649595;
+}
+
+.gruvbox-neutral_purple {
+  position: relative;
+  color: #000000;
+  background-color: #d3869b;
+  height: 120px;
+}
+.gruvbox-neutral_purple .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_purple .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_purple .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c35976;
+}
+
+.gruvbox-neutral_purple-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d787af;
+  height: 120px;
+}
+.gruvbox-neutral_purple-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_purple-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_purple-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c85990;
+}
+
+.gruvbox-neutral_aqua {
+  position: relative;
+  color: #000000;
+  background-color: #8ec07c;
+  height: 120px;
+}
+.gruvbox-neutral_aqua .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_aqua .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_aqua .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6aac53;
+}
+
+.gruvbox-neutral_aqua-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87af87;
+  height: 120px;
+}
+.gruvbox-neutral_aqua-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_aqua-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_aqua-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649564;
+}
+
+.gruvbox-neutral_orange {
+  position: relative;
+  color: #000000;
+  background-color: #fe8019;
+  height: 120px;
+}
+.gruvbox-neutral_orange .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_orange .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_orange .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d96201;
+}
+
+.gruvbox-neutral_orange-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ff8700;
+  height: 120px;
+}
+.gruvbox-neutral_orange-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-neutral_orange-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-neutral_orange-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-neutral_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c26700;
+}
+
+.gruvbox-faded_red {
+  position: relative;
+  color: #ffffff;
+  background-color: #9d0006;
+  height: 120px;
+}
+.gruvbox-faded_red .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_red .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_red .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #600004;
+}
+
+.gruvbox-faded_red-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #870000;
+  height: 120px;
+}
+.gruvbox-faded_red-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_red-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_red-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4a0000;
+}
+
+.gruvbox-faded_green {
+  position: relative;
+  color: #ffffff;
+  background-color: #79740e;
+  height: 120px;
+}
+.gruvbox-faded_green .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_green .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_green .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #423f08;
+}
+
+.gruvbox-faded_green-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #878700;
+  height: 120px;
+}
+.gruvbox-faded_green-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_green-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_green-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4a4a00;
+}
+
+.gruvbox-faded_yellow {
+  position: relative;
+  color: #ffffff;
+  background-color: #b57614;
+  height: 120px;
+}
+.gruvbox-faded_yellow .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_yellow .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_yellow .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #7e520e;
+}
+
+.gruvbox-faded_yellow-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #af8700;
+  height: 120px;
+}
+.gruvbox-faded_yellow-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_yellow-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_yellow-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #725800;
+}
+
+.gruvbox-faded_blue {
+  position: relative;
+  color: #ffffff;
+  background-color: #076678;
+  height: 120px;
+}
+.gruvbox-faded_blue .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_blue .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_blue .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #04353e;
+}
+
+.gruvbox-faded_blue-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #005f87;
+  height: 120px;
+}
+.gruvbox-faded_blue-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_blue-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_blue-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #00344a;
+}
+
+.gruvbox-faded_purple {
+  position: relative;
+  color: #ffffff;
+  background-color: #8f3f71;
+  height: 120px;
+}
+.gruvbox-faded_purple .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_purple .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_purple .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #652c4f;
+}
+
+.gruvbox-faded_purple-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #875f87;
+  height: 120px;
+}
+.gruvbox-faded_purple-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_purple-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_purple-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #634663;
+}
+
+.gruvbox-faded_aqua {
+  position: relative;
+  color: #ffffff;
+  background-color: #427b58;
+  height: 120px;
+}
+.gruvbox-faded_aqua .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_aqua .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_aqua .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2d533c;
+}
+
+.gruvbox-faded_aqua-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #5f8787;
+  height: 120px;
+}
+.gruvbox-faded_aqua-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_aqua-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_aqua-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #466363;
+}
+
+.gruvbox-faded_orange {
+  position: relative;
+  color: #ffffff;
+  background-color: #af3a03;
+  height: 120px;
+}
+.gruvbox-faded_orange .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_orange .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_orange .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #732602;
+}
+
+.gruvbox-faded_orange-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #af5f00;
+  height: 120px;
+}
+.gruvbox-faded_orange-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-faded_orange-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-faded_orange-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-faded_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #723e00;
+}
+
+.gruvbox-dark_red {
+  position: relative;
+  color: #ffffff;
+  background-color: #421e1e;
+  height: 120px;
+}
+.gruvbox-dark_red .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark_red .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark_red .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #180b0b;
+}
+
+.gruvbox-dark_red-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #5f0000;
+  height: 120px;
+}
+.gruvbox-dark_red-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark_red-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark_red-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #220000;
+}
+
+.gruvbox-dark_blue {
+  position: relative;
+  color: #ffffff;
+  background-color: #2b3c44;
+  height: 120px;
+}
+.gruvbox-dark_blue .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark_blue .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark_blue .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #131b1f;
+}
+
+.gruvbox-dark_blue-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #000087;
+  height: 120px;
+}
+.gruvbox-dark_blue-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark_blue-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark_blue-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #00004a;
+}
+
+.gruvbox-dark_aqua {
+  position: relative;
+  color: #ffffff;
+  background-color: #36473a;
+  height: 120px;
+}
+.gruvbox-dark_aqua .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark_aqua .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark_aqua .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1c241e;
+}
+
+.gruvbox-dark_aqua-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #005f5f;
+  height: 120px;
+}
+.gruvbox-dark_aqua-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-dark_aqua-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-dark_aqua-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-dark_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #002222;
+}
+
+.gruvbox-delimiter-one {
+  position: relative;
+  color: #ffffff;
+  background-color: #458588;
+  height: 120px;
+}
+.gruvbox-delimiter-one .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-one .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-one .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-one-after {
+  height: 8px;
+  width: 128px;
+  background-color: #305d5f;
+}
+
+.gruvbox-delimiter-one-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #008787;
+  height: 120px;
+}
+.gruvbox-delimiter-one-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-one-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-one-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-one-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #004a4a;
+}
+
+.gruvbox-delimiter-two {
+  position: relative;
+  color: #000000;
+  background-color: #b16286;
+  height: 120px;
+}
+.gruvbox-delimiter-two .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-two .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-two .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-two-after {
+  height: 8px;
+  width: 128px;
+  background-color: #8f4768;
+}
+
+.gruvbox-delimiter-two-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d75f87;
+  height: 120px;
+}
+.gruvbox-delimiter-two-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-two-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-two-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-two-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c73264;
+}
+
+.gruvbox-delimiter-three {
+  position: relative;
+  color: #000000;
+  background-color: #8ec07c;
+  height: 120px;
+}
+.gruvbox-delimiter-three .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-three .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-three .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-three-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6aac53;
+}
+
+.gruvbox-delimiter-three-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87af87;
+  height: 120px;
+}
+.gruvbox-delimiter-three-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-three-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-three-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-three-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649564;
+}
+
+.gruvbox-delimiter-four {
+  position: relative;
+  color: #ffffff;
+  background-color: #d65d0e;
+  height: 120px;
+}
+.gruvbox-delimiter-four .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-four .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-four .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-four-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9d440a;
+}
+
+.gruvbox-delimiter-four-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #d75f00;
+  height: 120px;
+}
+.gruvbox-delimiter-four-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-delimiter-four-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-delimiter-four-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-delimiter-four-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9a4400;
+}
+
+.gruvbox-white {
+  position: relative;
+  color: #000000;
+  background-color: #ffffff;
+  height: 120px;
+}
+.gruvbox-white .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-white .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-white .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-white-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e0e0e0;
+}
+
+.gruvbox-white-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffffff;
+  height: 120px;
+}
+.gruvbox-white-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-white-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-white-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-white-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e0e0e0;
+}
+
+.gruvbox-black {
+  position: relative;
+  color: #ffffff;
+  background-color: #000000;
+  height: 120px;
+}
+.gruvbox-black .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-black .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-black .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-black-after {
+  height: 8px;
+  width: 128px;
+  background-color: black;
+}
+
+.gruvbox-black-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #000000;
+  height: 120px;
+}
+.gruvbox-black-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-black-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-black-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-black-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: black;
+}
+
+.gruvbox-sienna {
+  position: relative;
+  color: #000000;
+  background-color: #dd6f48;
+  height: 120px;
+}
+.gruvbox-sienna .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-sienna .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-sienna .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-sienna-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c34e24;
+}
+
+.gruvbox-sienna-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d7875f;
+  height: 120px;
+}
+.gruvbox-sienna-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-sienna-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-sienna-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-sienna-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c76432;
+}
+
+.gruvbox-darkslategray4 {
+  position: relative;
+  color: #ffffff;
+  background-color: #528b8b;
+  height: 120px;
+}
+.gruvbox-darkslategray4 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-darkslategray4 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-darkslategray4 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-darkslategray4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #3b6565;
+}
+
+.gruvbox-darkslategray4-xterm {
+  position: relative;
+  color: #ffffff;
+  background-color: #5f8787;
+  height: 120px;
+}
+.gruvbox-darkslategray4-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-darkslategray4-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-darkslategray4-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-darkslategray4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #466363;
+}
+
+.gruvbox-lightblue4 {
+  position: relative;
+  color: #000000;
+  background-color: #66999d;
+  height: 120px;
+}
+.gruvbox-lightblue4 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-lightblue4 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-lightblue4 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-lightblue4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4d7579;
+}
+
+.gruvbox-lightblue4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #5fafaf;
+  height: 120px;
+}
+.gruvbox-lightblue4-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-lightblue4-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-lightblue4-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-lightblue4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #468b8b;
+}
+
+.gruvbox-burlywood4 {
+  position: relative;
+  color: #000000;
+  background-color: #bbaa97;
+  height: 120px;
+}
+.gruvbox-burlywood4 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-burlywood4 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-burlywood4 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-burlywood4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a38c72;
+}
+
+.gruvbox-burlywood4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #afaf87;
+  height: 120px;
+}
+.gruvbox-burlywood4-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-burlywood4-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-burlywood4-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-burlywood4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #959564;
+}
+
+.gruvbox-aquamarine4 {
+  position: relative;
+  color: #000000;
+  background-color: #83a598;
+  height: 120px;
+}
+.gruvbox-aquamarine4 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-aquamarine4 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-aquamarine4 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-aquamarine4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #63887a;
+}
+
+.gruvbox-aquamarine4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87af87;
+  height: 120px;
+}
+.gruvbox-aquamarine4-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-aquamarine4-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-aquamarine4-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-aquamarine4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649564;
+}
+
+.gruvbox-turquoise4 {
+  position: relative;
+  color: #000000;
+  background-color: #61acbb;
+  height: 120px;
+}
+.gruvbox-turquoise4 .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-turquoise4 .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-turquoise4 .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-turquoise4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #438d9c;
+}
+
+.gruvbox-turquoise4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #5fafaf;
+  height: 120px;
+}
+.gruvbox-turquoise4-xterm .xterm {
+  position: absolute;
+  width: 112px;
+  top: -16px;
+  right: 0;
+  padding: 3px;
+  transform-origin: right bottom;
+  transform: rotate(270deg);
+  text-align: right;
+  font-size: 7pt;
+}
+.gruvbox-turquoise4-xterm .content {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  font-size: 10pt;
+}
+.gruvbox-turquoise4-xterm .color-label {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 14pt;
+}
+
+.gruvbox-turquoise4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #468b8b;
+}
+
+.separator {
+  clear: left;
+  height: 0;
+  width: 100%;
+}
+
+.group-separator {
+  clear: left;
+  height: 10px;
+  width: 100%;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=gruvbox-theme-colors.css.map */
