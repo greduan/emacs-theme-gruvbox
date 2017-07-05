@@ -347,11 +347,11 @@
 
      ;; Ace-jump-mode
      (ace-jump-face-background                  (:foreground gruvbox-light4 :background gruvbox-bg :inverse-video nil))
-     (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background gruvbox-bg :inverse-video nil :box 1))
+     (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background gruvbox-bg :inverse-video nil))
 
      ;; Ace-window
      (aw-background-face                        (:forground  gruvbox-light1 :background gruvbox-bg :inverse-video nil))
-     (aw-leading-char-face                      (:foreground gruvbox-bright_orange :background gruvbox-bg :height 4.0 :box (:line-width 1 :color gruvbox-bright_orange)))
+     (aw-leading-char-face                      (:foreground gruvbox-bright_red :background gruvbox-bg :height 4.0))
 
      ;; show-paren
      (show-paren-match                          (:background gruvbox-dark3 :weight 'bold))
