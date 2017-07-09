@@ -306,6 +306,7 @@
      (org-upcoming-deadline                     (:inherit 'font-lock-keyword-face))
      (org-deadline-announce                     (:foreground gruvbox-faded_red))
      (org-time-grid                             (:foreground gruvbox-faded_orange))
+     (org-latex-and-related                     (:foreground gruvbox-neutral_blue))
 
      ;; org-habit
      (org-habit-clear-face                      (:background gruvbox-faded_blue))
