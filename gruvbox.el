@@ -238,10 +238,18 @@
      (company-scrollbar-fg                      (:background gruvbox-dark0_soft))
      (company-tooltip                           (:background gruvbox-dark0_soft))
      (company-tooltip-annotation                (:foreground gruvbox-neutral_green))
-     (company-tooltip-selection                 (:foreground gruvbox-neutral_purple))
+     (company-tooltip-annotation-selection      (:inherit 'company-tooltip-annotation))
+     (company-tooltip-selection                 (:foreground gruvbox-neutral_purple :background gruvbox-dark2))
      (company-tooltip-common                    (:foreground gruvbox-neutral_blue :underline t))
      (company-tooltip-common-selection          (:foreground gruvbox-neutral_blue :underline t))
-     (company-preview-common                    (:foreground gruvbox-neutral_purple))
+     (company-preview-common                    (:foreground gruvbox-light0))
+     (company-preview                           (:background gruvbox-lightblue4))
+     (company-preview-search                    (:background gruvbox-turquoise4))
+     (company-template-field                    (:foreground gruvbox-black :background gruvbox-neutral_yellow))
+     (company-echo-common                       (:foreground gruvbox-faded_red))
+
+     ;; Tool Tips
+     (tooltip                                   (:foreground gruvbox-light1 :background gruvbox-dark1))
 
      ;; Term
      (term-color-black                          (:foreground gruvbox-dark2 :background gruvbox-dark1))
