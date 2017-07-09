@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Emacs Gruvbox</title>
+        <link rel="stylesheet" href="gruvbox-theme-colors.css" type="text/css" media="screen" />
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script type="text/javascript" src="https://cdn.css.net/files/canvas2image/0.1/base64.js"></script>
+        <script type="text/javascript" src="https://cdn.css.net/files/canvas2image/0.1/canvas2image.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+      <div id="app">
+        <h1>GRUVBOX // Emacs</h1>
+        <div v-for="paletteGroup in paletteGroups">
+          <palette-group v-bind:title="paletteGroup.title"
+                         v-bind:prefix="paletteGroup.prefix"
+                         v-bind:colors="paletteGroup.colors" >
+          </palette-group>
+        </div>
+      </div>
+    </body>
+</html>
