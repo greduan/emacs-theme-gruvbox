@@ -452,6 +452,12 @@
      (undo-tree-visualizer-register-face        (:foreground gruvbox-bright_yellow))
      (undo-tree-visualizer-unmodified-face      (:foreground gruvbox-bright_aqua))
 
+     ;; Widget faces
+     (widget-button-pressed-face                (:foreground gruvbox-bright_red))
+     (widget-documentation-face                 (:foreground gruvbox-faded_green))
+     (widget-field                              (:foreground gruvbox-light0 :background gruvbox-dark2))
+     (widget-single-line-field                  (:foreground gruvbox-light0 :background gruvbox-dark2))
+
      ;; MODE SUPPORT: dired+
      (diredp-file-name                          (:foreground gruvbox-light2))
      (diredp-file-suffix                        (:foreground gruvbox-light4))
