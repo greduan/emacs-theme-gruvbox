@@ -445,6 +445,13 @@
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
      (mu4e-highlight-face                       (:foreground gruvbox-neutral_green))
 
+     ;; Undo-tree
+     (undo-tree-visualizer-active-branch-face   (:foreground gruvbox-light0))
+     (undo-tree-visualizer-current-face         (:foreground gruvbox-bright_red))
+     (undo-tree-visualizer-default-face         (:foreground gruvbox-dark4))
+     (undo-tree-visualizer-register-face        (:foreground gruvbox-bright_yellow))
+     (undo-tree-visualizer-unmodified-face      (:foreground gruvbox-bright_aqua))
+
      ;; MODE SUPPORT: dired+
      (diredp-file-name                          (:foreground gruvbox-light2))
      (diredp-file-suffix                        (:foreground gruvbox-light4))
