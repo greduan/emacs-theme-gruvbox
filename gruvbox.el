@@ -72,7 +72,6 @@
      (mode-line                                 (:background gruvbox-dark2 :foreground gruvbox-light2 :box nil))
      (mode-line-inactive                        (:background gruvbox-dark1 :foreground gruvbox-light4 :box nil))
      (fringe                                    (:background gruvbox-bg))
-     (linum                                     (:background gruvbox-bg :foreground gruvbox-dark4))
      (hl-line                                   (:background gruvbox-dark1))
      (region                                    (:background gruvbox-dark2)) ;;selection
 
@@ -134,15 +133,17 @@
      (rainbow-delimiters-depth-12-face          (:foreground gruvbox-delimiter-four))
      (rainbow-delimiters-unmatched-face         (:background nil :foreground gruvbox-light0))
 
-     ;; linum-relative
-     (linum-relative-current-face               (:background gruvbox-dark1 :foreground gruvbox-light4))
+
+     ;; line numbers
+     (line-number                               (:foreground gruvbox-dark2 :background gruvbox-dark0))
+     (line-number-current-line                  (:foreground gruvbox-neutral_orange :background gruvbox-dark1))
+     (linum                                     (:inherit 'line-number))
+     (linum-highlight-face                      (:inherit 'line-number-current-line))
+     (linum-relative-current-face               (:inherit 'line-number-current-line))
 
      ;; Highlight indentation mode
      (highlight-indentation-current-column-face (:background gruvbox-dark2))
      (highlight-indentation-face                (:background gruvbox-dark1))
-
-     ;; Highlight linum
-     (linum-highlight-face                      (:background gruvbox-dark1 :foreground gruvbox-neutral_yellow))
 
      ;; Smartparens
      (sp-pair-overlay-face                      (:background gruvbox-dark2))
