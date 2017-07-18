@@ -60,7 +60,24 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
+(defvar gruvbox-screenshot-command "scrot -u %s%s.png"
+  "Command used to take automated screenshots for gruvbox.
+Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
+(defun gruvbox-screenhot (prefix)
+  "Take a screenshot of all version of the gruvbox theme"
+  (interactive "sScreenshot Prefix: ")
+  (dolist (theme '(gruvbox-light-soft
+                   gruvbox-light-medium
+                   gruvbox-light-hard
+                   gruvbox-dark-soft
+                   gruvbox-dark-medium
+                   gruvbox-dark-hard))
+    (load-theme theme t)
+    (redisplay t)
+    (load-theme theme t)
+    (shell-command (format gruvbox-screenshot-command
+                           prefix theme))))
 
 (defmacro gruvbox-deftheme (name description palette reduced-specs &rest body)
   `(autothemer-deftheme
