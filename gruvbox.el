@@ -446,6 +446,10 @@
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
      (mu4e-highlight-face                       (:foreground gruvbox-neutral_green))
 
+     ;; Shell script faces
+     (sh-quoted-exec                            (:foreground gruvbox-bright_purple))
+     (sh-heredoc                                (:foreground gruvbox-bright_orange))
+
      ;; Undo-tree
      (undo-tree-visualizer-active-branch-face   (:foreground gruvbox-light0))
      (undo-tree-visualizer-current-face         (:foreground gruvbox-bright_red))
