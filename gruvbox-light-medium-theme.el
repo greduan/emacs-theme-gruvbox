@@ -59,11 +59,11 @@
 
   (gruvbox-dark0_hard      "#f9f5d7" "#ffffd7")
   (gruvbox-dark0           "#fbf1c7" "#ffffaf")
-  (gruvbox-dark0_soft      "#f2e5bc" "#ffffaf")
-  (gruvbox-dark1           "#ebdbb2" "#ffdfaf")
-  (gruvbox-dark2           "#d5c4a1" "#bcbcbc")
-  (gruvbox-dark3           "#bdae93" "#a8a8a8")
-  (gruvbox-dark4           "#a89984" "#949494")
+  (gruvbox-dark0_soft      "#f2e5bc" "#ffd787")
+  (gruvbox-dark1           "#ebdbb2" "#d7af87")
+  (gruvbox-dark2           "#d5c4a1" "#d7af5f")
+  (gruvbox-dark3           "#bdae93" "#af875f")
+  (gruvbox-dark4           "#a89984" "#afafaf")
 
   (gruvbox-gray            "#928374" "#8a8a8a")
 
