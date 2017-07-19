@@ -52,7 +52,6 @@
 
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
-
 ;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
