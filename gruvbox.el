@@ -153,9 +153,9 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      ;; line numbers
      (line-number                               (:foreground gruvbox-dark2 :background gruvbox-dark0))
      (line-number-current-line                  (:foreground gruvbox-neutral_orange :background gruvbox-dark1))
-     (linum                                     (:inherit 'line-number))
-     (linum-highlight-face                      (:inherit 'line-number-current-line))
-     (linum-relative-current-face               (:inherit 'line-number-current-line))
+     (linum                                     (:foreground gruvbox-dark2 :background gruvbox-dark0))
+     (linum-highlight-face                      (:foreground gruvbox-neutral_orange :background gruvbox-dark1))
+     (linum-relative-current-face               (:foreground gruvbox-neutral_orange :background gruvbox-dark1))
 
      ;; Highlight indentation mode
      (highlight-indentation-current-column-face (:background gruvbox-dark2))
