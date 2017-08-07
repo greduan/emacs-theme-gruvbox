@@ -432,6 +432,10 @@
      (magit-signature-untrusted                 (:foreground gruvbox-bright_blue))
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
 
+     ;; Flyspell
+     (flyspell-duplicate                        (:foreground gruvbox-neutral_orange))
+     (flyspell-incorrect                        (:foreground gruvbox-neutral_red :weight 'bold))
+
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
