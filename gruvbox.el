@@ -105,6 +105,11 @@
      (homoglyph                                         (:foreground gruvbox-bright_yellow))
      (match                                             (:foreground gruvbox-dark0 :background gruvbox-neutral_blue))
 
+     ;; Customize faces
+     (widget-field                                      (:background gruvbox-dark3))
+     (custom-group-tag                                  (:foreground gruvbox-neutral_blue :weight 'bold))
+     (custom-variable-tag                               (:foreground gruvbox-neutral_blue :weight 'bold))
+
      ;; whitespace-mode
 
      (whitespace-space                          (:background gruvbox-bg :foreground gruvbox-dark4))
