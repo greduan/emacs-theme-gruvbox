@@ -438,8 +438,8 @@
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
 
      ;; Flyspell
-     (flyspell-duplicate                        (:foreground gruvbox-neutral_orange))
-     (flyspell-incorrect                        (:foreground gruvbox-neutral_red :weight 'bold))
+     (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line) :weight 'bold))
+     (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line) :weight 'bold))
 
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
