@@ -120,6 +120,11 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (homoglyph                                         (:foreground gruvbox-bright_yellow))
      (match                                             (:foreground gruvbox-dark0 :background gruvbox-neutral_blue))
 
+     ;; Customize faces
+     (widget-field                                      (:background gruvbox-dark3))
+     (custom-group-tag                                  (:foreground gruvbox-neutral_blue :weight 'bold))
+     (custom-variable-tag                               (:foreground gruvbox-neutral_blue :weight 'bold))
+
      ;; whitespace-mode
 
      (whitespace-space                          (:background gruvbox-bg :foreground gruvbox-dark4))
@@ -456,6 +461,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (magit-signature-revoked                   (:foreground gruvbox-bright_purple))
      (magit-signature-untrusted                 (:foreground gruvbox-bright_blue))
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
+
+     ;; Flyspell
+     (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
+     (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line)))
 
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
