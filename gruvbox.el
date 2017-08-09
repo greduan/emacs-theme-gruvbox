@@ -439,7 +439,7 @@
 
      ;; Flyspell
      (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
-     (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line) :weight 'bold))
+     (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line)))
 
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
