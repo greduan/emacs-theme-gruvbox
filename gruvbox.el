@@ -85,7 +85,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
     ,palette
     ((default                                   (:background gruvbox-bg :foreground gruvbox-light0))
      (cursor                                    (:background gruvbox-light0))
-     (mode-line                                 (:background gruvbox-dark2 :foreground gruvbox-light2 :box nil))
+     (mode-line                                 (:background gruvbox-dark3 :foreground gruvbox-light2 :box nil))
      (mode-line-inactive                        (:background gruvbox-dark1 :foreground gruvbox-light4 :box nil))
      (fringe                                    (:background gruvbox-bg))
      (hl-line                                   (:background gruvbox-dark1))
