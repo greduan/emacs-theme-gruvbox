@@ -90,10 +90,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (fringe                                    (:background gruvbox-bg))
      (hl-line                                   (:background gruvbox-dark1))
      (region                                    (:background gruvbox-dark2)) ;;selection
-
      (secondary-selection                       (:background gruvbox-dark1))
      (minibuffer-prompt                         (:background gruvbox-bg :foreground gruvbox-neutral_green :bold t))
      (vertical-border                           (:foreground gruvbox-dark2))
+     (window-divider                            (:foreground gruvbox-dark2))
      (link                                      (:foreground gruvbox-faded_blue :underline t))
      (shadow                                    (:foreground gruvbox-dark4))
 
