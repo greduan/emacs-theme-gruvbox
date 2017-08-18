@@ -16,13 +16,13 @@ Theme name `gruvbox-dark-medium`
 
 Theme name `gruvbox-dark-soft`
 
-![gruvbox-dark-soft](images/gruvbox-dark-hard-screenshot.png)
+![gruvbox-dark-soft](images/gruvbox-dark-soft-screenshot.png)
 
 #### Gruvbox Dark Hard
 
 Theme name `gruvbox-dark-hard`
 
-![gruvbox-dark-hard](images/gruvbox-dark-soft-screenshot.png)
+![gruvbox-dark-hard](images/gruvbox-dark-hard-screenshot.png)
 
 #### Gruvbox Light Medium
 
@@ -34,13 +34,13 @@ Theme name `gruvbox-light-medium`
 
 Theme name `gruvbox-light-soft`
 
-![gruvbox-light-soft](images/gruvbox-light-hard-screenshot.png)
+![gruvbox-light-soft](images/gruvbox-light-soft-screenshot.png)
 
 #### Gruvbox Light Hard
 
 Theme name `gruvbox-light-hard`
 
-![gruvbox-light-hard](images/gruvbox-light-soft-screenshot.png)
+![gruvbox-light-hard](images/gruvbox-light-hard-screenshot.png)
 
 ## Palette
 

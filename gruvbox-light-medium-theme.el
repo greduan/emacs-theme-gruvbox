@@ -75,29 +75,21 @@
   (gruvbox-light3          "#665c54" "#626262")
   (gruvbox-light4          "#7c6f64" "#767676")
 
-  (gruvbox-bright_red      "#cc241d" "#870000")
-  (gruvbox-bright_green    "#98971a" "#878700")
-  (gruvbox-bright_yellow   "#d79921" "#af8700")
-  (gruvbox-bright_blue     "#458588" "#005f87")
-  (gruvbox-bright_purple   "#b16286" "#875f87")
-  (gruvbox-bright_aqua     "#689d6a" "#5f8787")
-  (gruvbox-bright_orange   "#d65d0e" "#af5f00")
+  (gruvbox-bright_red      "#9d0006" "#870000")
+  (gruvbox-bright_green    "#79740e" "#878700")
+  (gruvbox-bright_yellow   "#b57614" "#af8700")
+  (gruvbox-bright_blue     "#076678" "#005f87")
+  (gruvbox-bright_purple   "#8f3f71" "#875f87")
+  (gruvbox-bright_aqua     "#427b58" "#5f8787")
+  (gruvbox-bright_orange   "#af3a03" "#af5f00")
 
-  (gruvbox-neutral_red     "#9d0006" "#870000")
-  (gruvbox-neutral_green   "#79740e" "#878700")
-  (gruvbox-neutral_yellow  "#b57614" "#af8700")
-  (gruvbox-neutral_blue    "#076678" "#005f87")
-  (gruvbox-neutral_purple  "#8f3f71" "#875f87")
-  (gruvbox-neutral_aqua    "#427b58" "#5f8787")
-  (gruvbox-neutral_orange  "#af3a03" "#af5f00")
-
-  (gruvbox-faded_red       "#fb4933" "#d75f5f")
-  (gruvbox-faded_green     "#b8bb26" "#afaf00")
-  (gruvbox-faded_yellow    "#fabd2f" "#ffaf00")
-  (gruvbox-faded_blue      "#83a598" "#87afaf")
-  (gruvbox-faded_purple    "#d3869b" "#d787af")
-  (gruvbox-faded_aqua      "#8ec07c" "#87af87")
-  (gruvbox-faded_orange    "#fe8019" "#ff8700")
+  (gruvbox-faded_red       "#cc241d" "#d75f5f")
+  (gruvbox-faded_green     "#98971a" "#afaf00")
+  (gruvbox-faded_yellow    "#d79921" "#ffaf00")
+  (gruvbox-faded_blue      "#458588" "#87afaf")
+  (gruvbox-faded_purple    "#b16286" "#d787af")
+  (gruvbox-faded_aqua      "#689d6a" "#87af87")
+  (gruvbox-faded_orange    "#d65d0e" "#ff8700")
 
   (gruvbox-dark_red        "#421E1E" "#5f0000")
   (gruvbox-dark_blue       "#2B3C44" "#000087")
@@ -121,12 +113,12 @@
  (custom-theme-set-variables 'gruvbox-light-medium
                              `(ansi-color-names-vector
                                [,gruvbox-dark1
-                                ,gruvbox-neutral_red
-                                ,gruvbox-neutral_green
-                                ,gruvbox-neutral_yellow
-                                ,gruvbox-neutral_blue
-                                ,gruvbox-neutral_purple
-                                ,gruvbox-neutral_aqua
+                                ,gruvbox-faded_red
+                                ,gruvbox-faded_green
+                                ,gruvbox-faded_yellow
+                                ,gruvbox-faded_blue
+                                ,gruvbox-faded_purple
+                                ,gruvbox-faded_aqua
                                 ,gruvbox-light1])))
 
 ;;;###autoload
