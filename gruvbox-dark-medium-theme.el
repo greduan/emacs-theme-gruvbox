@@ -83,21 +83,13 @@
   (gruvbox-bright_aqua     "#8ec07c" "#87af87")
   (gruvbox-bright_orange   "#fe8019" "#ff8700")
 
-  (gruvbox-neutral_red     "#fb4934" "#d75f5f")
-  (gruvbox-neutral_green   "#b8bb26" "#afaf00")
-  (gruvbox-neutral_yellow  "#fabd2f" "#ffaf00")
-  (gruvbox-neutral_blue    "#83a598" "#87afaf")
-  (gruvbox-neutral_purple  "#d3869b" "#d787af")
-  (gruvbox-neutral_aqua    "#8ec07c" "#87af87")
-  (gruvbox-neutral_orange  "#fe8019" "#ff8700")
-
-  (gruvbox-faded_red       "#9d0006" "#870000")
-  (gruvbox-faded_green     "#79740e" "#878700")
-  (gruvbox-faded_yellow    "#b57614" "#af8700")
-  (gruvbox-faded_blue      "#076678" "#005f87")
-  (gruvbox-faded_purple    "#8f3f71" "#875f87")
-  (gruvbox-faded_aqua      "#427b58" "#5f8787")
-  (gruvbox-faded_orange    "#af3a03" "#af5f00")
+  (gruvbox-faded_red       "#cc241d" "#d75f5f")
+  (gruvbox-faded_green     "#98971a" "#afaf00")
+  (gruvbox-faded_yellow    "#d79921" "#ffaf00")
+  (gruvbox-faded_blue      "#458588" "#87afaf")
+  (gruvbox-faded_purple    "#b16286" "#d787af")
+  (gruvbox-faded_aqua      "#689d6a" "#87af87")
+  (gruvbox-faded_orange    "#d65d0e" "#ff8700")
 
   (gruvbox-dark_red        "#421E1E" "#5f0000")
   (gruvbox-dark_blue       "#2B3C44" "#000087")
@@ -121,12 +113,12 @@
  (custom-theme-set-variables 'gruvbox-dark-medium
                              `(ansi-color-names-vector
                                [,gruvbox-dark1
-                                ,gruvbox-neutral_red
-                                ,gruvbox-neutral_green
-                                ,gruvbox-neutral_yellow
-                                ,gruvbox-neutral_blue
-                                ,gruvbox-neutral_purple
-                                ,gruvbox-neutral_aqua
+                                ,gruvbox-bright_red
+                                ,gruvbox-bright_green
+                                ,gruvbox-bright_yellow
+                                ,gruvbox-bright_blue
+                                ,gruvbox-bright_purple
+                                ,gruvbox-bright_aqua
                                 ,gruvbox-light1])))
 
 ;;;###autoload
