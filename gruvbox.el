@@ -63,8 +63,8 @@
   "Command used to take automated screenshots for gruvbox.
 Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
-(defun gruvbox-screenhot (prefix)
-  "Take a screenshot of all version of the gruvbox theme"
+(defun gruvbox-screenshot (prefix)
+  "Take a screenshot of all versions of the gruvbox theme"
   (interactive "sScreenshot Prefix: ")
   (dolist (theme '(gruvbox-light-soft
                    gruvbox-light-medium
