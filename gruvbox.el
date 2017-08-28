@@ -466,6 +466,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
      (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line)))
 
+     ;; Langtool
+     (langtool-errline                          (:foreground gruvbox-dark0 :background gruvbox-bright_red))
+     (langtool-correction-face                  (:foreground gruvbox-bright_yellow :weight 'bold))
+
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
