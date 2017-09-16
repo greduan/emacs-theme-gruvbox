@@ -479,6 +479,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (font-latex-string-face                    (:foreground gruvbox-bright_orange))
      (font-latex-warning-face                   (:foreground gruvbox-bright_red :weight 'bold))
      (font-latex-sedate-face                    (:foreground gruvbox-light4))
+     (preview-face                              (:background gruvbox-dark1))
 
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
