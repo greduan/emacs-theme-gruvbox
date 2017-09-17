@@ -80,6 +80,7 @@ This theme contains custom support for the following features and plugins:
 - Helm
 - Highlight Indent
 - Ivy
+- LaTeX
 - Markdown
 - Magit
 - Message
