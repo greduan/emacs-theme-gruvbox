@@ -470,6 +470,17 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (langtool-errline                          (:foreground gruvbox-dark0 :background gruvbox-bright_red))
      (langtool-correction-face                  (:foreground gruvbox-bright_yellow :weight 'bold))
 
+     ;; Latex
+     (font-latex-bold-face                      (:foreground gruvbox-faded_green :bold t))
+     (font-latex-italic-face                    (:foreground gruvbox-bright_green :underline t))
+     (font-latex-math-face                      (:foreground gruvbox-light3))
+     (font-latex-script-char-face               (:foreground gruvbox-faded_aqua))
+     (font-latex-sectioning-5-face              (:foreground gruvbox-bright_yellow :bold t))
+     (font-latex-string-face                    (:foreground gruvbox-bright_orange))
+     (font-latex-warning-face                   (:foreground gruvbox-bright_red :weight 'bold))
+     (font-latex-sedate-face                    (:foreground gruvbox-light4))
+     (preview-face                              (:background gruvbox-dark1))
+
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
