@@ -406,6 +406,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ivy-minibuffer-match-face-3               (:foreground gruvbox-faded_orange))
      (ivy-minibuffer-match-face-4               (:foreground gruvbox-faded_yellow))
 
+     ;; ido
+     (ido-only-match                            (:foreground gruvbox-faded_green))
+     (ido-subdir                                (:foreground gruvbox-faded_red))
+
      ;; magit
      (magit-bisect-bad                          (:foreground gruvbox-faded_red))
      (magit-bisect-good                         (:foreground gruvbox-faded_green))
