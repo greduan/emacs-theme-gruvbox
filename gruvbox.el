@@ -166,7 +166,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (highlight-indentation-current-column-face (:background gruvbox-dark2))
      (highlight-indentation-face                (:background gruvbox-dark1))
 
-     ;; Smartparens
+     ;; smartparens
      (sp-pair-overlay-face                      (:background gruvbox-dark2))
      (sp-show-pair-match-face                   (:background gruvbox-dark2)) ;; Pair tags highlight
      (sp-show-pair-mismatch-face                (:background gruvbox-bright_red)) ;; Highlight for bracket without pair
@@ -270,10 +270,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (company-template-field                    (:foreground gruvbox-black :background gruvbox-bright_yellow))
      (company-echo-common                       (:foreground gruvbox-faded_red))
 
-     ;; Tool Tips
+     ;; tool tips
      (tooltip                                   (:foreground gruvbox-light1 :background gruvbox-dark1))
 
-     ;; Term
+     ;; term
      (term-color-black                          (:foreground gruvbox-dark2 :background gruvbox-dark1))
      (term-color-blue                           (:foreground gruvbox-bright_blue :background gruvbox-bright_blue))
      (term-color-cyan                           (:foreground gruvbox-bright_aqua :background gruvbox-bright_aqua))
@@ -358,7 +358,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (elfeed-search-unread-count-face           (:inherit 'font-lock-comment-face))
      (elfeed-search-filter-face                 (:inherit 'font-lock-string-face))
 
-     ;; Smart-mode-line
+     ;; smart-mode-line
      (sml/global                                (:foreground gruvbox-burlywood4 :inverse-video nil))
      (sml/modes                                 (:foreground gruvbox-bright_green))
      (sml/filename                              (:foreground gruvbox-bright_red :weight 'bold))
@@ -366,7 +366,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (sml/read-only                             (:foreground gruvbox-bright_blue))
      (persp-selected-face                       (:foreground gruvbox-bright_orange))
 
-     ;;isearch
+     ;; isearch
      (isearch                                   (:foreground gruvbox-black :background gruvbox-bright_orange))
      (lazy-highlight                            (:foreground gruvbox-black :background gruvbox-bright_yellow))
      (isearch-fail                              (:foreground gruvbox-light0 :background gruvbox-bright_red))
@@ -387,11 +387,11 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (anzu-replace-to                           (:foreground gruvbox-bright_yellow))
      (anzu-replace-highlight                    (:inherit 'isearch))
 
-     ;; Ace-jump-mode
+     ;; ace-jump-mode
      (ace-jump-face-background                  (:foreground gruvbox-light4 :background gruvbox-bg :inverse-video nil))
      (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background gruvbox-bg :inverse-video nil))
 
-     ;; Ace-window
+     ;; ace-window
      (aw-background-face                        (:forground  gruvbox-light1 :background gruvbox-bg :inverse-video nil))
      (aw-leading-char-face                      (:foreground gruvbox-bright_red :background gruvbox-bg :height 4.0))
 
@@ -466,15 +466,15 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (magit-signature-untrusted                 (:foreground gruvbox-bright_blue))
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
 
-     ;; Flyspell
+     ;; flyspell
      (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
      (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line)))
 
-     ;; Langtool
+     ;; langtool
      (langtool-errline                          (:foreground gruvbox-dark0 :background gruvbox-bright_red))
      (langtool-correction-face                  (:foreground gruvbox-bright_yellow :weight 'bold))
 
-     ;; Latex
+     ;; latex
      (font-latex-bold-face                      (:foreground gruvbox-faded_green :bold t))
      (font-latex-italic-face                    (:foreground gruvbox-bright_green :underline t))
      (font-latex-math-face                      (:foreground gruvbox-light3))
@@ -490,24 +490,24 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
      (mu4e-highlight-face                       (:foreground gruvbox-bright_green))
 
-     ;; Shell script faces
+     ;; shell script
      (sh-quoted-exec                            (:foreground gruvbox-bright_purple))
      (sh-heredoc                                (:foreground gruvbox-bright_orange))
 
-     ;; Undo-tree
+     ;; undo-tree
      (undo-tree-visualizer-active-branch-face   (:foreground gruvbox-light0))
      (undo-tree-visualizer-current-face         (:foreground gruvbox-bright_red))
      (undo-tree-visualizer-default-face         (:foreground gruvbox-dark4))
      (undo-tree-visualizer-register-face        (:foreground gruvbox-bright_yellow))
      (undo-tree-visualizer-unmodified-face      (:foreground gruvbox-bright_aqua))
 
-     ;; Widget faces
+     ;; widget faces
      (widget-button-pressed-face                (:foreground gruvbox-bright_red))
      (widget-documentation-face                 (:foreground gruvbox-faded_green))
      (widget-field                              (:foreground gruvbox-light0 :background gruvbox-dark2))
      (widget-single-line-field                  (:foreground gruvbox-light0 :background gruvbox-dark2))
 
-     ;; MODE SUPPORT: dired+
+     ;; dired+
      (diredp-file-name                          (:foreground gruvbox-light2))
      (diredp-file-suffix                        (:foreground gruvbox-light4))
      (diredp-compressed-file-suffix             (:foreground gruvbox-faded_blue))
