@@ -68,32 +68,36 @@ Note the dark and light tones are transposed in the light versions.
 
 This theme contains custom support for the following features and plugins:
 
+- [Ag.el](https://github.com/Wilfred/ag.el)
 - Ace jump
 - Ace window
-- [Anzu](https://github.com/syohex/emacs-anzu#customization) support
+- [Anzu](https://github.com/syohex/emacs-anzu#customization)
 - Comint (and the like)
 - Company
 - Diffs
 - Dired+
-- [ElScreen](https://github.com/knu/elscreen)
 - Elfeed
+- [ElScreen](https://github.com/knu/elscreen)
 - Helm
 - Highlight Indent
 - Ivy
+- [Js2-mode](https://github.com/mooz/js2-mode)
 - LaTeX
-- Markdown
+- [Linum-relative](https://github.com/emacsmirror/linum-relative)
 - Magit
+- Markdown
 - Message
 - Org
 - Popup
 - [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
+- Shell script
 - Smart modeline
 - [Smartparens](https://github.com/Fuco1/smartparens)
 - Term
-- [Ag.el](https://github.com/Wilfred/ag.el)
-- [Js2-mode](https://github.com/mooz/js2-mode)
-- [Linum-relative](https://github.com/emacsmirror/linum-relative)
+- Tool Tips
+- Undo Tree
 - Whitespace-mode
+_ Widget Faces
 
 ## Installation and usage
 
