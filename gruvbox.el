@@ -12,7 +12,7 @@
 ;;              Greduan <me@greduan.com>
 ;;
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 1.21.0
+;; Version: 1.21.1
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -480,9 +480,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (font-latex-math-face                      (:foreground gruvbox-light3))
      (font-latex-script-char-face               (:foreground gruvbox-faded_aqua))
      (font-latex-sectioning-5-face              (:foreground gruvbox-bright_yellow :bold t))
-     (font-latex-string-face                    (:foreground gruvbox-bright_orange))
-     (font-latex-warning-face                   (:foreground gruvbox-bright_red :weight 'bold))
      (font-latex-sedate-face                    (:foreground gruvbox-light4))
+     (font-latex-string-face                    (:foreground gruvbox-bright_orange))
+     (font-latex-verbatim-face                  (:foreground gruvbox-light4))
+     (font-latex-warning-face                   (:foreground gruvbox-bright_red :weight 'bold))
      (preview-face                              (:background gruvbox-dark1))
 
      ;; mu4e
