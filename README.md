@@ -78,6 +78,7 @@ This theme contains custom support for the following features and plugins:
 - Dired+
 - Elfeed
 - [ElScreen](https://github.com/knu/elscreen)
+- Eshell
 - Helm
 - Highlight Indent
 - Ivy
