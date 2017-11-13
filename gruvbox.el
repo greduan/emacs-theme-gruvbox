@@ -74,7 +74,6 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
                    gruvbox-dark-hard))
     (load-theme theme t)
     (redisplay t)
-    (load-theme theme t)
     (shell-command (format gruvbox-screenshot-command
                            prefix theme))))
 
