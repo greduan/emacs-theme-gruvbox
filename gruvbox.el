@@ -12,7 +12,7 @@
 ;;              Greduan <me@greduan.com>
 ;;
 ;; URL: http://github.com/Greduan/emacs-theme-gruvbox
-;; Version: 1.22.1
+;; Version: 1.22.2
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -529,17 +529,17 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;; eshell
      (eshell-prompt-face                         (:foreground gruvbox-bright_aqua))
-     (eshell-ls-archive-face                     (:foreground gruvbox-light0 :weight 'bold))
-     (eshell-ls-backup-face                      (:inherit 'dired-ignored-face))
+     (eshell-ls-archive-face                     (:foreground gruvbox-light3))
+     (eshell-ls-backup-face                      (:foreground gruvbox-light4))
      (eshell-ls-clutter-face                     (:foreground gruvbox-bright_orange :weight 'bold))
-     (eshell-ls-directory-face                   (:inherit 'dired-directory-face))
+     (eshell-ls-directory-face                   (:foreground gruvbox-bright_yellow))
      (eshell-ls-executable-face                  (:weight 'bold))
-     (eshell-ls-missing-face                     (:inherit 'dired-warning-face))
+     (eshell-ls-missing-face                     (:foreground gruvbox-bright_red :bold t))
      (eshell-ls-product-face                     (:foreground gruvbox-faded_red))
-     (eshell-ls-readonly-face                    (:inherit 'dired-perm-write-face))
-     (eshell-ls-special-face                     (:inherit 'dired-marked-face))
-     (eshell-ls-symlink-face                     (:inherit 'dired-symlink-face))
-     (eshell-ls-unreadable-face                  (:inherit 'dired-warning-face)))
+     (eshell-ls-readonly-face                    (:foreground gruvbox-light2))
+     (eshell-ls-special-face                     (:foreground gruvbox-bright_yellow :bold t))
+     (eshell-ls-symlink-face                     (:foreground gruvbox-bright_red))
+     (eshell-ls-unreadable-face                  (:foreground gruvbox-bright_red :bold t)))
     ,@body))
 
 (provide 'gruvbox)
