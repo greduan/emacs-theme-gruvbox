@@ -118,7 +118,7 @@ The following instructions are for in the case where you don't have access to
 
 1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
    ```shell
-   curl https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el
+   curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el
    ```
 
 1. Tell Emacs where to find themes in your `init.el` or `.emacs` file:
