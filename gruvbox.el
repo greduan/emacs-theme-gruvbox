@@ -395,7 +395,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (aw-leading-char-face                      (:foreground gruvbox-bright_red :background gruvbox-bg :height 4.0))
 
      ;; show-paren
-     (show-paren-match                          (:background gruvbox-dark3 :weight 'bold))
+     (show-paren-match                          (:background gruvbox-dark3 :foreground gruvbox-bright_blue  :weight 'bold))
      (show-paren-mismatch                       (:background gruvbox-bright_red :foreground gruvbox-dark3 :weight 'bold))
 
      ;; ivy
