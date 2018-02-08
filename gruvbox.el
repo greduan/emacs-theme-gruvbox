@@ -155,11 +155,11 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
 
      ;; line numbers
-     (line-number                               (:foreground gruvbox-dark2 :background gruvbox-dark0))
-     (line-number-current-line                  (:foreground gruvbox-bright_orange :background gruvbox-dark1))
-     (linum                                     (:foreground gruvbox-dark2 :background gruvbox-dark0))
-     (linum-highlight-face                      (:foreground gruvbox-bright_orange :background gruvbox-dark1))
-     (linum-relative-current-face               (:foreground gruvbox-bright_orange :background gruvbox-dark1))
+     (line-number                               (:foreground gruvbox-dark4 :background gruvbox-dark1))
+     (line-number-current-line                  (:foreground gruvbox-bright_orange :background gruvbox-dark2))
+     (linum                                     (:foreground gruvbox-dark4 :background gruvbox-dark1))
+     (linum-highlight-face                      (:foreground gruvbox-bright_orange :background gruvbox-dark2))
+     (linum-relative-current-face               (:foreground gruvbox-bright_orange :background gruvbox-dark2))
 
      ;; Highlight indentation mode
      (highlight-indentation-current-column-face (:background gruvbox-dark2))
