@@ -149,7 +149,7 @@ try our best to make it happen. :smile:
 The MIT License (MIT)
 
 Copyright (c) 2013 Lee Machin
-              2013-2016 Greduan
+              2013-2016 Eduardo Lavaque
               2015-2017 Jason Milkins
               2017-2018 Martijn Terpstra
 
