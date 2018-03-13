@@ -12,7 +12,7 @@
 ;;              Eduardo Lavaque <me@greduan.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.22.3
+;; Version: 1.23.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -539,7 +539,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (eshell-ls-readonly-face                    (:foreground gruvbox-light2))
      (eshell-ls-special-face                     (:foreground gruvbox-bright_yellow :bold t))
      (eshell-ls-symlink-face                     (:foreground gruvbox-bright_red))
-     (eshell-ls-unreadable-face                  (:foreground gruvbox-bright_red :bold t)))
+     (eshell-ls-unreadable-face                  (:foreground gruvbox-bright_red :bold t))
+
+     ;; which-function-mode
+     (which-func                                 (:foreground gruvbox-faded_blue)))
     ,@body))
 
 (provide 'gruvbox)
