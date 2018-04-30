@@ -365,6 +365,14 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (sml/read-only                             (:foreground gruvbox-bright_blue))
      (persp-selected-face                       (:foreground gruvbox-bright_orange))
 
+     ;; powerline
+     (powerline-active0                         (:background gruvbox-dark4 :foreground gruvbox-light0))
+     (powerline-active1                         (:background gruvbox-dark3 :foreground gruvbox-light0))
+     (powerline-active2                         (:background gruvbox-dark2 :foreground gruvbox-light0))
+     (powerline-inactive0                       (:background gruvbox-dark2 :foreground gruvbox-light4))
+     (powerline-inactive1                       (:background gruvbox-dark1 :foreground gruvbox-light4))
+     (powerline-inactive2                       (:background gruvbox-dark0 :foreground gruvbox-light4))
+
      ;; isearch
      (isearch                                   (:foreground gruvbox-black :background gruvbox-bright_orange))
      (lazy-highlight                            (:foreground gruvbox-black :background gruvbox-bright_yellow))
