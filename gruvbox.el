@@ -549,6 +549,18 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (eshell-ls-symlink-face                     (:foreground gruvbox-bright_red))
      (eshell-ls-unreadable-face                  (:foreground gruvbox-bright_red :bold t))
 
+     ;; tabbar
+     (tabbar-default                             (:foreground gruvbox-light0 :background gruvbox-dark3 :bold nil :height 1.0 :box (:line-width -5 :color gruvbox-dark3)))
+     (tabbar-separator                           (:foreground gruvbox-light0 :background gruvbox-dark3))
+     (tabbar-highlight                           (:inherit 'highlight))
+     (tabbar-button                              (:foreground gruvbox-dark3 :background gruvbox-dark3 :box nil :line-width 0))
+     (tabbar-button-highlight                    (:inherit 'tabbar-button :inverse-video t))
+     (tabbar-modified                            (:foreground gruvbox-bright_green :background gruvbox-dark3 :box (:line-width -5 :color gruvbox-dark3)))
+     (tabbar-unselected                          (:inherit 'tabbar-default))
+     (tabbar-unselected-modified                 (:inherit 'tabbar-modified))
+     (tabbar-selected                            (:inherit 'tabbar-default :foreground gruvbox-bright_yellow))
+     (tabbar-selected-modified                   (:inherit 'tabbar-selected))
+
      ;; which-function-mode
      (which-func                                 (:foreground gruvbox-faded_blue)))
     ,@body))
