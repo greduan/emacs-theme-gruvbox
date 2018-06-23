@@ -474,14 +474,14 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
 
      ;; git-gutter
-     (git-gutter:modified                       (:foreground gruvbox-faded_blue))
-     (git-gutter:added                          (:foreground gruvbox-faded_green))
-     (git-gutter:deleted                        (:foreground gruvbox-faded_red))
+     (git-gutter:modified                       (:background gruvbox-faded_blue :foreground gruvbox-faded_blue))
+     (git-gutter:added                          (:background gruvbox-faded_green :foreground gruvbox-faded_green))
+     (git-gutter:deleted                        (:background gruvbox-faded_red :foreground gruvbox-faded_red))
 
      ;; git-gutter+
-     (git-gutter+-modified                      (:foreground gruvbox-faded_blue :background nil))
-     (git-gutter+-added                         (:foreground gruvbox-faded_green :background nil))
-     (git-gutter+-deleted                       (:foreground gruvbox-faded_red :background nil))
+     (git-gutter+-modified                      (:foreground gruvbox-faded_blue :background gruvbox-faded_blue))
+     (git-gutter+-added                         (:foreground gruvbox-faded_green :background gruvbox-faded_green))
+     (git-gutter+-deleted                       (:foreground gruvbox-faded_red :background gruvbox-faded_red))
 
      ;; git-gutter-fringe
      (git-gutter-fr:modified                    (:inherit 'git-gutter:modified))
