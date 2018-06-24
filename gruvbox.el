@@ -473,6 +473,21 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (magit-signature-untrusted                 (:foreground gruvbox-bright_blue))
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
 
+     ;; git-gutter
+     (git-gutter:modified                       (:background gruvbox-faded_blue :foreground gruvbox-faded_blue))
+     (git-gutter:added                          (:background gruvbox-faded_green :foreground gruvbox-faded_green))
+     (git-gutter:deleted                        (:background gruvbox-faded_red :foreground gruvbox-faded_red))
+
+     ;; git-gutter+
+     (git-gutter+-modified                      (:foreground gruvbox-faded_blue :background gruvbox-faded_blue))
+     (git-gutter+-added                         (:foreground gruvbox-faded_green :background gruvbox-faded_green))
+     (git-gutter+-deleted                       (:foreground gruvbox-faded_red :background gruvbox-faded_red))
+
+     ;; git-gutter-fringe
+     (git-gutter-fr:modified                    (:inherit 'git-gutter:modified))
+     (git-gutter-fr:added                       (:inherit 'git-gutter:added))
+     (git-gutter-fr:deleted                     (:inherit 'git-gutter:deleted))
+
      ;; flyspell
      (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
      (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line)))
