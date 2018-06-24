@@ -12,7 +12,7 @@
 ;;              Eduardo Lavaque <me@greduan.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.25.0
+;; Version: 1.26.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -43,6 +43,11 @@
 ;; Jason Milkins (ocodo) has maintained the theme since 2015 and is
 ;; working with the community to add further mode support and align
 ;; the project more closely with Vim Gruvbox.
+;;
+;; Martijn Terpstra has been a major contributor since mid 2017 and
+;; helped to re-implement Gruvbox with autothemer so we can have
+;; multiple variants of Gruvbox (as we do on Vim).  Martijn has also
+;; provided a large number mode support enhancements.
 
 ;;; Code:
 (eval-when-compile
