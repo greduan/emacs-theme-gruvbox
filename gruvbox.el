@@ -12,7 +12,7 @@
 ;;              Eduardo Lavaque <me@greduan.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.24.0
+;; Version: 1.25.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -415,6 +415,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;; ido
      (ido-only-match                            (:foreground gruvbox-faded_green))
+     (ido-first-match                           (:foreground gruvbox-faded_green))
      (ido-subdir                                (:foreground gruvbox-faded_red))
 
      ;; magit
