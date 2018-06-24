@@ -12,7 +12,7 @@
 ;;              Eduardo Lavaque <me@greduan.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.23.0
+;; Version: 1.24.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
