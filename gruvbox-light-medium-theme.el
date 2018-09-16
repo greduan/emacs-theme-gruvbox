@@ -1,4 +1,4 @@
-;;; gruvbox-light-medium-theme.el --- A retro-groove colour theme for Emacs
+;;; gruvbox-light-medium-theme.el --- A retro-groove colour theme for Emacs -*- lexical-binding: t -*-
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Eduardo Lavaque
