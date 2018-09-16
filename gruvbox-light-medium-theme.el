@@ -57,7 +57,6 @@
  ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
    ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
 
-  (gruvbox-dark0_hard      "#f9f5d7" "#ffffd7")
   (gruvbox-dark0           "#fbf1c7" "#ffffd7")
   (gruvbox-dark0_soft      "#f2e5bc" "#ffffd7")
   (gruvbox-dark1           "#ebdbb2" "#ffffaf")
@@ -69,7 +68,6 @@
 
   (gruvbox-light0_hard     "#1d2021" "#1c1c1c")
   (gruvbox-light0          "#282828" "#262626")
-  (gruvbox-light0_soft     "#32302f" "#303030")
   (gruvbox-light1          "#3c3836" "#3a3a3a")
   (gruvbox-light2          "#504945" "#4e4e4e")
   (gruvbox-light3          "#665c54" "#626262")
@@ -102,7 +100,6 @@
   (gruvbox-white           "#FFFFFF" "#FFFFFF")
   (gruvbox-black           "#000000" "#000000")
   (gruvbox-sienna          "#DD6F48" "#d7875f")
-  (gruvbox-darkslategray4  "#528B8B" "#5f8787")
   (gruvbox-lightblue4      "#66999D" "#5fafaf")
   (gruvbox-burlywood4      "#BBAA97" "#afaf87")
   (gruvbox-aquamarine4     "#83A598" "#87af87")
