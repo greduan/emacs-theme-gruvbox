@@ -120,7 +120,7 @@
 
  (custom-theme-set-variables 'gruvbox
                              `(ansi-color-names-vector
-                               [,gruvbox1
+                               [,gruvbox-dark1
                                 ,gruvbox-neutral_red
                                 ,gruvbox-neutral_green
                                 ,gruvbox-neutral_yellow
