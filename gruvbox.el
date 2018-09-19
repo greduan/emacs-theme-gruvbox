@@ -1,4 +1,4 @@
-;;; gruvbox-dark-theme.el --- A retro-groove colour theme for Emacs
+;;; gruvbox-dark-theme.el --- A retro-groove colour theme for Emacs -*- lexical-binding: t -*-
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Eduardo Lavaque
@@ -82,7 +82,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
     (shell-command (format gruvbox-screenshot-command
                            prefix theme))))
 
-(defmacro gruvbox-deftheme (name description palette reduced-specs &rest body)
+(defmacro gruvbox-deftheme (name description palette &rest body)
   `(autothemer-deftheme
     ,name
     ,description

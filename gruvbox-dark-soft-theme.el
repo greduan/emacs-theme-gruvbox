@@ -1,4 +1,4 @@
-;;; gruvbox-dark-soft-theme.el --- A retro-groove colour theme for Emacs
+;;; gruvbox-dark-soft-theme.el --- A retro-groove colour theme for Emacs -*- lexical-binding: t -*-
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Eduardo Lavaque
@@ -57,7 +57,6 @@
  ((((class color) (min-colors #xFFFFFF))        ; col 1 GUI/24bit
    ((class color) (min-colors #xFF)))           ; col 2 Xterm/256
 
-  (gruvbox-dark0_hard      "#1d2021" "#1c1c1c")
   (gruvbox-dark0           "#282828" "#262626")
   (gruvbox-dark0_soft      "#32302f" "#303030")
   (gruvbox-dark1           "#3c3836" "#3a3a3a")
@@ -69,7 +68,6 @@
 
   (gruvbox-light0_hard     "#ffffc8" "#ffffd7")
   (gruvbox-light0          "#fdf4c1" "#ffffaf")
-  (gruvbox-light0_soft     "#f4e8ba" "#ffffaf")
   (gruvbox-light1          "#ebdbb2" "#ffdfaf")
   (gruvbox-light2          "#d5c4a1" "#bcbcbc")
   (gruvbox-light3          "#bdae93" "#a8a8a8")
@@ -102,7 +100,6 @@
   (gruvbox-white           "#FFFFFF" "#FFFFFF")
   (gruvbox-black           "#000000" "#000000")
   (gruvbox-sienna          "#DD6F48" "#d7875f")
-  (gruvbox-darkslategray4  "#528B8B" "#5f8787")
   (gruvbox-lightblue4      "#66999D" "#5fafaf")
   (gruvbox-burlywood4      "#BBAA97" "#afaf87")
   (gruvbox-aquamarine4     "#83A598" "#87af87")
