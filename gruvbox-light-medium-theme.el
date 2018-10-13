@@ -116,7 +116,8 @@
                                 ,gruvbox-faded_blue
                                 ,gruvbox-faded_purple
                                 ,gruvbox-faded_aqua
-                                ,gruvbox-light1])))
+                                ,gruvbox-light1])
+			     `(pdf-view-midnight-colors '(,gruvbox-light0 . ,gruvbox-bg))))
 
 ;;;###autoload
 (and load-file-name
