@@ -81,6 +81,7 @@ This theme contains custom support for the following features and plugins:
 - Eshell
 - Helm
 - Highlight Indent
+- Hydra
 - Ivy
 - [Js2-mode](https://github.com/mooz/js2-mode)
 - LaTeX
