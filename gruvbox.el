@@ -259,6 +259,17 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (helm-source-header                        (:foreground gruvbox-light2))
      (helm-visible-mark                         (:foreground gruvbox-black :background gruvbox-light3))
 
+     ;;hi-lock-mode
+     (hi-black-b                                (:foreground gruvbox-black :weight 'bold))
+     (hi-black-hb                               (:foreground gruvbox-black :weight 'bold :height 1.5))
+     (hi-blue                                   (:foreground gruvbox-dark0 :background gruvbox-bright_blue))
+     (hi-blue-b                                 (:foreground gruvbox-bright_blue :weight 'bold))
+     (hi-green                                  (:foreground gruvbox-dark0 :background gruvbox-bright_green))
+     (hi-green-b                                (:foreground gruvbox-bright_green :weight 'bold))
+     (hi-pink                                   (:foreground gruvbox-dark0 :background gruvbox-bright_purple))
+     (hi-red-b                                  (:foreground gruvbox-bright_red :weight 'bold))
+     (hi-yellow                                 (:foreground gruvbox-dark0 :background gruvbox-faded_yellow))
+
      ;; company-mode
      (company-scrollbar-bg                      (:background gruvbox-dark1))
      (company-scrollbar-fg                      (:background gruvbox-dark0_soft))
