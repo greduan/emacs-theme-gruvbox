@@ -582,6 +582,13 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (tabbar-selected                            (:inherit 'tabbar-default :foreground gruvbox-bright_yellow))
      (tabbar-selected-modified                   (:inherit 'tabbar-selected))
 
+     ;; hydra
+     (hydra-face-red (:foreground gruvbox-bright_red :weight 'bold))
+     (hydra-face-blue (:foreground gruvbox-bright_blue :weight 'bold))
+     (hydra-face-amaranth (:foreground gruvbox-bright_yellow :weight 'bold))
+     (hydra-face-pink (:foreground gruvbox-bright_purple :weight 'bold))
+     (hydra-face-teal (:foreground gruvbox-bright_aqua :weight 'bold))
+
      ;; which-function-mode
      (which-func                                 (:foreground gruvbox-faded_blue)))
     ,@body))
