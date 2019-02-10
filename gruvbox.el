@@ -217,7 +217,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;; helm
      (helm-M-x-key                              (:foreground gruvbox-bright_orange ))
-     (helm-action                               (:foreground gruvbox-white :underline t))
+     (helm-action                               (:foreground gruvbox-light0_hard :underline t))
      (helm-bookmark-addressbook                 (:foreground gruvbox-bright_red))
      (helm-bookmark-directory                   (:foreground gruvbox-bright_purple))
      (helm-bookmark-file                        (:foreground gruvbox-faded_blue))
