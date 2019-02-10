@@ -106,7 +106,9 @@
   (gruvbox-aquamarine4     "#83A598" "#87af87")
   (gruvbox-turquoise4      "#61ACBB" "#5fafaf")
 
-  (gruvbox-bg gruvbox-dark0_hard))
+  (gruvbox-bg gruvbox-dark0_hard)
+  (gruvbox-bg_inactive gruvbox-dark0)
+  )
 
  (custom-theme-set-variables 'gruvbox-dark-hard
                              `(ansi-color-names-vector

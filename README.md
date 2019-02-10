@@ -72,6 +72,7 @@ This theme contains custom support for the following features and plugins:
 - Ace jump
 - Ace window
 - [Anzu](https://github.com/syohex/emacs-anzu#customization)
+- [Auto-dim-other-buffers](https://github.com/mina86/auto-dim-other-buffers.el)
 - Comint (and the like)
 - Company
 - Diffs

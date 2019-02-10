@@ -601,7 +601,11 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (hydra-face-teal (:foreground gruvbox-bright_aqua :weight 'bold))
 
      ;; which-function-mode
-     (which-func                                 (:foreground gruvbox-faded_blue)))
+     (which-func                                 (:foreground gruvbox-faded_blue))
+
+     ;; auto-dim-other-buffers
+     (auto-dim-other-buffers-face                (:background gruvbox-bg_inactive))
+     )
     ,@body))
 
 (provide 'gruvbox)
