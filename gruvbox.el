@@ -573,7 +573,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (neo-expand-btn-face                       (:foreground gruvbox-bright_orange))
      (neo-file-link-face                        (:foreground gruvbox-light0))
      (neo-header-face                           (:foreground gruvbox-bright_purple))
-     (neo-root-dir-face                         (:inherit neo-banner-face))
+     (neo-root-dir-face                         (:foreground gruvbox-bright_purple :bold t))
 
      ;; eshell
      (eshell-prompt-face                         (:foreground gruvbox-bright_aqua))
