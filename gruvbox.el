@@ -567,6 +567,14 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (diredp-read-priv                          (:foreground gruvbox-bright_red  :background gruvbox-dark_red))
      (diredp-write-priv                         (:foreground gruvbox-bright_aqua :background gruvbox-dark_aqua))
 
+     ;; neotree
+     (neo-banner-face                           (:foreground gruvbox-bright_purple :bold t))
+     (neo-dir-link-face                         (:foreground gruvbox-bright_yellow))
+     (neo-expand-btn-face                       (:foreground gruvbox-bright_orange))
+     (neo-file-link-face                        (:foreground gruvbox-light0))
+     (neo-header-face                           (:foreground gruvbox-bright_purple))
+     (neo-root-dir-face                         (:inherit neo-banner-face))
+
      ;; eshell
      (eshell-prompt-face                         (:foreground gruvbox-bright_aqua))
      (eshell-ls-archive-face                     (:foreground gruvbox-light3))

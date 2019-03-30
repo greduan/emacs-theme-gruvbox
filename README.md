@@ -90,6 +90,7 @@ This theme contains custom support for the following features and plugins:
 - Magit
 - Markdown
 - Message
+- [Neotree](https://github.com/jaypei/emacs-neotree)
 - Org
 - Popup
 - [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
