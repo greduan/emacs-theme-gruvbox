@@ -601,6 +601,13 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (tabbar-selected                            (:inherit 'tabbar-default :foreground gruvbox-bright_yellow))
      (tabbar-selected-modified                   (:inherit 'tabbar-selected))
 
+     ;; wgrep
+     (wgrep-delete-face                          (:strike-through gruvbox-bright_red))
+     (wgrep-done-face                            (:foreground gruvbox-turquoise4))
+     (wgrep-face                                 (:underline (:color gruvbox-bright_yellow :style 'line)))
+     (wgrep-file-face                            (:inherit 'highlight))
+     (wgrep-reject-face                          (:foreground gruvbox-bright_red :bold t))
+
      ;; hydra
      (hydra-face-red (:foreground gruvbox-bright_red :weight 'bold))
      (hydra-face-blue (:foreground gruvbox-bright_blue :weight 'bold))
