@@ -374,7 +374,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (elfeed-search-filter-face                 (:inherit 'font-lock-string-face))
 
      ;; smart-mode-line
-     (sml/global                                (:foreground gruvbox-burlywood4 :inverse-video nil))
+     (sml/global                                (:foreground gruvbox-light4 :inverse-video nil))
      (sml/modes                                 (:foreground gruvbox-bright_green))
      (sml/filename                              (:foreground gruvbox-bright_red :weight 'bold))
      (sml/prefix                                (:foreground gruvbox-light1))
