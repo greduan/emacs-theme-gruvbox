@@ -508,6 +508,11 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (git-gutter-fr:added                       (:inherit 'git-gutter:added))
      (git-gutter-fr:deleted                     (:inherit 'git-gutter:deleted))
 
+     ;; diff-hl
+     (diff-hl-change (:background gruvbox-faded_blue :foreground gruvbox-faded_blue))
+     (diff-hl-delete (:background gruvbox-faded_red :foreground gruvbox-faded_red))
+     (diff-hl-insert (:background gruvbox-faded_green :foreground gruvbox-faded_green))
+
      ;; flyspell
      (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
      (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line)))
