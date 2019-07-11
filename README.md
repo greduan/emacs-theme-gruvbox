@@ -75,6 +75,7 @@ This theme contains custom support for the following features and plugins:
 - [Auto-dim-other-buffers](https://github.com/mina86/auto-dim-other-buffers.el)
 - Comint (and the like)
 - Company
+- [diff-hl](https://github.com/dgutov/diff-hl)
 - Diffs
 - Dired+
 - Elfeed
