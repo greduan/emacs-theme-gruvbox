@@ -81,6 +81,7 @@ This theme contains custom support for the following features and plugins:
 - Elfeed
 - [ElScreen](https://github.com/knu/elscreen)
 - Eshell
+- [Flycheck](https://www.flycheck.org/en/latest/)
 - Helm
 - Highlight Indent
 - Hydra
