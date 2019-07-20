@@ -628,6 +628,18 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;; auto-dim-other-buffers
      (auto-dim-other-buffers-face                (:background gruvbox-bg_inactive))
+
+     ;; flycheck
+     (flycheck-warning                          (:underline (:style 'wave :color gruvbox-bright_yellow)))
+     (flycheck-error                            (:underline (:style 'wave :color gruvbox-bright_red)))
+     (flycheck-info                             (:underline (:style 'wave :color gruvbox-bright_blue)))
+     (flycheck-fringe-warning                   (:foreground gruvbox-bright_yellow))
+     (flycheck-fringe-error                     (:foreground gruvbox-bright_red))
+     (flycheck-fringe-info                      (:foreground gruvbox-bright_blue))
+     (flycheck-error-list-warning               (:foreground gruvbox-bright_yellow :bold t))
+     (flycheck-error-list-error                 (:foreground gruvbox-bright_red :bold t))
+     (flycheck-error-list-info                  (:foreground gruvbox-bright_blue :bold t))
+
      )
     ,@body))
 
