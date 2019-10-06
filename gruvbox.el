@@ -640,8 +640,11 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (flycheck-error-list-error                 (:foreground gruvbox-bright_red :bold t))
      (flycheck-error-list-info                  (:foreground gruvbox-bright_blue :bold t))
 
-     )
-    ,@body))
+     ;; tab-bar
+     (tab-bar-tab-inactive (:background gruvbox-bg :foreground gruvbox-light0))
+     (tab-bar-tab (:background gruvbox-dark2 :foreground gruvbox-light0))
+     (tab-bar (:background gruvbox-bg :foreground gruvbox-light0))
+     ),@body))
 
 (provide 'gruvbox)
 
