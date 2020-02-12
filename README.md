@@ -81,6 +81,7 @@ This theme contains custom support for the following features and plugins:
 - Dired+
 - Elfeed
 - [ElScreen](https://github.com/knu/elscreen)
+- [ERC](https://www.emacswiki.org/emacs/ERC)
 - Eshell
 - [Flycheck](https://www.flycheck.org/en/latest/)
 - [Gnus](http://gnus.org)
@@ -105,7 +106,7 @@ This theme contains custom support for the following features and plugins:
 - Tool Tips
 - Undo Tree
 - Whitespace-mode
-_ Widget Faces
+- Widget Faces
 
 ## Installation and usage
 
