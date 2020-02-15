@@ -82,6 +82,14 @@
   (gruvbox-bright_aqua     "#427b58" "#5f8787")
   (gruvbox-bright_orange   "#af3a03" "#af5f00")
 
+  (gruvbox-neutral_red     "#9d0006" "#870000")
+  (gruvbox-neutral_green   "#79740e" "#878700")
+  (gruvbox-neutral_yellow  "#b57614" "#af8700")
+  (gruvbox-neutral_blue    "#076678" "#005f87")
+  (gruvbox-neutral_purple  "#8f3f71" "#875f87")
+  (gruvbox-neutral_aqua    "#427b58" "#5f8787")
+  (gruvbox-neutral_orange  "#af3a03" "#af5f00")
+
   (gruvbox-faded_red       "#cc241d" "#d75f5f")
   (gruvbox-faded_green     "#98971a" "#afaf00")
   (gruvbox-faded_yellow    "#d79921" "#ffaf00")

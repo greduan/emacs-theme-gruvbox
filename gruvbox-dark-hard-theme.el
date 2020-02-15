@@ -88,7 +88,8 @@
   (gruvbox-neutral_blue    "#83a598" "#87afaf")
   (gruvbox-neutral_purple  "#d3869b" "#d787af")
   (gruvbox-neutral_aqua    "#8ec07c" "#87af87")
-
+  (gruvbox-neutral_orange  "#fe8019" "#ff8700")
+  
   (gruvbox-faded_red       "#cc241d" "#d75f5f")
   (gruvbox-faded_green     "#98971a" "#afaf00")
   (gruvbox-faded_yellow    "#d79921" "#ffaf00")
