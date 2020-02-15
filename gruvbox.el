@@ -494,6 +494,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (magit-signature-untrusted                 (:foreground gruvbox-bright_blue))
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
 
+     ;; cider
      (cider-debug-code-overlay-face             (:background gruvbox-dark2 :foreground gruvbox-light0))
      (cider-deprecated-face                     (:background gruvbox-dark2 :foreground gruvbox-bright_orange))
      (cider-enlightened-local-face              (:foreground gruvbox-bright_orange :weight 'bold))
