@@ -79,6 +79,7 @@ This theme contains custom support for the following features and plugins:
 - [diff-hl](https://github.com/dgutov/diff-hl)
 - Diffs
 - Dired+
+- [Diredfl](https://github.com/purcell/diredfl)
 - Elfeed
 - [ElScreen](https://github.com/knu/elscreen)
 - [ERC](https://www.emacswiki.org/emacs/ERC)
