@@ -196,6 +196,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (diff-indicator-added                      (:inherit 'diff-added))
      (diff-indicator-removed                    (:inherit 'diff-removed))
 
+     ;; Ediff
+     (ediff-even-diff-B                         (:background gruvbox-dark1))
+     (ediff-even-diff-A                         (:background gruvbox-dark1))
+     (ediff-odd-diff-A                          (:background gruvbox-dark2))
+     (ediff-odd-diff-B                          (:background gruvbox-dark2))
+
      (js2-warning                               (:underline (:color gruvbox-bright_yellow :style 'wave)))
      (js2-error                                 (:underline (:color gruvbox-bright_red :style 'wave)))
      (js2-external-variable                     (:underline (:color gruvbox-bright_aqua :style 'wave)))
