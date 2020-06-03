@@ -426,7 +426,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background gruvbox-bg :inverse-video nil))
 
      ;; ace-window
-     (aw-background-face                        (:forground  gruvbox-light1 :background gruvbox-bg :inverse-video nil))
+     (aw-background-face                        (:foreground gruvbox-light1 :background gruvbox-bg :inverse-video nil))
      (aw-leading-char-face                      (:foreground gruvbox-bright_red :background gruvbox-bg :height 4.0))
 
      ;; show-paren
