@@ -783,6 +783,16 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (gnus-signature              (:foreground gruvbox-faded_orange))
      (gnus-x-face                 (:background gruvbox-dark4 :foreground gruvbox-light0))
 
+     ;; Coq
+     (coq-solve-tactics-face      (:inherit 'font-lock-constant-face))
+     (coq-cheat-face              (:box (:line-width -1 :color gruvbox-bright_red :style nil)
+                                   :foreground gruvbox-bright_red))
+
+     ;; Proof General
+     (proof-active-area-face      (:underline t))
+     (proof-tacticals-name-face   (:inherit 'font-lock-constant-face))
+     (proof-tactics-name-face     (:inherit 'font-lock-constant-face))
+
      ),@body))
 
 (provide 'gruvbox)
