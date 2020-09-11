@@ -282,7 +282,22 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (helm-source-header                        (:foreground gruvbox-light2))
      (helm-visible-mark                         (:foreground gruvbox-black :background gruvbox-light3))
 
-     ;;hi-lock-mode
+     ;; helm-rg
+     (helm-rg-preview-line-highlight              (:foreground gruvbox-black :background gruvbox-bright_green))
+     (helm-rg-base-rg-cmd-face                    (:foreground gruvbox-light2))
+     (helm-rg-extra-arg-face                      (:foreground gruvbox-bright_yellow))
+     (helm-rg-inactive-arg-face                   (:foreground gruvbox-faded_aqua))
+     (helm-rg-active-arg-face                     (:foreground gruvbox-bright_green))
+     (helm-rg-directory-cmd-face                  (:foreground gruvbox-burlywood4 :background gruvbox-black))
+     (helm-rg-error-message                       (:foreground gruvbox-bright_red))
+     (helm-rg-title-face                          (:foreground gruvbox-bright_purple))
+     (helm-rg-directory-header-face               (:foreground gruvbox-white :background gruvbox-dark1))
+     (helm-rg-file-match-face                     (:foreground gruvbox-turquoise4))
+     (helm-rg-colon-separator-ripgrep-output-face (:foreground gruvbox-dark3 :background gruvbox-bg))
+     (helm-rg-line-number-match-face              (:foreground gruvbox-faded_orange))
+     (helm-rg-match-text-face                     (:foreground gruvbox-white :background gruvbox-bright_purple))
+
+     ;; hi-lock-mode
      (hi-black-b                                (:foreground gruvbox-black :weight 'bold))
      (hi-black-hb                               (:foreground gruvbox-black :weight 'bold :height 1.5))
      (hi-blue                                   (:foreground gruvbox-dark0 :background gruvbox-bright_blue))
