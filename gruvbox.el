@@ -567,6 +567,16 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (font-latex-warning-face                   (:foreground gruvbox-bright_red :weight 'bold))
      (preview-face                              (:background gruvbox-dark1))
 
+     ;; lsp
+     (lsp-lsp-flycheck-warning-unnecessary-face (:underline (:color gruvbox-bright_orange :style 'wave)
+                                                            :foreground gruvbox-burlywood4))
+     (lsp-ui-doc-background                     (:background gruvbox-dark3))
+     (lsp-ui-doc-header                         (:background gruvbox-faded_blue))
+     (lsp-ui-peek-filename                      (:foreground gruvbox-bright_red))
+     (lsp-ui-sideline-code-action               (:foreground gruvbox-bright_yellow))
+     (lsp-ui-sideline-current-symbol            (:foreground gruvbox-faded_aqua))
+     (lsp-ui-sideline-symbol                    (:foreground gruvbox-gray))
+
      ;; mu4e
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold ))
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold ))
