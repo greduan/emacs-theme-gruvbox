@@ -783,6 +783,14 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (gnus-signature              (:foreground gruvbox-faded_orange))
      (gnus-x-face                 (:background gruvbox-dark4 :foreground gruvbox-light0))
 
+     ;; web-mode
+     (web-mode-doctype-face          (:foreground gruvbox-bright_blue))
+     (web-mode-html-tag-bracket-face (:foreground gruvbox-bright_blue))
+     (web-mode-html-tag-face         (:foreground gruvbox-bright_blue))
+     (web-mode-html-attr-name-face   (:foreground gruvbox-bright_yellow))
+     (web-mode-html-attr-equal-face  (:foreground gruvbox-bright_yellow))
+     (web-mode-html-attr-value-face  (:foreground gruvbox-bright_green))
+
      ;; Coq
      (coq-solve-tactics-face      (:inherit 'font-lock-constant-face))
      (coq-cheat-face              (:box (:line-width -1 :color gruvbox-bright_red :style nil)
