@@ -114,6 +114,15 @@
   (gruvbox-aquamarine4     "#83A598" "#87af87")
   (gruvbox-turquoise4      "#61ACBB" "#5fafaf")
 
+  (gruvbox-ediff-current-diff-A        "#fbc6a3" "#fbc6a3")
+  (gruvbox-ediff-current-diff-B        "#e3f3b5" "#e3f3b5")
+  (gruvbox-ediff-current-diff-C        "#fadccc" "#fadccc")
+  (gruvbox-ediff-current-diff-Ancestor "#ccc6d1" "#ccc6d1")
+  (gruvbox-ediff-fine-diff-A           "#fbb091" "#fbb091")
+  (gruvbox-ediff-fine-diff-B           "#b6f691" "#b6f691")
+  (gruvbox-ediff-fine-diff-C           "#fbb0d6" "#fbb0d6")
+  (gruvbox-ediff-fine-diff-Ancestor    "#b6b0d6" "#b6b0d6")
+
   (gruvbox-bg gruvbox-dark0_hard)
   (gruvbox-bg_inactive gruvbox-dark0)
   )
