@@ -309,6 +309,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      ;; tool tips
      (tooltip                                   (:foreground gruvbox-light1 :background gruvbox-dark1))
 
+     ;; corfu
+     (corfu-background                          (:background gruvbox-dark1))
+     (corfu-current                             (:foreground gruvbox-bright_purple :background gruvbox-dark2))
+     (corfu-bar                                 (:background gruvbox-dark2))
+     (corfu-border                              (:background gruvbox-dark1))
+
      ;; term
      (term-color-black                          (:foreground gruvbox-dark2 :background gruvbox-dark1))
      (term-color-blue                           (:foreground gruvbox-bright_blue :background gruvbox-bright_blue))
