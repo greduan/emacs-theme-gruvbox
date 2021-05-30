@@ -811,12 +811,15 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      ;; Coq
      (coq-solve-tactics-face      (:inherit 'font-lock-constant-face))
      (coq-cheat-face              (:box (:line-width -1 :color gruvbox-bright_red :style nil)
-                                   :foreground gruvbox-bright_red))
+                                        :foreground gruvbox-bright_red))
 
      ;; Proof General
      (proof-active-area-face      (:underline t))
      (proof-tacticals-name-face   (:inherit 'font-lock-constant-face))
      (proof-tactics-name-face     (:inherit 'font-lock-constant-face))
+
+     ;; ledger-mode
+     (ledger-font-xact-highlight-face  (:background gruvbox-dark1))
 
      ),@body))
 
