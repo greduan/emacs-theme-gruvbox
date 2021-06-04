@@ -292,9 +292,9 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (hi-yellow                                 (:foreground gruvbox-dark0 :background gruvbox-faded_yellow))
 
      ;; company-mode
-     (company-scrollbar-bg                      (:background gruvbox-dark1))
-     (company-scrollbar-fg                      (:background gruvbox-dark0_soft))
-     (company-tooltip                           (:background gruvbox-dark0_soft))
+     (company-scrollbar-bg                      (:background gruvbox-dark2))
+     (company-scrollbar-fg                      (:background gruvbox-dark1))
+     (company-tooltip                           (:background gruvbox-dark1))
      (company-tooltip-annotation                (:foreground gruvbox-bright_green))
      (company-tooltip-annotation-selection      (:inherit 'company-tooltip-annotation))
      (company-tooltip-selection                 (:foreground gruvbox-bright_purple :background gruvbox-dark2))
