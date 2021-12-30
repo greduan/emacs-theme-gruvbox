@@ -837,11 +837,18 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (coq-solve-tactics-face      (:inherit 'font-lock-constant-face))
      (coq-cheat-face              (:box (:line-width -1 :color gruvbox-bright_red :style nil)
                                         :foreground gruvbox-bright_red))
+     (coq-button-face             (:background gruvbox-bg_inactive))
+     (coq-button-face-active      (:background gruvbox-dark1))
+     (coq-button-face-pressed     (:background gruvbox-bg_inactive))
 
      ;; Proof General
      (proof-active-area-face      (:underline t))
      (proof-tacticals-name-face   (:inherit 'font-lock-constant-face))
      (proof-tactics-name-face     (:inherit 'font-lock-constant-face))
+     (proof-locked-face           (:background gruvbox-dark1))
+     (proof-queue-face            (:background gruvbox-dark2))
+     (proof-warning-face          (:background gruvbox-dark_red))
+     (proof-error-face            (:background gruvbox-bg :foreground gruvbox-faded_red))
 
      ;; ledger-mode
      (ledger-font-xact-highlight-face  (:background gruvbox-dark1))
