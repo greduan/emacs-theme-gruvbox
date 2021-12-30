@@ -99,6 +99,7 @@ This theme contains custom support for the following features and plugins:
 - [Neotree](https://github.com/jaypei/emacs-neotree)
 - Org
 - Popup
+- [Proof General](https://proofgeneral.github.io/)
 - [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
 - Shell script
 - Smart modeline
