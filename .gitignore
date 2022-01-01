@@ -3,3 +3,4 @@
 /palette/node_modules
 *~
 \#*\#
+*.elc
