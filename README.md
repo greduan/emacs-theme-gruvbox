@@ -124,12 +124,12 @@ enabled by default in Emacs 28 or later, so just type `M-x package-install`.
 
 If you're an Emacs 24 user or you have a recent version of `package.el` you can
 install the Gruvbox theme from the [MELPA
-repository](http://melpa.milkbox.net/#/gruvbox-theme).
+repository](https://melpa.org/#/gruvbox-theme).
 
 ### No `package.el`
 
-The following instructions are for in the case where you don't have access to
-`package.el` for some reason.
+Use the following instructions if you don't have access to `package.el` for some
+reason.
 
 1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
    ```shell
