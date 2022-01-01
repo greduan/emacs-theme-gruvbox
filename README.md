@@ -111,14 +111,20 @@ This theme contains custom support for the following features and plugins:
 
 ## Installation and usage
 
-The recommended way to install the Gruvbox theme is with MELPA.
+The recommended way to install the Gruvbox theme is with NonGNU ELPA or MELPA.
+The version of `gruvbox-theme` there will always be up-to-date.
+
+### NonGNU ELPA
+
+You can install Gruvbox from [NonGNU
+ELPA](http://elpa.nongnu.org/nongnu/gruvbox-theme.html).  This archive is
+enabled by default in Emacs 28 or later, so just type `M-x package-install`.
 
 ### MELPA
 
 If you're an Emacs 24 user or you have a recent version of `package.el` you can
 install the Gruvbox theme from the [MELPA
-repository](http://melpa.milkbox.net/#/gruvbox-theme). The version of
-`gruvbox-theme` there will always be up-to-date.
+repository](http://melpa.milkbox.net/#/gruvbox-theme).
 
 ### No `package.el`
 
