@@ -853,6 +853,9 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      ;; ledger-mode
      (ledger-font-xact-highlight-face  (:background gruvbox-dark1))
 
+     ;; Solaire
+     (solaire-default-face        (:background gruvbox-dark0_soft))
+
      ),@body))
 
 (provide 'gruvbox)
