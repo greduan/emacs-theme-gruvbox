@@ -855,6 +855,16 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;; Solaire
      (solaire-default-face        (:background gruvbox-dark0_soft))
+     (solaire-minibuffer-face     (:background gruvbox-dark0_soft))
+     (solaire-hl-line-face        (:background gruvbox-dark0_soft))
+     (solaire-org-hide-face       (:background gruvbox-dark0_soft))
+
+     ;; avy
+     (avy-background-face         (:foreground gruvbox-gray))
+     (avy-lead-face               (:foreground gruvbox-light1 :background gruvbox-neutral_red))
+     (avy-lead-face-0             (:foreground gruvbox-light1 :background gruvbox-neutral_blue))
+     (avy-lead-face-1             (:foreground gruvbox-light1 :background gruvbox-neutral_aqua))
+     (avy-lead-face-2             (:foreground gruvbox-light1 :background gruvbox-neutral_purple))
 
      ),@body))
 
