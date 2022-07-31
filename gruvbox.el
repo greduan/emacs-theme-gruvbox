@@ -489,6 +489,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ido-first-match                           (:foreground gruvbox-light0_hard :weight 'bold :underline t))
      (ido-subdir                                (:inherit 'dired-directory))
 
+     ;; orderless
+     (orderless-match-face-0                    (:foreground gruvbox-bright_yellow))
+     (orderless-match-face-1                    (:foreground gruvbox-bright_orange))
+     (orderless-match-face-2                    (:foreground gruvbox-bright_blue))
+     (orderless-match-face-3                    (:foreground gruvbox-bright_purple))
+
      ;; magit
      (magit-bisect-bad                          (:foreground gruvbox-faded_red))
      (magit-bisect-good                         (:foreground gruvbox-faded_green))
