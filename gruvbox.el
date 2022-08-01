@@ -418,12 +418,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (org-habit-overdue-face                    (:background gruvbox-faded_red))
      (org-habit-overdue-future-face             (:background gruvbox-bright_red))
 
-     ;; elfeed
-     (elfeed-search-title-face                  (:foreground gruvbox-gray  ))
-     (elfeed-search-unread-title-face           (:foreground gruvbox-light0))
-     (elfeed-search-date-face                   (:inherit 'font-lock-builtin-face :underline t))
+      ;; elfeed
+     (elfeed-search-title-face                  (:foreground gruvbox-gray))
+     (elfeed-search-unread-title-face           (:foreground gruvbox-light1 :weight 'bold))
+     (elfeed-search-tag-face                    (:foreground gruvbox-burlywood4))
+     (elfeed-search-date-face                   (:inherit 'font-lock-variable-name-face))
      (elfeed-search-feed-face                   (:inherit 'font-lock-variable-name-face))
-     (elfeed-search-tag-face                    (:inherit 'font-lock-keyword-face))
      (elfeed-search-last-update-face            (:inherit 'font-lock-comment-face))
      (elfeed-search-unread-count-face           (:inherit 'font-lock-comment-face))
      (elfeed-search-filter-face                 (:inherit 'font-lock-string-face))
