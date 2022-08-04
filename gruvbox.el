@@ -335,7 +335,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (marginalia-documentation                  (:italic t :foreground gruvbox-light3))
 
      ;; corfu
-     (corfu-background                          (:background gruvbox-dark1))
+     (corfu-default                             (:inherit 'tooltip))
      (corfu-current                             (:foreground gruvbox-bright_purple :background gruvbox-dark2))
      (corfu-bar                                 (:background gruvbox-dark2))
      (corfu-border                              (:background gruvbox-dark1))
