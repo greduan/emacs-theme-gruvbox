@@ -157,7 +157,7 @@ reason.
 See https://github.com/greduan/emacs-theme-gruvbox/issues
 
 If you want the theme to support something please open a new issue and we'll
-try our best to make it happen. :smile:
+try our best to make it happen. :smile: (Roll up your sleeves and submit a pull-request for molto muy karma!)
 
 ## License
 
