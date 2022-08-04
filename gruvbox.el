@@ -12,7 +12,7 @@
 ;;              Eduardo Lavaque <me@greduan.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.26.0
+;; Version: 1.27.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -817,17 +817,19 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (gnus-summary-normal-ticked  (:foreground gruvbox-bright_purple))
      (gnus-summary-normal-unread  (:foreground gruvbox-bright_green :inherit 'bold))
      (gnus-summary-selected       (:foreground gruvbox-bright_blue :weight 'bold))
-     (gnus-cite-1                 (:foreground gruvbox-bright_purple))
-     (gnus-cite-2                 (:foreground gruvbox-bright_purple))
-     (gnus-cite-3                 (:foreground gruvbox-bright_purple))
-     (gnus-cite-4                 (:foreground gruvbox-bright_green))
-     (gnus-cite-5                 (:foreground gruvbox-bright_green))
-     (gnus-cite-6                 (:foreground gruvbox-bright_green))
-     (gnus-cite-7                 (:foreground gruvbox-bright_purple))
-     (gnus-cite-8                 (:foreground gruvbox-bright_purple))
-     (gnus-cite-9                 (:foreground gruvbox-bright_purple))
-     (gnus-cite-10                (:foreground gruvbox-faded_orange))
-     (gnus-cite-11                (:foreground gruvbox-faded_orange))
+
+     (gnus-cite-1                 (:foreground gruvbox-accent-00))
+     (gnus-cite-2                 (:foreground gruvbox-accent-01))
+     (gnus-cite-3                 (:foreground gruvbox-accent-02))
+     (gnus-cite-4                 (:foreground gruvbox-accent-03))
+     (gnus-cite-5                 (:foreground gruvbox-accent-04))
+     (gnus-cite-6                 (:foreground gruvbox-accent-05))
+     (gnus-cite-7                 (:foreground gruvbox-accent-06))
+     (gnus-cite-8                 (:foreground gruvbox-accent-07))
+     (gnus-cite-9                 (:foreground gruvbox-accent-08))
+     (gnus-cite-10                (:foreground gruvbox-accent-09))
+     (gnus-cite-11                (:foreground gruvbox-accent-10))
+
      (gnus-signature              (:foreground gruvbox-faded_orange))
      (gnus-x-face                 (:background gruvbox-dark4 :foreground gruvbox-light0))
 

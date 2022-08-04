@@ -12,7 +12,7 @@
 ;;              Eduardo Lavaque <me@greduan.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.26.0
+;; Version: 1.27.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -113,6 +113,23 @@
   (gruvbox-burlywood4      "#BBAA97" "#afaf87")
   (gruvbox-aquamarine4     "#83A598" "#87af87")
   (gruvbox-turquoise4      "#61ACBB" "#5fafaf")
+
+  (gruvbox-accent-00       "#fb4934" "#d75f5f")
+  (gruvbox-accent-01       "#b8bb26" "#afaf00")
+  (gruvbox-accent-02       "#fabd2f" "#ffaf00")
+  (gruvbox-accent-03       "#83a598" "#87afaf")
+  (gruvbox-accent-04       "#d3869b" "#d787af")
+  (gruvbox-accent-05       "#8ec07c" "#87af87")
+  (gruvbox-accent-06       "#fe8019" "#ff8700")
+  (gruvbox-accent-07       "#fb4934" "#d75f5f")
+  (gruvbox-accent-08       "#b8bb26" "#afaf00")
+  (gruvbox-accent-09       "#fabd2f" "#ffaf00")
+  (gruvbox-accent-10       "#83a598" "#87afaf")
+  (gruvbox-accent-11       "#d3869b" "#d787af")
+  (gruvbox-accent-12       "#8ec07c" "#87af87")
+  (gruvbox-accent-13       "#fe8019" "#ff8700")
+  (gruvbox-accent-14       "#fb4934" "#d75f5f")
+  (gruvbox-accent-15       "#b8bb26" "#afaf00")
 
   (gruvbox-ediff-current-diff-A        "#4f2121" "#4f2121")
   (gruvbox-ediff-current-diff-B        "#243c24" "#5f5f00")
