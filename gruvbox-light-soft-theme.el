@@ -8,11 +8,13 @@
 ;; Author: Jason Milkins <jasonm23@gmail.com>
 ;; (current maintainer)
 ;;
-;; Author-list: Lee Machin <ljmachin@gmail.com>,
-;;              Eduardo Lavaque <me@greduan.com>
+;; Author-list: Jason Milkins <jasonm23@gmail.com>,
+;;              Martijn Terpstra,
+;;              Eduardo Lavaque <me@greduan.com>,
+;;              Lee Machin <ljmachin@gmail.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.27.0
+;; Version: 1.29.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -141,8 +143,7 @@
   (gruvbox-ediff-fine-diff-Ancestor    "#b6b0d6" "#b6b0d6")
 
   (gruvbox-bg gruvbox-dark0_soft)
-  (gruvbox-bg_inactive gruvbox-dark1)
-  )
+  (gruvbox-bg_inactive gruvbox-dark1))
 
  (custom-theme-set-variables 'gruvbox-light-soft
                              `(ansi-color-names-vector
@@ -154,7 +155,7 @@
                                 ,gruvbox-bright_purple
                                 ,gruvbox-bright_aqua
                                 ,gruvbox-light1])
-			     `(pdf-view-midnight-colors '(,gruvbox-light0 . ,gruvbox-bg))))
+                             `(pdf-view-midnight-colors '(,gruvbox-light0 . ,gruvbox-bg))))
 
 ;;;###autoload
 (and load-file-name

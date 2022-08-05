@@ -2,17 +2,19 @@
 
 ;; Copyright (c) 2013 Lee Machin
 ;; Copyright (c) 2013-2016 Eduardo Lavaque
-;; Copyright (c) 2016-2017 Jason Milkins
+;; Copyright (c) 2016-2022 Jason Milkins
 ;; Copyright (c) 2017-2018 Martijn Terpstra
 
 ;; Author: Jason Milkins <jasonm23@gmail.com>
 ;; (current maintainer)
 ;;
-;; Author-list: Lee Machin <ljmachin@gmail.com>,
-;;              Eduardo Lavaque <me@greduan.com>
+;; Author-list: Jason Milkins <jasonm23@gmail.com>,
+;;              Martijn Terpstra,
+;;              Eduardo Lavaque <me@greduan.com>,
+;;              Lee Machin <ljmachin@gmail.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.27.0
+;; Version: 1.29.0
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -155,7 +157,7 @@
                                 ,gruvbox-bright_purple
                                 ,gruvbox-bright_aqua
                                 ,gruvbox-light1])
-			     `(pdf-view-midnight-colors '(,gruvbox-light0 . ,gruvbox-bg))))
+                             `(pdf-view-midnight-colors '(,gruvbox-light0 . ,gruvbox-bg))))
 
 ;;;###autoload
 (and load-file-name
