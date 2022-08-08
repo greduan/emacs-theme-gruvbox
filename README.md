@@ -119,38 +119,17 @@ The version of `gruvbox-theme` there will always be up-to-date.
 
 You can install Gruvbox from [NonGNU
 ELPA](http://elpa.nongnu.org/nongnu/gruvbox-theme.html).  This archive is
-enabled by default in Emacs 28 or later, so just type `M-x package-install`.
+enabled by default in Emacs 28 or later, so just type `M-x package-install <RET> gruvbox-theme`.
 
 ### MELPA
 
-If you're an Emacs 24 user or you have a recent version of `package.el` you can
+If you're an Emacs 25 user or you have a recent version of `package.el` you can
 install the Gruvbox theme from the [MELPA
 repository](https://melpa.org/#/gruvbox-theme).
 
-### No `package.el`
+### Manual installation.
 
-Use the following instructions if you don't have access to `package.el` for some
-reason.
-
-1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
-   ```shell
-   curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el
-   ```
-
-1. Tell Emacs where to find themes in your `init.el` or `.emacs` file:
-   ```lisp
-   (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-   ```
-
-1. Enable the theme:
-   ```
-   M-x load-theme RET gruvbox
-   ```
-   Or add the following to your `init.el` or `.emacs` file to load the theme at startup:
-   ```
-   (load-theme 'gruvbox t)
-   ```
-
+Manual installation is not supported.
 
 ## Issues
 
