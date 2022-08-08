@@ -141,8 +141,7 @@
   (gruvbox-accent-15 "#b8bb26" "#afaf00")
 
   (gruvbox-bg gruvbox-dark0)
-  (gruvbox-bg_inactive gruvbox-dark0_soft)
-  )
+  (gruvbox-bg_inactive gruvbox-dark0_soft))
 
  (custom-theme-set-variables 'gruvbox
                              `(ansi-color-names-vector
