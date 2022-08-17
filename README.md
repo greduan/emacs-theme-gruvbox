@@ -4,6 +4,8 @@ Gruvbox is a retro groove color scheme for Emacs. It is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
 [here](https://github.com/morhetz/gruvbox).
 
+[![MELPA](http://stable.melpa.org/packages/gruvbox-theme-badge.svg)](http://stable.melpa.org/#/gruvbox-theme) [![MELPA](http://melpa.org/packages/gruvbox-theme-badge.svg)](http://melpa.org/#/gruvbox-theme)
+
 ## Theme versions
 
 #### Gruvbox Dark Medium (aka. Gruvbox _default_)
