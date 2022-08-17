@@ -129,7 +129,11 @@ repository](https://melpa.org/#/gruvbox-theme).
 
 ### Manual installation.
 
-Manual installation is not supported.
+Manual installation, clone the repository and add it to your Emacs `load-path` and `custom-theme-path`. 
+
+### Enable themes.
+
+Emacs requires themes to be flagged as safe, use `M-x load-theme` to load and enable the gruvbox themes. 
 
 ## Issues
 
