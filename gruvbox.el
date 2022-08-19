@@ -931,6 +931,13 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (solaire-hl-line-face        (:background gruvbox-dark0_soft))
      (solaire-org-hide-face       (:background gruvbox-dark0_soft))
 
+     ;; Vertico posframe
+     (vertico-posframe            (:background gruvbox-dark0_hard))
+     (vertico-posframe-border     (:background gruvbox-dark0_hard))
+     (vertico-posframe-border-2   (:background gruvbox-dark0))
+     (vertico-posframe-border-3   (:background gruvbox-dark1))
+     (vertico-posframe-border-4   (:background gruvbox-dark2))
+
      ;; avy
 
      (avy-background-face         (:foreground gruvbox-gray))
