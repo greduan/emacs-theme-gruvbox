@@ -929,7 +929,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (solaire-default-face        (:background gruvbox-dark0_soft))
      (solaire-minibuffer-face     (:background gruvbox-dark0_soft))
      (solaire-hl-line-face        (:background gruvbox-dark0_soft))
-     (solaire-org-hide-face       (:background gruvbox-dark0_soft)))))
+     (solaire-org-hide-face       (:background gruvbox-dark0_soft))
 
      ;;; Vertico posframe
 
@@ -945,9 +945,9 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (avy-lead-face               (:foreground gruvbox-dark0 :background gruvbox-neutral_red))
      (avy-lead-face-0             (:foreground gruvbox-dark0 :background gruvbox-neutral_blue))
      (avy-lead-face-1             (:foreground gruvbox-dark0 :background gruvbox-neutral_aqua))
-     (avy-lead-face-2             (:foreground gruvbox-dark0 :background gruvbox-neutral_purple))
+     (avy-lead-face-2             (:foreground gruvbox-dark0 :background gruvbox-neutral_purple)))
 
-    ,@body
+    ,@body))
 
 (provide 'gruvbox)
 
@@ -955,4 +955,4 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; gruvbox-dark-theme.el ends here
+;;; gruvbox.el ends here
