@@ -105,7 +105,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (link                                      (:foreground gruvbox-faded_blue :underline t))
      (shadow                                    (:foreground gruvbox-dark4))
 
-     ;; Built-in syntax
+     ;;; Built-in syntax
 
      (font-lock-builtin-face                            (:foreground gruvbox-bright_orange))
      (font-lock-constant-face                           (:foreground gruvbox-bright_purple))
@@ -117,7 +117,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (font-lock-type-face                               (:foreground gruvbox-bright_purple))
      (font-lock-warning-face                            (:foreground gruvbox-bright_red :bold t))
 
-     ;; Basic faces
+     ;;; Basic faces
      (error                                             (:foreground gruvbox-bright_red :bold t))
      (success                                           (:foreground gruvbox-bright_green :bold t))
      (warning                                           (:foreground gruvbox-bright_yellow :bold t))
@@ -129,13 +129,13 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (homoglyph                                         (:foreground gruvbox-bright_yellow))
      (match                                             (:foreground gruvbox-dark0 :background gruvbox-bright_blue))
 
-     ;; Customize faces
+     ;;; Customize faces
 
      (widget-field                                      (:background gruvbox-dark3))
      (custom-group-tag                                  (:foreground gruvbox-bright_blue :weight 'bold))
      (custom-variable-tag                               (:foreground gruvbox-bright_blue :weight 'bold))
 
-     ;; whitespace-mode
+     ;;; whitespace-mode
 
      (whitespace-space                          (:background gruvbox-bg :foreground gruvbox-dark4))
      (whitespace-hspace                         (:background gruvbox-bg :foreground gruvbox-dark4))
@@ -148,7 +148,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (whitespace-empty                          (:background nil :foreground nil))
      (whitespace-space-after-tab                (:background gruvbox-bg :foreground gruvbox-dark4))
 
-     ;; RainbowDelimiters
+     ;;; RainbowDelimiters
 
      (rainbow-delimiters-depth-1-face           (:foreground gruvbox-delimiter-one))
      (rainbow-delimiters-depth-2-face           (:foreground gruvbox-delimiter-two))
@@ -164,7 +164,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (rainbow-delimiters-depth-12-face          (:foreground gruvbox-delimiter-four))
      (rainbow-delimiters-unmatched-face         (:background nil :foreground gruvbox-light0))
 
-     ;; line numbers
+     ;;; line numbers
 
      (line-number                               (:foreground gruvbox-dark4 :background gruvbox-dark1))
      (line-number-current-line                  (:foreground gruvbox-bright_orange :background gruvbox-dark2))
@@ -172,30 +172,30 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (linum-highlight-face                      (:foreground gruvbox-bright_orange :background gruvbox-dark2))
      (linum-relative-current-face               (:foreground gruvbox-bright_orange :background gruvbox-dark2))
 
-     ;; Highlight indentation mode
+     ;;; Highlight indentation mode
 
      (highlight-indentation-current-column-face (:background gruvbox-dark2))
      (highlight-indentation-face                (:background gruvbox-dark1))
 
-     ;; smartparens
+     ;;; smartparens
 
      (sp-pair-overlay-face                      (:background gruvbox-dark2))
      (sp-show-pair-match-face                   (:background gruvbox-dark2)) ;; Pair tags highlight
      (sp-show-pair-mismatch-face                (:background gruvbox-bright_red)) ;; Highlight for bracket without pair
 
-     ;; elscreen
+     ;;; elscreen
 
      (elscreen-tab-background-face              (:background gruvbox-bg :box nil)) ;; Tab bar, not the tabs
      (elscreen-tab-control-face                 (:background gruvbox-dark2 :foreground gruvbox-bright_red :underline nil :box nil)) ;; The controls
      (elscreen-tab-current-screen-face          (:background gruvbox-dark4 :foreground gruvbox-dark0 :box nil)) ;; Current tab
      (elscreen-tab-other-screen-face            (:background gruvbox-dark2 :foreground gruvbox-light4 :underline nil :box nil)) ;; Inactive tab
 
-     ;; ag (The Silver Searcher)
+     ;;; ag (The Silver Searcher)
 
      (ag-hit-face                               (:foreground gruvbox-bright_blue))
      (ag-match-face                             (:foreground gruvbox-bright_red))
 
-     ;; Diffs
+     ;;; Diffs
 
      (diff-header                               (:background gruvbox-dark1))
      (diff-file-header                          (:background gruvbox-dark2))
@@ -209,7 +209,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (diff-indicator-added                      (:inherit 'diff-added))
      (diff-indicator-removed                    (:inherit 'diff-removed))
 
-     ;; Ediff
+     ;;; Ediff
 
      (ediff-even-diff-A                         (:background gruvbox-dark1))
      (ediff-even-diff-B                         (:background gruvbox-dark1))
@@ -243,14 +243,14 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (js2-jsdoc-html-tag-name                   (:background nil :foreground gruvbox-light4))
      (js2-jsdoc-html-tag-delimiter              (:background nil :foreground gruvbox-light3))
 
-     ;; popup
+     ;;; popup
 
      (popup-face                                (:underline nil :foreground gruvbox-light1 :background gruvbox-dark1))
      (popup-menu-mouse-face                     (:underline nil :foreground gruvbox-light0 :background gruvbox-faded_green))
      (popup-menu-selection-face                 (:underline nil :foreground gruvbox-light0 :background gruvbox-faded_green))
      (popup-tip-face                            (:underline nil :foreground gruvbox-light2 :background gruvbox-dark2))
 
-     ;; helm
+     ;;; helm
 
      (helm-M-x-key                              (:foreground gruvbox-bright_orange))
      (helm-action                               (:foreground gruvbox-light0_hard :underline t))
@@ -297,7 +297,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (helm-source-header                        (:foreground gruvbox-light2))
      (helm-visible-mark                         (:foreground gruvbox-black :background gruvbox-light3))
 
-     ;; helm-rg
+     ;;; helm-rg
 
      (helm-rg-preview-line-highlight              (:foreground gruvbox-black :background gruvbox-bright_green))
      (helm-rg-base-rg-cmd-face                    (:foreground gruvbox-light2))
@@ -313,7 +313,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (helm-rg-line-number-match-face              (:foreground gruvbox-faded_orange))
      (helm-rg-match-text-face                     (:foreground gruvbox-white :background gruvbox-bright_purple))
 
-     ;; hi-lock-mode
+     ;;; hi-lock-mode
 
      (hi-black-b                                (:foreground gruvbox-black :weight 'bold))
      (hi-black-hb                               (:foreground gruvbox-black :weight 'bold :height 1.5))
@@ -325,7 +325,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (hi-red-b                                  (:foreground gruvbox-bright_red :weight 'bold))
      (hi-yellow                                 (:foreground gruvbox-dark0 :background gruvbox-faded_yellow))
 
-     ;; company-mode
+     ;;; company-mode
 
      (company-scrollbar-bg                      (:background gruvbox-dark2))
      (company-scrollbar-fg                      (:background gruvbox-dark1))
@@ -341,22 +341,22 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (company-template-field                    (:foreground gruvbox-black :background gruvbox-bright_yellow))
      (company-echo-common                       (:foreground gruvbox-faded_red))
 
-     ;; tool tips
+     ;;; tool tips
 
      (tooltip                                   (:foreground gruvbox-light1 :background gruvbox-dark1))
 
-     ;; marginalia
+     ;;; marginalia
 
      (marginalia-documentation                  (:italic t :foreground gruvbox-light3))
 
-     ;; corfu
+     ;;; corfu
 
      (corfu-default                             (:inherit 'tooltip))
      (corfu-current                             (:foreground gruvbox-bright_purple :background gruvbox-dark2))
      (corfu-bar                                 (:background gruvbox-dark2))
      (corfu-border                              (:background gruvbox-dark1))
 
-     ;; term
+     ;;; term
 
      (term-color-black                          (:foreground gruvbox-dark2 :background gruvbox-dark1))
      (term-color-blue                           (:foreground gruvbox-bright_blue :background gruvbox-bright_blue))
@@ -369,7 +369,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (term-default-fg-color                     (:foreground gruvbox-light0))
      (term-default-bg-color                     (:background gruvbox-bg))
 
-     ;; message-mode
+     ;;; message-mode
 
      (message-header-to                         (:inherit 'font-lock-variable-name-face))
      (message-header-cc                         (:inherit 'font-lock-variable-name-face))
@@ -382,7 +382,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (message-cited-text                        (:inherit 'font-lock-comment-face))
      (message-mml                               (:foreground gruvbox-faded_green :weight 'bold))
 
-     ;; org-mode
+     ;;; org-mode
 
      (org-hide                                  (:foreground gruvbox-dark0))
      (org-level-1                               (:foreground gruvbox-bright_blue))
@@ -427,7 +427,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (org-time-grid                             (:foreground gruvbox-faded_orange))
      (org-latex-and-related                     (:foreground gruvbox-bright_blue))
 
-     ;; org-habit
+     ;;; org-habit
 
      (org-habit-clear-face                      (:background gruvbox-faded_blue))
      (org-habit-clear-future-face               (:background gruvbox-bright_blue))
@@ -449,7 +449,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (elfeed-search-unread-count-face           (:inherit 'font-lock-comment-face))
      (elfeed-search-filter-face                 (:inherit 'font-lock-string-face))
 
-     ;; smart-mode-line
+     ;;; smart-mode-line
 
      (sml/global                                (:foreground gruvbox-light4 :inverse-video nil))
      (sml/modes                                 (:foreground gruvbox-bright_green))
@@ -458,7 +458,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (sml/read-only                             (:foreground gruvbox-bright_blue))
      (persp-selected-face                       (:foreground gruvbox-bright_orange))
 
-     ;; powerline
+     ;;; powerline
 
      (powerline-active0                         (:background gruvbox-dark4 :foreground gruvbox-light0))
      (powerline-active1                         (:background gruvbox-dark3 :foreground gruvbox-light0))
@@ -467,13 +467,13 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (powerline-inactive1                       (:background gruvbox-dark1 :foreground gruvbox-light4))
      (powerline-inactive2                       (:background gruvbox-dark0 :foreground gruvbox-light4))
 
-     ;; isearch
+     ;;; isearch
 
      (isearch                                   (:foreground gruvbox-black :background gruvbox-bright_orange))
      (lazy-highlight                            (:foreground gruvbox-black :background gruvbox-bright_yellow))
      (isearch-fail                              (:foreground gruvbox-light0 :background gruvbox-bright_red))
 
-     ;; markdown-mode
+     ;;; markdown-mode
 
      (markdown-header-face-1                    (:foreground gruvbox-bright_blue))
      (markdown-header-face-2                    (:foreground gruvbox-bright_yellow))
@@ -482,7 +482,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (markdown-header-face-5                    (:foreground gruvbox-bright_green))
      (markdown-header-face-6                    (:foreground gruvbox-bright_aqua))
 
-     ;; anzu-mode
+     ;;; anzu-mode
 
      (anzu-mode-line                            (:foreground gruvbox-bright_yellow :weight 'bold))
      (anzu-match-1                              (:background gruvbox-bright_green))
@@ -491,22 +491,22 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (anzu-replace-to                           (:foreground gruvbox-bright_yellow))
      (anzu-replace-highlight                    (:inherit 'isearch))
 
-     ;; ace-jump-mode
+     ;;; ace-jump-mode
 
      (ace-jump-face-background                  (:foreground gruvbox-light4 :background gruvbox-bg :inverse-video nil))
      (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background gruvbox-bg :inverse-video nil))
 
-     ;; ace-window
+     ;;; ace-window
 
      (aw-background-face                        (:foreground gruvbox-light1 :background gruvbox-bg :inverse-video nil))
      (aw-leading-char-face                      (:foreground gruvbox-bright_red :background gruvbox-bg :height 4.0))
 
-     ;; show-paren
+     ;;; show-paren
 
      (show-paren-match                          (:background gruvbox-dark3 :foreground gruvbox-bright_blue  :weight 'bold))
      (show-paren-mismatch                       (:background gruvbox-bright_red :foreground gruvbox-dark3 :weight 'bold))
 
-     ;; ivy
+     ;;; ivy
 
      (ivy-current-match                         (:foreground gruvbox-light0_hard :weight 'bold :underline t))
      (ivy-minibuffer-match-face-1               (:foreground gruvbox-bright_orange))
@@ -514,20 +514,20 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ivy-minibuffer-match-face-3               (:foreground gruvbox-faded_orange))
      (ivy-minibuffer-match-face-4               (:foreground gruvbox-faded_yellow))
 
-     ;; ido
+     ;;; ido
 
      (ido-only-match                            (:inherit 'success))
      (ido-first-match                           (:foreground gruvbox-light0_hard :weight 'bold :underline t))
      (ido-subdir                                (:inherit 'dired-directory))
 
-     ;; orderless
+     ;;; orderless
 
      (orderless-match-face-0                    (:foreground gruvbox-bright_yellow))
      (orderless-match-face-1                    (:foreground gruvbox-bright_orange))
      (orderless-match-face-2                    (:foreground gruvbox-bright_blue))
      (orderless-match-face-3                    (:foreground gruvbox-bright_purple))
 
-     ;; magit
+     ;;; magit
 
      (magit-bisect-bad                          (:foreground gruvbox-faded_red))
      (magit-bisect-good                         (:foreground gruvbox-faded_green))
@@ -584,7 +584,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (magit-signature-untrusted                 (:foreground gruvbox-bright_blue))
      (magit-tag                                 (:foreground gruvbox-bright_yellow))
 
-     ;; cider
+     ;;; cider
 
      (cider-debug-code-overlay-face             (:background gruvbox-dark2 :foreground gruvbox-light0))
      (cider-deprecated-face                     (:background gruvbox-dark2 :foreground gruvbox-bright_orange))
@@ -599,41 +599,41 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (cider-traced                              (:background gruvbox-bright_aqua))
      (cider-warning-highlight-face              (:foreground gruvbox-bright_yellow :underline t :style 'wave))
 
-     ;; git-gutter
+     ;;; git-gutter
 
      (git-gutter:modified                       (:background gruvbox-faded_blue :foreground gruvbox-faded_blue))
      (git-gutter:added                          (:background gruvbox-faded_green :foreground gruvbox-faded_green))
      (git-gutter:deleted                        (:background gruvbox-faded_red :foreground gruvbox-faded_red))
 
-     ;; git-gutter+
+     ;;; git-gutter+
 
      (git-gutter+-modified                      (:foreground gruvbox-faded_blue :background gruvbox-faded_blue))
      (git-gutter+-added                         (:foreground gruvbox-faded_green :background gruvbox-faded_green))
      (git-gutter+-deleted                       (:foreground gruvbox-faded_red :background gruvbox-faded_red))
 
-     ;; git-gutter-fringe
+     ;;; git-gutter-fringe
 
      (git-gutter-fr:modified                    (:inherit 'git-gutter:modified))
      (git-gutter-fr:added                       (:inherit 'git-gutter:added))
      (git-gutter-fr:deleted                     (:inherit 'git-gutter:deleted))
 
-     ;; diff-hl
+     ;;; diff-hl
 
      (diff-hl-change (:background gruvbox-faded_blue :foreground gruvbox-faded_blue))
      (diff-hl-delete (:background gruvbox-faded_red :foreground gruvbox-faded_red))
      (diff-hl-insert (:background gruvbox-faded_green :foreground gruvbox-faded_green))
 
-     ;; flyspell
+     ;;; flyspell
 
      (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
      (flyspell-incorrect                        (:underline (:color gruvbox-bright_red :style 'line)))
 
-     ;; langtool
+     ;;; langtool
 
      (langtool-errline                          (:foreground gruvbox-dark0 :background gruvbox-bright_red))
      (langtool-correction-face                  (:foreground gruvbox-bright_yellow :weight 'bold))
 
-     ;; latex
+     ;;; latex
 
      (font-latex-bold-face                      (:foreground gruvbox-faded_green :bold t))
      (font-latex-italic-face                    (:foreground gruvbox-bright_green :underline t))
@@ -646,7 +646,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (font-latex-warning-face                   (:foreground gruvbox-bright_red :weight 'bold))
      (preview-face                              (:background gruvbox-dark1))
 
-     ;; lsp
+     ;;; lsp
 
      (lsp-lsp-flycheck-warning-unnecessary-face (:underline (:color gruvbox-bright_orange :style 'wave)
                                                             :foreground gruvbox-burlywood4))
@@ -657,18 +657,18 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (lsp-ui-sideline-current-symbol            (:foreground gruvbox-faded_aqua))
      (lsp-ui-sideline-symbol                    (:foreground gruvbox-gray))
 
-     ;; mu4e
+     ;;; mu4e
 
      (mu4e-header-key-face                      (:foreground gruvbox-bright_green :weight 'bold))
      (mu4e-unread-face                          (:foreground gruvbox-bright_blue :weight 'bold))
      (mu4e-highlight-face                       (:foreground gruvbox-bright_green))
 
-     ;; shell script
+     ;;; shell script
 
      (sh-quoted-exec                            (:foreground gruvbox-bright_purple))
      (sh-heredoc                                (:foreground gruvbox-bright_orange))
 
-     ;; undo-tree
+     ;;; undo-tree
 
      (undo-tree-visualizer-active-branch-face   (:foreground gruvbox-light0))
      (undo-tree-visualizer-current-face         (:foreground gruvbox-bright_red))
@@ -676,14 +676,14 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (undo-tree-visualizer-register-face        (:foreground gruvbox-bright_yellow))
      (undo-tree-visualizer-unmodified-face      (:foreground gruvbox-bright_aqua))
 
-     ;; widget faces
+     ;;; widget faces
 
      (widget-button-pressed-face                (:foreground gruvbox-bright_red))
      (widget-documentation-face                 (:foreground gruvbox-faded_green))
      (widget-field                              (:foreground gruvbox-light0 :background gruvbox-dark2))
      (widget-single-line-field                  (:foreground gruvbox-light0 :background gruvbox-dark2))
 
-     ;; dired+
+     ;;; dired+
 
      (diredp-file-name                          (:foreground gruvbox-light2))
      (diredp-file-suffix                        (:foreground gruvbox-light4))
@@ -704,7 +704,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (diredp-read-priv                          (:foreground gruvbox-bright_red  :background gruvbox-dark_red))
      (diredp-write-priv                         (:foreground gruvbox-bright_aqua :background gruvbox-dark_aqua))
 
-     ;; diredfl
+     ;;; diredfl
      (diredfl-autofile-name                     (:foreground gruvbox-light2))
      (diredfl-compressed-file-name              (:foreground gruvbox-light2))
      (diredfl-compressed-file-suffix            (:foreground gruvbox-faded_blue))
@@ -731,7 +731,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (diredfl-write-priv                        (:foreground gruvbox-bright_red))
      (diredfl-tagged-autofile-name              (:foreground gruvbox-light4))
 
-     ;; neotree
+     ;;; neotree
 
      (neo-banner-face                           (:foreground gruvbox-bright_purple :bold t))
      (neo-dir-link-face                         (:foreground gruvbox-bright_yellow))
@@ -740,7 +740,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (neo-header-face                           (:foreground gruvbox-bright_purple))
      (neo-root-dir-face                         (:foreground gruvbox-bright_purple :bold t))
 
-     ;; eshell
+     ;;; eshell
 
      (eshell-prompt                              (:foreground gruvbox-bright_aqua))
      (eshell-ls-archive                          (:foreground gruvbox-light3))
@@ -755,7 +755,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (eshell-ls-symlink                          (:foreground gruvbox-bright_red))
      (eshell-ls-unreadable                       (:foreground gruvbox-bright_red :bold t))
 
-     ;; tabbar
+     ;;; tabbar
 
      (tabbar-default                             (:foreground gruvbox-light0 :background gruvbox-dark3 :bold nil :height 1.0 :box (:line-width -5 :color gruvbox-dark3)))
      (tabbar-separator                           (:foreground gruvbox-light0 :background gruvbox-dark3))
@@ -768,7 +768,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (tabbar-selected                            (:inherit 'tabbar-default :foreground gruvbox-bright_yellow))
      (tabbar-selected-modified                   (:inherit 'tabbar-selected))
 
-     ;; wgrep
+     ;;; wgrep
 
      (wgrep-delete-face                          (:strike-through gruvbox-bright_red))
      (wgrep-done-face                            (:foreground gruvbox-turquoise4))
@@ -776,7 +776,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (wgrep-file-face                            (:inherit 'highlight))
      (wgrep-reject-face                          (:foreground gruvbox-bright_red :bold t))
 
-     ;; hydra
+     ;;; hydra
 
      (hydra-face-red (:foreground gruvbox-bright_red :weight 'bold))
      (hydra-face-blue (:foreground gruvbox-bright_blue :weight 'bold))
@@ -784,15 +784,15 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (hydra-face-pink (:foreground gruvbox-bright_purple :weight 'bold))
      (hydra-face-teal (:foreground gruvbox-bright_aqua :weight 'bold))
 
-     ;; which-function-mode
+     ;;; which-function-mode
 
      (which-func                                 (:foreground gruvbox-faded_blue))
 
-     ;; auto-dim-other-buffers
+     ;;; auto-dim-other-buffers
 
      (auto-dim-other-buffers-face                (:background gruvbox-bg_inactive))
 
-     ;; flycheck
+     ;;; flycheck
 
      (flycheck-warning                          (:underline (:style 'wave :color gruvbox-bright_yellow)))
      (flycheck-error                            (:underline (:style 'wave :color gruvbox-bright_red)))
@@ -804,13 +804,13 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (flycheck-error-list-error                 (:foreground gruvbox-bright_red :bold t))
      (flycheck-error-list-info                  (:foreground gruvbox-bright_blue :bold t))
 
-     ;; tab-bar
+     ;;; tab-bar
 
      (tab-bar-tab-inactive (:background gruvbox-bg :foreground gruvbox-light0))
      (tab-bar-tab (:background gruvbox-dark2 :foreground gruvbox-light0))
      (tab-bar (:background gruvbox-bg :foreground gruvbox-light0))
 
-     ;; circe
+     ;;; circe
 
      (circe-prompt-face               (:foreground gruvbox-turquoise4))
      (circe-fool                      (:foreground gruvbox-dark2))
@@ -819,7 +819,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (circe-my-message-face           (:foreground gruvbox-bright_aqua))
      (lui-time-stamp-face             (:foreground gruvbox-bright_blue))
 
-     ;; erc
+     ;;; erc
 
      (erc-action-face            (:inherit 'erc-default-face))
      (erc-bold-face              (:weight 'bold))
@@ -841,7 +841,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (erc-nick-default-face      (:weight 'regular))
      (erc-button                 (:weight 'bold  :underline t))
 
-     ;; gnus
+     ;;; gnus
 
      (gnus-group-mail-1           (:weight 'bold :foreground gruvbox-light0))
      (gnus-group-mail-2           (:inherit 'gnus-group-mail-1))
@@ -892,7 +892,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (gnus-signature              (:foreground gruvbox-faded_orange))
      (gnus-x-face                 (:background gruvbox-dark4 :foreground gruvbox-light0))
 
-     ;; web-mode
+     ;;; web-mode
 
      (web-mode-doctype-face          (:foreground gruvbox-bright_blue))
      (web-mode-html-tag-bracket-face (:foreground gruvbox-bright_blue))
@@ -901,7 +901,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (web-mode-html-attr-equal-face  (:foreground gruvbox-bright_yellow))
      (web-mode-html-attr-value-face  (:foreground gruvbox-bright_green))
 
-     ;; Coq
+     ;;; Coq
 
      (coq-solve-tactics-face      (:inherit 'font-lock-constant-face))
      (coq-cheat-face              (:box (:line-width -1 :color gruvbox-bright_red :style nil)
@@ -910,7 +910,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (coq-button-face-active      (:background gruvbox-dark1))
      (coq-button-face-pressed     (:background gruvbox-bg_inactive))
 
-     ;; Proof General
+     ;;; Proof General
 
      (proof-active-area-face      (:underline t))
      (proof-tacticals-name-face   (:inherit 'font-lock-constant-face))
@@ -920,33 +920,34 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (proof-warning-face          (:background gruvbox-dark_red))
      (proof-error-face            (:background gruvbox-bg :foreground gruvbox-faded_red))
 
-     ;; ledger-mode
+     ;;; ledger-mode
 
      (ledger-font-xact-highlight-face  (:background gruvbox-dark1))
 
-     ;; Solaire
+     ;;; Solaire
 
      (solaire-default-face        (:background gruvbox-dark0_soft))
      (solaire-minibuffer-face     (:background gruvbox-dark0_soft))
      (solaire-hl-line-face        (:background gruvbox-dark0_soft))
-     (solaire-org-hide-face       (:background gruvbox-dark0_soft))
+     (solaire-org-hide-face       (:background gruvbox-dark0_soft)))))
 
-     ;; Vertico posframe
+     ;;; Vertico posframe
+
      (vertico-posframe            (:background gruvbox-dark0_hard))
      (vertico-posframe-border     (:background gruvbox-dark0_hard))
      (vertico-posframe-border-2   (:background gruvbox-dark0))
      (vertico-posframe-border-3   (:background gruvbox-dark1))
      (vertico-posframe-border-4   (:background gruvbox-dark2))
 
-     ;; avy
+     ;;; avy
 
      (avy-background-face         (:foreground gruvbox-gray))
      (avy-lead-face               (:foreground gruvbox-dark0 :background gruvbox-neutral_red))
      (avy-lead-face-0             (:foreground gruvbox-dark0 :background gruvbox-neutral_blue))
      (avy-lead-face-1             (:foreground gruvbox-dark0 :background gruvbox-neutral_aqua))
-     (avy-lead-face-2             (:foreground gruvbox-dark0 :background gruvbox-neutral_purple)))
+     (avy-lead-face-2             (:foreground gruvbox-dark0 :background gruvbox-neutral_purple))
 
-    ,@body))
+    ,@body
 
 (provide 'gruvbox)
 
