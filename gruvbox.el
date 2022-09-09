@@ -14,7 +14,7 @@
 ;;              Lee Machin <ljmachin@gmail.com>
 ;;
 ;; URL: http://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.30.0
+;; Version: 1.30.1
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -945,7 +945,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (avy-lead-face               (:foreground gruvbox-dark0 :background gruvbox-neutral_red))
      (avy-lead-face-0             (:foreground gruvbox-dark0 :background gruvbox-neutral_blue))
      (avy-lead-face-1             (:foreground gruvbox-dark0 :background gruvbox-neutral_aqua))
-     (avy-lead-face-2             (:foreground gruvbox-dark0 :background gruvbox-neutral_purple)))
+     (avy-lead-face-2             (:foreground gruvbox-dark0 :background gruvbox-neutral_purple))
 
      ;; ansi-color <built-in>
      (ansi-color-black          (:foreground gruvbox-dark2 :background gruvbox-dark1))
@@ -963,7 +963,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ansi-color-bright-blue    (:foreground gruvbox-bright_blue :background gruvbox-bright_blue))
      (ansi-color-bright-magenta (:foreground gruvbox-bright_purple :background gruvbox-bright_purple))
      (ansi-color-bright-cyan    (:foreground gruvbox-bright_aqua :background gruvbox-bright_aqua))
-     (ansi-color-bright-white   (:foreground gruvbox-light1 :background gruvbox-light1))
+     (ansi-color-bright-white   (:foreground gruvbox-light1 :background gruvbox-light1)))
 
     ,@body))
 
