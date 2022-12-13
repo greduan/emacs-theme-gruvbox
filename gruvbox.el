@@ -92,8 +92,8 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
     ,palette
     ((default                                   (:background gruvbox-bg :foreground gruvbox-light1))
      (cursor                                    (:background gruvbox-light1))
-     (mode-line                                 (:background gruvbox-dark3 :foreground gruvbox-light2 :box unspecified))
-     (mode-line-inactive                        (:background gruvbox-dark1 :foreground gruvbox-light4 :box unspecified))
+     (mode-line                                 (:background gruvbox-dark3 :foreground gruvbox-light2 :box nil))
+     (mode-line-inactive                        (:background gruvbox-dark1 :foreground gruvbox-light4 :box nil))
      (fringe                                    (:background gruvbox-bg))
      (hl-line                                   (:background gruvbox-dark1))
      (region                                    (:background gruvbox-dark2)) ;;selection
@@ -124,7 +124,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (alert-low-face                                    (:foreground gruvbox-bright_blue))
      (trailing-whitespace                               (:background gruvbox-bright_red))
      (escape-glyph                                      (:foreground gruvbox-bright_aqua))
-     (header-line                                       (:background gruvbox-dark0 :foreground gruvbox-light3 :box unspecified :inherit unspecified))
+     (header-line                                       (:background gruvbox-dark0 :foreground gruvbox-light3 :box nil :inherit nil))
      (highlight                                         (:background gruvbox-dark4 :foreground gruvbox-light0))
      (homoglyph                                         (:foreground gruvbox-bright_yellow))
      (match                                             (:foreground gruvbox-dark0 :background gruvbox-bright_blue))
@@ -145,7 +145,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (whitespace-line                           (:background gruvbox-dark1 :foreground gruvbox-bright_red))
      (whitespace-space-before-tab               (:background gruvbox-bg :foreground gruvbox-dark4))
      (whitespace-indentation                    (:background gruvbox-bg :foreground gruvbox-dark4))
-     (whitespace-empty                          (:background unspecified :foreground unspecified))
+     (whitespace-empty                          (:background nil :foreground nil))
      (whitespace-space-after-tab                (:background gruvbox-bg :foreground gruvbox-dark4))
 
      ;;; RainbowDelimiters
@@ -162,7 +162,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (rainbow-delimiters-depth-10-face          (:foreground gruvbox-delimiter-two))
      (rainbow-delimiters-depth-11-face          (:foreground gruvbox-delimiter-three))
      (rainbow-delimiters-depth-12-face          (:foreground gruvbox-delimiter-four))
-     (rainbow-delimiters-unmatched-face         (:background unspecified :foreground gruvbox-light0))
+     (rainbow-delimiters-unmatched-face         (:background nil :foreground gruvbox-light0))
 
      ;;; line numbers
 
@@ -185,10 +185,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;;; elscreen
 
-     (elscreen-tab-background-face              (:background gruvbox-bg :box unspecified)) ;; Tab bar, not the tabs
-     (elscreen-tab-control-face                 (:background gruvbox-dark2 :foreground gruvbox-bright_red :underline unspecified :box unspecified)) ;; The controls
-     (elscreen-tab-current-screen-face          (:background gruvbox-dark4 :foreground gruvbox-dark0 :box unspecified)) ;; Current tab
-     (elscreen-tab-other-screen-face            (:background gruvbox-dark2 :foreground gruvbox-light4 :underline unspecified :box unspecified)) ;; Inactive tab
+     (elscreen-tab-background-face              (:background gruvbox-bg :box nil)) ;; Tab bar, not the tabs
+     (elscreen-tab-control-face                 (:background gruvbox-dark2 :foreground gruvbox-bright_red :underline nil :box nil)) ;; The controls
+     (elscreen-tab-current-screen-face          (:background gruvbox-dark4 :foreground gruvbox-dark0 :box nil)) ;; Current tab
+     (elscreen-tab-other-screen-face            (:background gruvbox-dark2 :foreground gruvbox-light4 :underline nil :box nil)) ;; Inactive tab
 
      ;;; ag (The Silver Searcher)
 
@@ -201,10 +201,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (diff-file-header                          (:background gruvbox-dark2))
      (diff-hunk-header                          (:background gruvbox-dark2))
      (diff-context                              (:background gruvbox-dark1 :foreground gruvbox-light1))
-     (diff-added                                (:background unspecified :foreground gruvbox-neutral_green))
-     (diff-refine-added                         (:background unspecified :foreground gruvbox-bright_green))
-     (diff-removed                              (:background unspecified :foreground gruvbox-neutral_red))
-     (diff-refine-removed                       (:background unspecified :foreground gruvbox-bright_red))
+     (diff-added                                (:background nil :foreground gruvbox-neutral_green))
+     (diff-refine-added                         (:background nil :foreground gruvbox-bright_green))
+     (diff-removed                              (:background nil :foreground gruvbox-neutral_red))
+     (diff-refine-removed                       (:background nil :foreground gruvbox-bright_red))
      (diff-indicator-changed                    (:inherit 'diff-changed))
      (diff-indicator-added                      (:inherit 'diff-added))
      (diff-indicator-removed                    (:inherit 'diff-removed))
@@ -232,23 +232,23 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (js2-warning                               (:underline (:color gruvbox-bright_yellow :style 'wave)))
      (js2-error                                 (:underline (:color gruvbox-bright_red :style 'wave)))
      (js2-external-variable                     (:underline (:color gruvbox-bright_aqua :style 'wave)))
-     (js2-jsdoc-tag                             (:background unspecified :foreground gruvbox-gray))
-     (js2-jsdoc-type                            (:background unspecified :foreground gruvbox-light4))
-     (js2-jsdoc-value                           (:background unspecified :foreground gruvbox-light3))
-     (js2-function-param                        (:background unspecified :foreground gruvbox-bright_aqua))
-     (js2-function-call                         (:background unspecified :foreground gruvbox-bright_blue))
-     (js2-instance-member                       (:background unspecified :foreground gruvbox-bright_orange))
-     (js2-private-member                        (:background unspecified :foreground gruvbox-faded_yellow))
-     (js2-private-function-call                 (:background unspecified :foreground gruvbox-faded_aqua))
-     (js2-jsdoc-html-tag-name                   (:background unspecified :foreground gruvbox-light4))
-     (js2-jsdoc-html-tag-delimiter              (:background unspecified :foreground gruvbox-light3))
+     (js2-jsdoc-tag                             (:background nil :foreground gruvbox-gray))
+     (js2-jsdoc-type                            (:background nil :foreground gruvbox-light4))
+     (js2-jsdoc-value                           (:background nil :foreground gruvbox-light3))
+     (js2-function-param                        (:background nil :foreground gruvbox-bright_aqua))
+     (js2-function-call                         (:background nil :foreground gruvbox-bright_blue))
+     (js2-instance-member                       (:background nil :foreground gruvbox-bright_orange))
+     (js2-private-member                        (:background nil :foreground gruvbox-faded_yellow))
+     (js2-private-function-call                 (:background nil :foreground gruvbox-faded_aqua))
+     (js2-jsdoc-html-tag-name                   (:background nil :foreground gruvbox-light4))
+     (js2-jsdoc-html-tag-delimiter              (:background nil :foreground gruvbox-light3))
 
      ;;; popup
 
-     (popup-face                                (:underline unspecified :foreground gruvbox-light1 :background gruvbox-dark1))
-     (popup-menu-mouse-face                     (:underline unspecified :foreground gruvbox-light0 :background gruvbox-faded_green))
-     (popup-menu-selection-face                 (:underline unspecified :foreground gruvbox-light0 :background gruvbox-faded_green))
-     (popup-tip-face                            (:underline unspecified :foreground gruvbox-light2 :background gruvbox-dark2))
+     (popup-face                                (:underline nil :foreground gruvbox-light1 :background gruvbox-dark1))
+     (popup-menu-mouse-face                     (:underline nil :foreground gruvbox-light0 :background gruvbox-faded_green))
+     (popup-menu-selection-face                 (:underline nil :foreground gruvbox-light0 :background gruvbox-faded_green))
+     (popup-tip-face                            (:underline nil :foreground gruvbox-light2 :background gruvbox-dark2))
 
      ;;; helm
 
@@ -397,7 +397,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (org-drawer                                (:inherit 'font-lock-function-name-face))
      (org-column                                (:background gruvbox-dark0))
      (org-column-title                          (:background gruvbox-dark0 :underline t :weight 'bold))
-     (org-warning                               (:foreground gruvbox-bright_red :weight 'bold :underline unspecified :bold t))
+     (org-warning                               (:foreground gruvbox-bright_red :weight 'bold :underline nil :bold t))
      (org-archived                              (:foreground gruvbox-light0 :weight 'bold))
      (org-link                                  (:foreground gruvbox-faded_aqua :underline t))
      (org-footnote                              (:foreground gruvbox-bright_aqua :underline t))
@@ -451,7 +451,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;;; smart-mode-line
 
-     (sml/global                                (:foreground gruvbox-light4 :inverse-video unspecified))
+     (sml/global                                (:foreground gruvbox-light4 :inverse-video nil))
      (sml/modes                                 (:foreground gruvbox-bright_green))
      (sml/filename                              (:foreground gruvbox-bright_red :weight 'bold))
      (sml/prefix                                (:foreground gruvbox-light1))
@@ -493,12 +493,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;;; ace-jump-mode
 
-     (ace-jump-face-background                  (:foreground gruvbox-light4 :background gruvbox-bg :inverse-video unspecified))
-     (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background gruvbox-bg :inverse-video unspecified))
+     (ace-jump-face-background                  (:foreground gruvbox-light4 :background gruvbox-bg :inverse-video nil))
+     (ace-jump-face-foreground                  (:foreground gruvbox-bright_red :background gruvbox-bg :inverse-video nil))
 
      ;;; ace-window
 
-     (aw-background-face                        (:foreground gruvbox-light1 :background gruvbox-bg :inverse-video unspecified))
+     (aw-background-face                        (:foreground gruvbox-light1 :background gruvbox-bg :inverse-video nil))
      (aw-leading-char-face                      (:foreground gruvbox-bright_red :background gruvbox-bg :height 4.0))
 
      ;;; show-paren
@@ -757,10 +757,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;;; tabbar
 
-     (tabbar-default                             (:foreground gruvbox-light0 :background gruvbox-dark3 :bold unspecified :height 1.0 :box (:line-width -5 :color gruvbox-dark3)))
+     (tabbar-default                             (:foreground gruvbox-light0 :background gruvbox-dark3 :bold nil :height 1.0 :box (:line-width -5 :color gruvbox-dark3)))
      (tabbar-separator                           (:foreground gruvbox-light0 :background gruvbox-dark3))
      (tabbar-highlight                           (:inherit 'highlight))
-     (tabbar-button                              (:foreground gruvbox-dark3 :background gruvbox-dark3 :box unspecified :line-width 0))
+     (tabbar-button                              (:foreground gruvbox-dark3 :background gruvbox-dark3 :box nil :line-width 0))
      (tabbar-button-highlight                    (:inherit 'tabbar-button :inverse-video t))
      (tabbar-modified                            (:foreground gruvbox-bright_green :background gruvbox-dark3 :box (:line-width -5 :color gruvbox-dark3)))
      (tabbar-unselected                          (:inherit 'tabbar-default))
@@ -904,7 +904,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      ;;; Coq
 
      (coq-solve-tactics-face      (:inherit 'font-lock-constant-face))
-     (coq-cheat-face              (:box (:line-width -1 :color gruvbox-bright_red :style unspecified)
+     (coq-cheat-face              (:box (:line-width -1 :color gruvbox-bright_red :style nil)
                                    :foreground gruvbox-bright_red))
      (coq-button-face             (:background gruvbox-bg_inactive))
      (coq-button-face-active      (:background gruvbox-dark1))
