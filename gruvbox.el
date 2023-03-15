@@ -469,9 +469,9 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;;; isearch
 
-     (isearch                                   (:foreground gruvbox-black :background gruvbox-bright_orange))
-     (lazy-highlight                            (:foreground gruvbox-black :background gruvbox-bright_yellow))
-     (isearch-fail                              (:foreground gruvbox-light0 :background gruvbox-bright_red))
+     (isearch                                   (:foreground gruvbox-bg :background gruvbox-bright_orange))
+     (lazy-highlight                            (:foreground gruvbox-bg :background gruvbox-bright_yellow))
+     (isearch-fail                              (:foreground gruvbox-bg :background gruvbox-bright_red))
 
      ;;; markdown-mode
 
