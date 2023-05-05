@@ -67,6 +67,9 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
+(defvar gruvbox-bold-constructs nil
+  "If non-nil, bold constructs")
+
 (defvar gruvbox-screenshot-command "scrot -u %s%s.png"
   "Command used to take automated screenshots for gruvbox.
 Should contain 2 %s constructs to allow for theme name and directory/prefix")
@@ -111,7 +114,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (font-lock-constant-face                           (:foreground gruvbox-bright_purple))
      (font-lock-comment-face                            (:foreground gruvbox-dark4))
      (font-lock-function-name-face                      (:foreground gruvbox-bright_yellow))
-     (font-lock-keyword-face                            (:foreground gruvbox-bright_red))
+     (font-lock-keyword-face                            (:foreground gruvbox-bright_red :bold '(if gruvbox-bold-constructs t nil)))
      (font-lock-string-face                             (:foreground gruvbox-bright_green))
      (font-lock-number-face                             (:foreground gruvbox-bright_purple))
      (font-lock-variable-name-face                      (:foreground gruvbox-bright_blue))
@@ -949,7 +952,8 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (avy-lead-face-1             (:foreground gruvbox-dark0 :background gruvbox-neutral_aqua))
      (avy-lead-face-2             (:foreground gruvbox-dark0 :background gruvbox-neutral_purple))
 
-     ;; ansi-color <built-in>
+     ;;; ansi-color <built-in>
+
      (ansi-color-black          (:foreground gruvbox-dark2 :background gruvbox-dark1))
      (ansi-color-red            (:foreground gruvbox-bright_red :background gruvbox-bright_red))
      (ansi-color-green          (:foreground gruvbox-bright_green :background gruvbox-bright_green))
@@ -965,7 +969,22 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ansi-color-bright-blue    (:foreground gruvbox-bright_blue :background gruvbox-bright_blue))
      (ansi-color-bright-magenta (:foreground gruvbox-bright_purple :background gruvbox-bright_purple))
      (ansi-color-bright-cyan    (:foreground gruvbox-bright_aqua :background gruvbox-bright_aqua))
-     (ansi-color-bright-white   (:foreground gruvbox-light1 :background gruvbox-light1)))
+     (ansi-color-bright-white   (:foreground gruvbox-light1 :background gruvbox-light1))
+
+     ;;; Elpaca
+
+     (elpaca-finished           (:foreground gruvbox-bright_green :bold t))
+     (elpaca-blocked            (:foreground gruvbox-bright_yellow :bold t))
+     (elpaca-busy               (:foreground gruvbox-bright_orange :bold t))
+     (elpaca-failed             (:foreground gruvbox-bright_red :bold t))
+
+     (elpaca-ui-marked-delete   (:foreground gruvbox-bright_red :bold t))
+     (elpaca-ui-marked-fetch    (:foreground gruvbox-bright_aqua :bold t))
+     (elpaca-ui-marked-install  (:foreground gruvbox-bright_blue :bold t))
+     (elpaca-ui-marked-rebuild  (:foreground gruvbox-bright_purple :bold t))
+     (elpaca-ui-marked-update   (:foreground gruvbox-bright_orange :bold t))
+
+     ) ;;; END
 
     ,@body))
 
