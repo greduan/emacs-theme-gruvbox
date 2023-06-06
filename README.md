@@ -4,7 +4,7 @@ Gruvbox is a retro groove color scheme for Emacs. It is a port of the Vim
 version originally by [Pavel Pertsev](https://github.com/morhetz) found
 [here](https://github.com/morhetz/gruvbox).
 
-[![ELPA](http://elpa.nongnu.org/nongnu/gruvbox-theme.svg)](http://elpa.nongnu.org/nongnu/gruvbox-theme.html) 
+[![ELPA](https://elpa.nongnu.org/nongnu/gruvbox-theme.svg)](https://elpa.nongnu.org/nongnu/gruvbox-theme.html)
 
 [![MELPA](https://stable.melpa.org/packages/gruvbox-theme-badge.svg)](https://stable.melpa.org/#/gruvbox-theme) [![MELPA](https://melpa.org/packages/gruvbox-theme-badge.svg)](https://melpa.org/#/gruvbox-theme)
 
@@ -89,7 +89,7 @@ This theme contains custom support for the following features and plugins:
 - [ERC](https://www.emacswiki.org/emacs/ERC)
 - Eshell
 - [Flycheck](https://www.flycheck.org/en/latest/)
-- [Gnus](http://gnus.org)
+- [Gnus](https://gnus.org)
 - Helm
 - Highlight Indent
 - Hydra
@@ -122,7 +122,7 @@ The version of `gruvbox-theme` there will always be up-to-date.
 ### NonGNU ELPA
 
 You can install Gruvbox from [NonGNU
-ELPA](http://elpa.nongnu.org/nongnu/gruvbox-theme.html).  This archive is
+ELPA](https://elpa.nongnu.org/nongnu/gruvbox-theme.html).  This archive is
 enabled by default in Emacs 28 or later, so just type `M-x package-install <RET> gruvbox-theme`.
 
 ### MELPA
