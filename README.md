@@ -104,7 +104,7 @@ This theme contains custom support for the following features and plugins:
 - Org
 - Popup
 - [Proof General](https://proofgeneral.github.io/)
-- [RainbowDelimiters](http://www.emacswiki.org/emacs/RainbowDelimiters)
+- [RainbowDelimiters](https://github.com/Fanael/rainbow-delimiters)
 - Shell script
 - Smart modeline
 - [Smartparens](https://github.com/Fuco1/smartparens)
