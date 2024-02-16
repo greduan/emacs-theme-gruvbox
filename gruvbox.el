@@ -628,6 +628,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (diff-hl-delete (:background gruvbox-faded_red :foreground gruvbox-faded_red))
      (diff-hl-insert (:background gruvbox-faded_green :foreground gruvbox-faded_green))
 
+     ;;; vc (builtin)
+
+     (vc-edited-state (:background gruvbox-faded_blue :foreground gruvbox-faded_blue))
+     (vc-removed-state (:background gruvbox-faded_red :foreground gruvbox-faded_red))
+     (vc-locally-added-state (:background gruvbox-faded_green :foreground gruvbox-faded_green))
+
      ;;; flyspell
 
      (flyspell-duplicate                        (:underline (:color gruvbox-light4 :style 'line)))
