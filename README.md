@@ -102,6 +102,7 @@ This theme contains custom support for the following features and plugins:
 - Message
 - [Neotree](https://github.com/jaypei/emacs-neotree)
 - Org
+- [Orderless](https://github.com/oantolin/orderless)
 - Popup
 - [Proof General](https://proofgeneral.github.io/)
 - [RainbowDelimiters](https://github.com/Fanael/rainbow-delimiters)
