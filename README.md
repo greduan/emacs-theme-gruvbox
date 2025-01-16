@@ -101,6 +101,7 @@ This theme contains custom support for the following features and plugins:
 - Markdown
 - Message
 - [Neotree](https://github.com/jaypei/emacs-neotree)
+- [Orderless](https://github.com/oantolin/orderless)
 - Org
 - Popup
 - [Proof General](https://proofgeneral.github.io/)
