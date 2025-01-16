@@ -527,10 +527,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;;; orderless
 
-     (orderless-match-face-0                    (:foreground gruvbox-bright_yellow))
-     (orderless-match-face-1                    (:foreground gruvbox-bright_orange))
-     (orderless-match-face-2                    (:foreground gruvbox-bright_blue))
-     (orderless-match-face-3                    (:foreground gruvbox-bright_purple))
+     (orderless-match-face-0                    (:weight 'bold :foreground gruvbox-lightblue4))
+     (orderless-match-face-1                    (:weight 'bold :foreground gruvbox-delimiter-four))
+     (orderless-match-face-2                    (:weight 'bold :foreground gruvbox-delimiter-three))
+     (orderless-match-face-3                    (:weight 'bold :foreground gruvbox-faded_yellow))
 
      ;;; magit
 
