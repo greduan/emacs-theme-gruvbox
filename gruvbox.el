@@ -14,7 +14,7 @@
 ;;              Lee Machin <ljmachin@gmail.com>
 ;;
 ;; URL: https://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.30.1
+;; Version: 1.30.2
 
 ;; Package-Requires: ((autothemer "0.2"))
 
@@ -869,7 +869,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (gnus-group-mail-low         (:inherit 'gnus-group-mail-1 :weight 'normal))
      (gnus-group-mail-low-empty   (:inherit 'gnus-group-mail-1-empty))
      (gnus-group-news-low         (:inherit 'gnus-group-mail-1 :foreground gruvbox-dark4))
-     (gnus-group-news-low-empty   (:inherit 'gnus-group-news-low :weight 'normal))
+     (gnus-group-news-low-empty   (:inherit 'gnus-group-mail-1-empty :weight 'normal))
      (gnus-header-content         (:inherit 'message-header-other))
      (gnus-header-from            (:inherit 'message-header-other))
      (gnus-header-name            (:inherit 'message-header-name))
