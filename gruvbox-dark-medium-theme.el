@@ -14,7 +14,7 @@
 ;;              Lee Machin <ljmachin@gmail.com>
 ;;
 ;; URL: https://github.com/greduan/emacs-theme-gruvbox
-;; Version: 1.30.1
+;; Version: 1.30.2
 
 ;; Package-Requires: ((autothemer "0.2"))
 
